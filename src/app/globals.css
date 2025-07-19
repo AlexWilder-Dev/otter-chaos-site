@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-rgb: 44, 24, 16;
+  --secondary-rgb: 212, 163, 115;
+  --accent-rgb: 230, 57, 70;
+  --background-rgb: 254, 250, 224;
+  --parchment-rgb: 250, 237, 205;
+  --wood-dark-rgb: 119, 73, 54;
+  --wood-light-rgb: 164, 117, 81;
+}
+
+body {
+  background-color: rgb(var(--background-rgb));
+  color: rgb(var(--primary-rgb));
+}
+
+.dice-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M36 34h-2v-4h2v4zm0-8h-2v-4h2v4zm0-8h-2v-4h2v4zm-8 16h-2v-4h2v4zm0-8h-2v-4h2v4zm0-8h-2v-4h2v4z' fill='%232C1810' fill-opacity='0.1'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.wood-texture {
+  background: linear-gradient(45deg, 
+    rgb(var(--wood-dark-rgb)) 25%, 
+    rgb(var(--wood-light-rgb)) 25%, 
+    rgb(var(--wood-light-rgb)) 50%, 
+    rgb(var(--wood-dark-rgb)) 50%, 
+    rgb(var(--wood-dark-rgb)) 75%, 
+    rgb(var(--wood-light-rgb)) 75%, 
+    rgb(var(--wood-light-rgb)));
+  background-size: 20px 20px;
+}
+
+.game-card {
+  background-color: rgb(var(--parchment-rgb));
+  border: 2px solid rgb(var(--wood-dark-rgb));
+  box-shadow: 
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06),
+    inset 0 2px 4px rgba(255, 255, 255, 0.3);
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-5px) rotateX(5deg);
+}
+
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+.meeple {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(var(--accent-rgb));
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  animation: bounce 2s ease-in-out infinite;
+  opacity: 0.1;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+.btn-primary {
+  @apply bg-primary text-parchment px-8 py-3 rounded-lg font-medieval 
+         transition-all duration-300 transform hover:-translate-y-1
+         shadow-lg hover:shadow-xl;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-primary px-8 py-3 rounded-lg font-medieval 
+         transition-all duration-300 transform hover:-translate-y-1
+         shadow-lg hover:shadow-xl;
+}
