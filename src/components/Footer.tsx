@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const gameIcons = ['🎲', '♟️', '🃏', '🎯', '🧩', '🎮'];
 
@@ -79,19 +80,19 @@ export default function Footer() {
             <h4 className="font-medieval text-lg text-[#ffd700] mb-4">Connect With Us</h4>
             <ul className="space-y-2 mb-6">
               <li>
-                <a href="/menu" className="text-white/80 hover:text-[#ffd700] transition-colors duration-300">
+                <Link href="/menu" className="text-white/80 hover:text-[#ffd700] transition-colors duration-300">
                   Menu
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/events" className="text-white/80 hover:text-[#ffd700] transition-colors duration-300">
+                <Link href="/events" className="text-white/80 hover:text-[#ffd700] transition-colors duration-300">
                   Events
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/book" className="text-white/80 hover:text-[#ffd700] transition-colors duration-300">
+                <Link href="/book" className="text-white/80 hover:text-[#ffd700] transition-colors duration-300">
                   Book a Table
-                </a>
+                </Link>
               </li>
             </ul>
             

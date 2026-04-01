@@ -1,10 +1,12 @@
 "use client";
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
+import logoSrc from '../../public/image.png'
 
 export default function Home() {
   const [meeples, setMeeples] = useState<{ id: number; top: number; left: number; delay: number }[]>([]);
@@ -49,7 +51,7 @@ export default function Home() {
             >
               <div className="mb-8 relative w-48 h-48 mx-auto">
                 <Image
-                  src="/image.png"
+                  src={logoSrc}
                   alt="Otter Chaos Logo"
                   fill
                   className="object-contain floating"
@@ -66,12 +68,12 @@ export default function Home() {
               </p>
               
               <div className="flex flex-col sm:flex-row justify-center gap-6 mb-16">
-                <a href="/book" className="btn-primary">
+                <Link href="/book" className="btn-primary">
                   Reserve Your Table
-                </a>
-                <a href="/events" className="btn-secondary">
+                </Link>
+                <Link href="/events" className="btn-secondary">
                   Discover Events
-                </a>
+                </Link>
               </div>
 
               {/* Featured Games Grid */}
