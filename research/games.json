@@ -1,0 +1,2654 @@
+{
+ "source": "BoardGameGeek user Otter_Chaos (userid 3999501). Owned list via the geekgroup.app mirror of their BGG collection (520 owned titles + 17 expansions); players, play time and weight per game from BoardGameGeek (api.geekdo.com geekitems + dynamicinfo).",
+ "retrieved": "2026-10-18",
+ "sample": "90 base games chosen for a spread across their three shelves: casual party and icebreakers, co-operative puzzlers, and strategy up to heavy. tier = Cooperative Game mechanic -> coop; BGG Party Games subdomain or Party Game category -> party; otherwise BGG weight >= 1.6 (or 2-player only) -> strategy, lighter -> party.",
+ "games": [
+  {
+   "bggId": 68448,
+   "name": "7 Wonders",
+   "year": 2010,
+   "minPlayers": 2,
+   "maxPlayers": 7,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 2.31,
+   "tier": "strategy",
+   "categories": [
+    "Ancient",
+    "Card Game",
+    "City Building",
+    "Civilization",
+    "Economic"
+   ],
+   "mechanics": [
+    "Closed Drafting",
+    "End Game Bonuses",
+    "Hand Management",
+    "Melding and Splaying",
+    "Multi-Use Cards",
+    "Neighbor Scope",
+    "Once-Per-Game Abilities",
+    "Score-and-Reset Game",
+    "Set Collection",
+    "Simultaneous Action Selection",
+    "Tags",
+    "Tech Trees / Tech Tracks",
+    "Variable Player Powers",
+    "Variable Set-up"
+   ],
+   "subdomains": [
+    "Family Games",
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 173346,
+   "name": "7 Wonders Duel",
+   "year": 2015,
+   "minPlayers": 2,
+   "maxPlayers": 2,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 2.23,
+   "tier": "strategy",
+   "categories": [
+    "Ancient",
+    "Card Game",
+    "City Building",
+    "Civilization",
+    "Economic"
+   ],
+   "mechanics": [
+    "End Game Bonuses",
+    "Income",
+    "Melding and Splaying",
+    "Modular Board",
+    "Multi-Use Cards",
+    "Once-Per-Game Abilities",
+    "Open Drafting",
+    "Score-and-Reset Game",
+    "Set Collection",
+    "Sudden Death Ending",
+    "Tags",
+    "Tech Trees / Tech Tracks",
+    "Track Movement",
+    "Tug of War",
+    "Variable Set-up"
+   ],
+   "subdomains": [
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 31260,
+   "name": "Agricola",
+   "year": 2007,
+   "minPlayers": 1,
+   "maxPlayers": 5,
+   "minPlaytime": 30,
+   "maxPlaytime": 150,
+   "weight": 3.64,
+   "tier": "strategy",
+   "categories": [
+    "Animals",
+    "Economic",
+    "Farming"
+   ],
+   "mechanics": [
+    "Automatic Resource Growth",
+    "Closed Drafting",
+    "Enclosure",
+    "Increase Value of Unchosen Resources",
+    "Solo / Solitaire Game",
+    "Turn Order: Claim Action",
+    "Worker Placement"
+   ],
+   "subdomains": [
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 230802,
+   "name": "Azul",
+   "year": 2017,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 30,
+   "maxPlaytime": 45,
+   "weight": 1.77,
+   "tier": "strategy",
+   "categories": [
+    "Abstract Strategy",
+    "Renaissance"
+   ],
+   "mechanics": [
+    "End Game Bonuses",
+    "Grid Coverage",
+    "Open Drafting",
+    "Pattern Building",
+    "Set Collection",
+    "Square Grid",
+    "Tile Placement",
+    "Turn Order: Claim Action"
+   ],
+   "subdomains": [
+    "Abstract Games",
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 191925,
+   "name": "Bandido",
+   "year": 2016,
+   "minPlayers": 1,
+   "maxPlayers": 4,
+   "minPlaytime": 10,
+   "maxPlaytime": 15,
+   "weight": 1.12,
+   "tier": "coop",
+   "categories": [
+    "Card Game",
+    "Print & Play"
+   ],
+   "mechanics": [
+    "Cooperative Game",
+    "Network and Route Building",
+    "Solo / Solitaire Game",
+    "Tile Placement"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 143741,
+   "name": "BANG! The Dice Game",
+   "year": 2013,
+   "minPlayers": 3,
+   "maxPlayers": 8,
+   "minPlaytime": 15,
+   "maxPlaytime": 15,
+   "weight": 1.28,
+   "tier": "party",
+   "categories": [
+    "American West",
+    "Bluffing",
+    "Deduction",
+    "Dice",
+    "Fighting",
+    "Party Game"
+   ],
+   "mechanics": [
+    "Dice Rolling",
+    "Die Icon Resolution",
+    "Hidden Roles",
+    "Player Elimination",
+    "Push Your Luck",
+    "Re-rolling and Locking",
+    "Team-Based Game",
+    "Variable Player Powers"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 2453,
+   "name": "Blokus",
+   "year": 2000,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 1.73,
+   "tier": "strategy",
+   "categories": [
+    "Abstract Strategy",
+    "Territory Building"
+   ],
+   "mechanics": [
+    "Chaining",
+    "Enclosure",
+    "Grid Coverage",
+    "Hand Management",
+    "Player Elimination",
+    "Square Grid",
+    "Tile Placement"
+   ],
+   "subdomains": [
+    "Abstract Games"
+   ]
+  },
+  {
+   "bggId": 11,
+   "name": "Bohnanza",
+   "year": 1997,
+   "minPlayers": 3,
+   "maxPlayers": 7,
+   "minPlaytime": 45,
+   "maxPlaytime": 45,
+   "weight": 1.67,
+   "tier": "strategy",
+   "categories": [
+    "Card Game",
+    "Farming",
+    "Negotiation"
+   ],
+   "mechanics": [
+    "Hand Management",
+    "Multi-Use Cards",
+    "Negotiation",
+    "Resource Queue",
+    "Set Collection",
+    "Trading"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 224517,
+   "name": "Brass: Birmingham",
+   "year": 2018,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 60,
+   "maxPlaytime": 120,
+   "weight": 3.86,
+   "tier": "strategy",
+   "categories": [
+    "Age of Reason",
+    "Economic",
+    "Industry / Manufacturing",
+    "Post-Napoleonic",
+    "Trains",
+    "Transportation"
+   ],
+   "mechanics": [
+    "Action Points",
+    "Chaining",
+    "End Game Bonuses",
+    "Hand Management",
+    "Income",
+    "Loans",
+    "Market",
+    "Multi-Use Cards",
+    "Network and Route Building",
+    "Ownership",
+    "Tags",
+    "Tech Trees / Tech Tracks",
+    "Tile Placement",
+    "Turn Order: Stat-Based",
+    "Variable Set-up"
+   ],
+   "subdomains": [
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 171131,
+   "name": "Captain Sonar",
+   "year": 2016,
+   "minPlayers": 2,
+   "maxPlayers": 8,
+   "minPlaytime": 45,
+   "maxPlaytime": 60,
+   "weight": 2.21,
+   "tier": "party",
+   "categories": [
+    "Deduction",
+    "Fighting",
+    "Modern Warfare",
+    "Nautical",
+    "Real-time"
+   ],
+   "mechanics": [
+    "Deduction",
+    "Grid Movement",
+    "Hidden Movement",
+    "Line Drawing",
+    "Real-Time",
+    "Role Playing",
+    "Secret Unit Deployment",
+    "Simulation",
+    "Team-Based Game"
+   ],
+   "subdomains": [
+    "Party Games",
+    "Thematic Games"
+   ]
+  },
+  {
+   "bggId": 822,
+   "name": "Carcassonne",
+   "year": 2000,
+   "minPlayers": 2,
+   "maxPlayers": 5,
+   "minPlaytime": 30,
+   "maxPlaytime": 45,
+   "weight": 1.88,
+   "tier": "strategy",
+   "categories": [
+    "Medieval",
+    "Territory Building"
+   ],
+   "mechanics": [
+    "Area Majority / Influence",
+    "Enclosure",
+    "Kill Steal",
+    "Map Addition",
+    "Pattern Building",
+    "Square Grid",
+    "Tile Placement"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 155426,
+   "name": "Castles of Mad King Ludwig",
+   "year": 2014,
+   "minPlayers": 1,
+   "maxPlayers": 4,
+   "minPlaytime": 90,
+   "maxPlaytime": 90,
+   "weight": 2.65,
+   "tier": "strategy",
+   "categories": [
+    "Post-Napoleonic",
+    "Puzzle"
+   ],
+   "mechanics": [
+    "End Game Bonuses",
+    "Hidden Victory Points",
+    "I Cut, You Choose",
+    "Increase Value of Unchosen Resources",
+    "Pattern Building",
+    "Set Collection",
+    "Tile Placement",
+    "Turn Order: Progressive"
+   ],
+   "subdomains": [
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 13,
+   "name": "Catan",
+   "year": 1995,
+   "minPlayers": 3,
+   "maxPlayers": 4,
+   "minPlaytime": 60,
+   "maxPlaytime": 120,
+   "weight": 2.28,
+   "tier": "strategy",
+   "categories": [
+    "Economic",
+    "Negotiation"
+   ],
+   "mechanics": [
+    "Chaining",
+    "Dice Rolling",
+    "Hand Management",
+    "Hexagon Grid",
+    "Hidden Victory Points",
+    "Income",
+    "Market",
+    "Modular Board",
+    "Negotiation",
+    "Network and Route Building",
+    "Race",
+    "Random Production",
+    "Take That",
+    "Trading",
+    "Variable Set-up"
+   ],
+   "subdomains": [
+    "Family Games",
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 209685,
+   "name": "Century: Spice Road",
+   "year": 2017,
+   "minPlayers": 2,
+   "maxPlayers": 5,
+   "minPlaytime": 30,
+   "maxPlaytime": 45,
+   "weight": 1.8,
+   "tier": "strategy",
+   "categories": [
+    "Card Game",
+    "Economic",
+    "Medieval"
+   ],
+   "mechanics": [
+    "Action Retrieval",
+    "Auction: Dutch",
+    "Contracts",
+    "Deck, Bag, and Pool Building",
+    "End Game Bonuses",
+    "Hand Management",
+    "Increase Value of Unchosen Resources",
+    "Open Drafting",
+    "Set Collection",
+    "Variable Set-up"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 178900,
+   "name": "Codenames",
+   "year": 2015,
+   "minPlayers": 2,
+   "maxPlayers": 8,
+   "minPlaytime": 15,
+   "maxPlaytime": 15,
+   "weight": 1.25,
+   "tier": "party",
+   "categories": [
+    "Card Game",
+    "Deduction",
+    "Party Game",
+    "Spies / Secret Agents",
+    "Word Game"
+   ],
+   "mechanics": [
+    "Communication Limits",
+    "Deduction",
+    "Memory",
+    "Race",
+    "Team-Based Game"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 224037,
+   "name": "Codenames: Duet",
+   "year": 2017,
+   "minPlayers": 2,
+   "maxPlayers": 2,
+   "minPlaytime": 15,
+   "maxPlaytime": 30,
+   "weight": 1.36,
+   "tier": "coop",
+   "categories": [
+    "Card Game",
+    "Deduction",
+    "Spies / Secret Agents",
+    "Word Game"
+   ],
+   "mechanics": [
+    "Communication Limits",
+    "Cooperative Game",
+    "Memory"
+   ],
+   "subdomains": [
+    "Family Games",
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 158899,
+   "name": "Colt Express",
+   "year": 2014,
+   "minPlayers": 2,
+   "maxPlayers": 6,
+   "minPlaytime": 40,
+   "maxPlaytime": 40,
+   "weight": 1.83,
+   "tier": "strategy",
+   "categories": [
+    "American West",
+    "Bluffing",
+    "Fighting",
+    "Trains"
+   ],
+   "mechanics": [
+    "Action Queue",
+    "Hand Management",
+    "Memory",
+    "Programmed Movement",
+    "Take That",
+    "Turn Order: Progressive",
+    "Variable Player Powers"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 147151,
+   "name": "Concept",
+   "year": 2013,
+   "minPlayers": 4,
+   "maxPlayers": 12,
+   "minPlaytime": 40,
+   "maxPlaytime": 40,
+   "weight": 1.38,
+   "tier": "party",
+   "categories": [
+    "Deduction",
+    "Party Game",
+    "Word Game"
+   ],
+   "mechanics": [
+    "Communication Limits",
+    "Race",
+    "Team-Based Game"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 131357,
+   "name": "Coup",
+   "year": 2012,
+   "minPlayers": 2,
+   "maxPlayers": 6,
+   "minPlaytime": 15,
+   "maxPlaytime": 15,
+   "weight": 1.41,
+   "tier": "party",
+   "categories": [
+    "Bluffing",
+    "Card Game",
+    "Deduction",
+    "Party Game",
+    "Political"
+   ],
+   "mechanics": [
+    "Betting and Bluffing",
+    "Hidden Roles",
+    "Memory",
+    "Player Elimination",
+    "Take That",
+    "Variable Player Powers"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 150376,
+   "name": "Dead of Winter: A Crossroads Game",
+   "year": 2014,
+   "minPlayers": 2,
+   "maxPlayers": 5,
+   "minPlaytime": 60,
+   "maxPlaytime": 120,
+   "weight": 3.01,
+   "tier": "strategy",
+   "categories": [
+    "Bluffing",
+    "Deduction",
+    "Horror",
+    "Science Fiction",
+    "Zombies"
+   ],
+   "mechanics": [
+    "Action Points",
+    "Area Movement",
+    "Dice Rolling",
+    "Hand Management",
+    "Narrative Choice / Paragraph",
+    "Push Your Luck",
+    "Scenario / Mission / Campaign Game",
+    "Semi-Cooperative Game",
+    "Storytelling",
+    "Trading",
+    "Traitor Game",
+    "Turn Order: Progressive",
+    "Variable Player Powers",
+    "Voting"
+   ],
+   "subdomains": [
+    "Thematic Games"
+   ]
+  },
+  {
+   "bggId": 225694,
+   "name": "Decrypto",
+   "year": 2018,
+   "minPlayers": 3,
+   "maxPlayers": 8,
+   "minPlaytime": 15,
+   "maxPlaytime": 45,
+   "weight": 1.82,
+   "tier": "party",
+   "categories": [
+    "Deduction",
+    "Party Game",
+    "Spies / Secret Agents",
+    "Word Game"
+   ],
+   "mechanics": [
+    "Communication Limits",
+    "Paper-and-Pencil",
+    "Targeted Clues",
+    "Team-Based Game"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 169654,
+   "name": "Deep Sea Adventure",
+   "year": 2014,
+   "minPlayers": 2,
+   "maxPlayers": 6,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 1.19,
+   "tier": "party",
+   "categories": [
+    "Dice",
+    "Exploration",
+    "Nautical",
+    "Party Game"
+   ],
+   "mechanics": [
+    "Dice Rolling",
+    "Pick-up and Deliver",
+    "Push Your Luck",
+    "Roll / Spin and Move",
+    "Track Movement"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 256382,
+   "name": "Disney Villainous: The Worst Takes it All",
+   "year": 2018,
+   "minPlayers": 2,
+   "maxPlayers": 6,
+   "minPlaytime": 45,
+   "maxPlaytime": 120,
+   "weight": 2.48,
+   "tier": "strategy",
+   "categories": [
+    "Card Game",
+    "Fantasy",
+    "Medieval",
+    "Movies / TV / Radio theme",
+    "Mythology",
+    "Novel-based",
+    "Pirates"
+   ],
+   "mechanics": [
+    "Hand Management",
+    "Take That",
+    "Variable Player Powers"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 39856,
+   "name": "Dixit",
+   "year": 2008,
+   "minPlayers": 3,
+   "maxPlayers": 8,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 1.19,
+   "tier": "party",
+   "categories": [
+    "Card Game",
+    "Humor",
+    "Party Game"
+   ],
+   "mechanics": [
+    "Race",
+    "Simultaneous Action Selection",
+    "Singing",
+    "Storytelling",
+    "Targeted Clues",
+    "Voting"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 370591,
+   "name": "Dorfromantik: The Board Game",
+   "year": 2022,
+   "minPlayers": 1,
+   "maxPlayers": 6,
+   "minPlaytime": 30,
+   "maxPlaytime": 60,
+   "weight": 1.63,
+   "tier": "coop",
+   "categories": [
+    "Environmental",
+    "Puzzle",
+    "Territory Building",
+    "Video Game Theme"
+   ],
+   "mechanics": [
+    "Area Majority / Influence",
+    "Cooperative Game",
+    "Hexagon Grid",
+    "Map Addition",
+    "Modular Board",
+    "Scenario / Mission / Campaign Game",
+    "Tile Placement",
+    "Variable Set-up"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 172225,
+   "name": "Exploding Kittens",
+   "year": 2015,
+   "minPlayers": 2,
+   "maxPlayers": 5,
+   "minPlaytime": 15,
+   "maxPlaytime": 15,
+   "weight": 1.08,
+   "tier": "party",
+   "categories": [
+    "Animals",
+    "Card Game",
+    "Comic Book / Strip",
+    "Humor"
+   ],
+   "mechanics": [
+    "Hand Management",
+    "Hot Potato",
+    "Player Elimination",
+    "Push Your Luck",
+    "Set Collection",
+    "Take That"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 157354,
+   "name": "Five Tribes: The Djinns of Naqala",
+   "year": 2014,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 40,
+   "maxPlaytime": 80,
+   "weight": 2.84,
+   "tier": "strategy",
+   "categories": [
+    "Arabian",
+    "Fantasy",
+    "Mythology"
+   ],
+   "mechanics": [
+    "Auction / Bidding",
+    "Constrained Bidding",
+    "End Game Bonuses",
+    "Hidden Victory Points",
+    "Mancala",
+    "Modular Board",
+    "Set Collection",
+    "Square Grid",
+    "Take That",
+    "Turn Order: Auction",
+    "Variable Player Powers",
+    "Variable Set-up",
+    "Victory Points as a Resource",
+    "Worker Placement"
+   ],
+   "subdomains": [
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 136063,
+   "name": "Forbidden Desert",
+   "year": 2013,
+   "minPlayers": 2,
+   "maxPlayers": 5,
+   "minPlaytime": 45,
+   "maxPlaytime": 45,
+   "weight": 2.04,
+   "tier": "coop",
+   "categories": [
+    "Adventure",
+    "Fantasy",
+    "Science Fiction"
+   ],
+   "mechanics": [
+    "Action Points",
+    "Bias",
+    "Cooperative Game",
+    "Grid Movement",
+    "Hand Management",
+    "Map Deformation",
+    "Modular Board",
+    "Pick-up and Deliver",
+    "Solo / Solitaire Game",
+    "Square Grid",
+    "Tile Placement",
+    "Variable Player Powers"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 65244,
+   "name": "Forbidden Island",
+   "year": 2010,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 1.74,
+   "tier": "coop",
+   "categories": [
+    "Adventure",
+    "Fantasy",
+    "Science Fiction"
+   ],
+   "mechanics": [
+    "Action Points",
+    "Cooperative Game",
+    "Events",
+    "Grid Movement",
+    "Hand Management",
+    "Map Reduction",
+    "Modular Board",
+    "Pick-up and Deliver",
+    "Set Collection",
+    "Solo / Solitaire Game",
+    "Square Grid",
+    "Tile Placement",
+    "Variable Player Powers"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 98778,
+   "name": "Hanabi",
+   "year": 2010,
+   "minPlayers": 2,
+   "maxPlayers": 5,
+   "minPlaytime": 25,
+   "maxPlaytime": 25,
+   "weight": 1.69,
+   "tier": "coop",
+   "categories": [
+    "Card Game",
+    "Deduction",
+    "Memory"
+   ],
+   "mechanics": [
+    "Communication Limits",
+    "Cooperative Game",
+    "Hand Management",
+    "Memory",
+    "Ordering",
+    "Set Collection"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 158600,
+   "name": "Hanamikoji",
+   "year": 2013,
+   "minPlayers": 2,
+   "maxPlayers": 2,
+   "minPlaytime": 15,
+   "maxPlaytime": 15,
+   "weight": 1.67,
+   "tier": "strategy",
+   "categories": [
+    "Card Game",
+    "Medieval"
+   ],
+   "mechanics": [
+    "Area Majority / Influence",
+    "Force Commitment",
+    "Hand Management",
+    "I Cut, You Choose",
+    "Open Drafting",
+    "Race"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 366013,
+   "name": "Heat: Pedal to the Metal",
+   "year": 2022,
+   "minPlayers": 1,
+   "maxPlayers": 6,
+   "minPlaytime": 30,
+   "maxPlaytime": 60,
+   "weight": 2.2,
+   "tier": "strategy",
+   "categories": [
+    "Racing",
+    "Sports"
+   ],
+   "mechanics": [
+    "Catch the Leader",
+    "Deck, Bag, and Pool Building",
+    "Hand Management",
+    "Programmed Movement",
+    "Push Your Luck",
+    "Race",
+    "Simulation",
+    "Simultaneous Action Selection",
+    "Solo / Solitaire Game",
+    "Track Movement",
+    "Variable Set-up"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 8203,
+   "name": "Hey, That's My Fish!",
+   "year": 2003,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 20,
+   "maxPlaytime": 20,
+   "weight": 1.44,
+   "tier": "party",
+   "categories": [
+    "Abstract Strategy",
+    "Animals"
+   ],
+   "mechanics": [
+    "Grid Movement",
+    "Hexagon Grid",
+    "Map Reduction",
+    "Modular Board",
+    "Variable Set-up"
+   ],
+   "subdomains": [
+    "Abstract Games",
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 2655,
+   "name": "Hive",
+   "year": 2001,
+   "minPlayers": 2,
+   "maxPlayers": 2,
+   "minPlaytime": 20,
+   "maxPlaytime": 20,
+   "weight": 2.31,
+   "tier": "strategy",
+   "categories": [
+    "Abstract Strategy",
+    "Animals"
+   ],
+   "mechanics": [
+    "Enclosure",
+    "Grid Movement",
+    "Hexagon Grid",
+    "Pattern Movement",
+    "Pieces as Map",
+    "Three Dimensional Movement",
+    "Tile Placement"
+   ],
+   "subdomains": [
+    "Abstract Games"
+   ]
+  },
+  {
+   "bggId": 54043,
+   "name": "Jaipur",
+   "year": 2009,
+   "minPlayers": 2,
+   "maxPlayers": 2,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 1.46,
+   "tier": "strategy",
+   "categories": [
+    "Card Game",
+    "Economic"
+   ],
+   "mechanics": [
+    "End Game Bonuses",
+    "Hand Management",
+    "Hidden Victory Points",
+    "Market",
+    "Open Drafting",
+    "Push Your Luck",
+    "Race",
+    "Score-and-Reset Game",
+    "Set Collection",
+    "Sudden Death Ending",
+    "Turn Order: Progressive",
+    "Variable Set-up"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 2452,
+   "name": "Jenga",
+   "year": 1983,
+   "minPlayers": 1,
+   "maxPlayers": 8,
+   "minPlaytime": 20,
+   "maxPlaytime": 20,
+   "weight": 1.1,
+   "tier": "party",
+   "categories": [
+    "Action / Dexterity",
+    "Movies / TV / Radio theme",
+    "Party Game"
+   ],
+   "mechanics": [
+    "Physical Removal",
+    "Single Loser Game",
+    "Stacking and Balancing"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 70323,
+   "name": "King of Tokyo",
+   "year": 2011,
+   "minPlayers": 2,
+   "maxPlayers": 6,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 1.48,
+   "tier": "party",
+   "categories": [
+    "Dice",
+    "Fighting",
+    "Movies / TV / Radio theme",
+    "Science Fiction"
+   ],
+   "mechanics": [
+    "Dice Rolling",
+    "Die Icon Resolution",
+    "King of the Hill",
+    "Open Drafting",
+    "Player Elimination",
+    "Push Your Luck",
+    "Re-rolling and Locking",
+    "Take That"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 204583,
+   "name": "Kingdomino",
+   "year": 2016,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 15,
+   "maxPlaytime": 25,
+   "weight": 1.24,
+   "tier": "party",
+   "categories": [
+    "Abstract Strategy",
+    "Medieval",
+    "Puzzle",
+    "Territory Building"
+   ],
+   "mechanics": [
+    "Enclosure",
+    "Matching",
+    "Open Drafting",
+    "Tile Placement",
+    "Turn Order: Claim Action"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 50,
+   "name": "Lost Cities",
+   "year": 1999,
+   "minPlayers": 2,
+   "maxPlayers": 2,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 1.47,
+   "tier": "strategy",
+   "categories": [
+    "Card Game",
+    "Exploration",
+    "Number"
+   ],
+   "mechanics": [
+    "Hand Management",
+    "Melding and Splaying",
+    "Ordering",
+    "Push Your Luck",
+    "Score-and-Reset Game",
+    "Set Collection"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 312484,
+   "name": "Lost Ruins of Arnak",
+   "year": 2020,
+   "minPlayers": 1,
+   "maxPlayers": 4,
+   "minPlaytime": 30,
+   "maxPlaytime": 120,
+   "weight": 2.93,
+   "tier": "strategy",
+   "categories": [
+    "Adventure",
+    "Card Game",
+    "Exploration",
+    "Fantasy"
+   ],
+   "mechanics": [
+    "Area Movement",
+    "Contracts",
+    "Deck, Bag, and Pool Building",
+    "Delayed Purchase",
+    "End Game Bonuses",
+    "Hand Management",
+    "Multi-Use Cards",
+    "Once-Per-Game Abilities",
+    "Open Drafting",
+    "Resource to Move",
+    "Solo / Solitaire Game",
+    "Track Movement",
+    "Turn Order: Progressive",
+    "Worker Placement"
+   ],
+   "subdomains": [
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 129622,
+   "name": "Love Letter",
+   "year": 2012,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 20,
+   "maxPlaytime": 20,
+   "weight": 1.18,
+   "tier": "party",
+   "categories": [
+    "Card Game",
+    "Deduction",
+    "Renaissance"
+   ],
+   "mechanics": [
+    "Deduction",
+    "Hand Management",
+    "Player Elimination",
+    "Score-and-Reset Game",
+    "Take That"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 143884,
+   "name": "Machi Koro",
+   "year": 2012,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 1.52,
+   "tier": "party",
+   "categories": [
+    "City Building",
+    "Dice"
+   ],
+   "mechanics": [
+    "Dice Rolling",
+    "Ownership",
+    "Race",
+    "Random Production"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 118,
+   "name": "Modern Art",
+   "year": 1992,
+   "minPlayers": 3,
+   "maxPlayers": 5,
+   "minPlaytime": 45,
+   "maxPlaytime": 45,
+   "weight": 2.27,
+   "tier": "strategy",
+   "categories": [
+    "Card Game",
+    "Economic"
+   ],
+   "mechanics": [
+    "Auction / Bidding",
+    "Auction: English",
+    "Auction: Once Around",
+    "Auction: Sealed Bid",
+    "Auction: Turn Order Until Pass",
+    "Commodity Speculation",
+    "Hand Management",
+    "Victory Points as a Resource"
+   ],
+   "subdomains": [
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 1927,
+   "name": "Munchkin",
+   "year": 2001,
+   "minPlayers": 3,
+   "maxPlayers": 6,
+   "minPlaytime": 60,
+   "maxPlaytime": 120,
+   "weight": 1.82,
+   "tier": "party",
+   "categories": [
+    "Card Game",
+    "Fantasy",
+    "Fighting",
+    "Humor"
+   ],
+   "mechanics": [
+    "Hand Management",
+    "Race",
+    "Take That",
+    "Variable Player Powers"
+   ],
+   "subdomains": [
+    "Party Games",
+    "Thematic Games"
+   ]
+  },
+  {
+   "bggId": 181304,
+   "name": "Mysterium",
+   "year": 2015,
+   "minPlayers": 2,
+   "maxPlayers": 7,
+   "minPlaytime": 42,
+   "maxPlaytime": 42,
+   "weight": 1.89,
+   "tier": "coop",
+   "categories": [
+    "Deduction",
+    "Murder / Mystery",
+    "Party Game",
+    "Real-time"
+   ],
+   "mechanics": [
+    "Communication Limits",
+    "Cooperative Game",
+    "Deduction",
+    "Finale Ending",
+    "Hand Management",
+    "Pattern Recognition",
+    "Real-Time",
+    "Storytelling",
+    "Voting"
+   ],
+   "subdomains": [
+    "Family Games",
+    "Thematic Games"
+   ]
+  },
+  {
+   "bggId": 12942,
+   "name": "No Thanks!",
+   "year": 2004,
+   "minPlayers": 3,
+   "maxPlayers": 7,
+   "minPlaytime": 20,
+   "maxPlaytime": 20,
+   "weight": 1.13,
+   "tier": "party",
+   "categories": [
+    "Card Game"
+   ],
+   "mechanics": [
+    "Auction / Bidding",
+    "Closed Economy Auction",
+    "Push Your Luck",
+    "Score-and-Reset Game",
+    "Set Collection"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 30549,
+   "name": "Pandemic",
+   "year": 2008,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 45,
+   "maxPlaytime": 45,
+   "weight": 2.39,
+   "tier": "coop",
+   "categories": [
+    "Medical",
+    "Travel"
+   ],
+   "mechanics": [
+    "Action Points",
+    "Chaining",
+    "Contracts",
+    "Cooperative Game",
+    "Events",
+    "Hand Management",
+    "Multi-Use Cards",
+    "Point to Point Movement",
+    "Set Collection",
+    "Simulation",
+    "Solo / Solitaire Game",
+    "Tags",
+    "Trading",
+    "Variable Player Powers",
+    "Variable Set-up"
+   ],
+   "subdomains": [
+    "Family Games",
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 2593,
+   "name": "Pass the Pigs",
+   "year": 1977,
+   "minPlayers": 2,
+   "maxPlayers": 10,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 1.07,
+   "tier": "party",
+   "categories": [
+    "Animals",
+    "Dice",
+    "Party Game"
+   ],
+   "mechanics": [
+    "Betting and Bluffing",
+    "Dice Rolling",
+    "Push Your Luck"
+   ],
+   "subdomains": [
+    "Family Games",
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 163412,
+   "name": "Patchwork",
+   "year": 2014,
+   "minPlayers": 2,
+   "maxPlayers": 2,
+   "minPlaytime": 15,
+   "maxPlaytime": 30,
+   "weight": 1.6,
+   "tier": "strategy",
+   "categories": [
+    "Abstract Strategy",
+    "Economic",
+    "Puzzle"
+   ],
+   "mechanics": [
+    "Grid Coverage",
+    "Income",
+    "Open Drafting",
+    "Rondel",
+    "Square Grid",
+    "Tile Placement",
+    "Turn Order: Stat-Based",
+    "Turn Order: Time Track",
+    "Victory Points as a Resource"
+   ],
+   "subdomains": [
+    "Abstract Games",
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 218603,
+   "name": "Photosynthesis",
+   "year": 2017,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 30,
+   "maxPlaytime": 60,
+   "weight": 2.26,
+   "tier": "strategy",
+   "categories": [
+    "Abstract Strategy",
+    "Economic"
+   ],
+   "mechanics": [
+    "Action Points",
+    "Area Majority / Influence",
+    "Bias",
+    "End Game Bonuses",
+    "Hexagon Grid",
+    "Income",
+    "Turn Order: Progressive"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 312786,
+   "name": "Poetry for Neanderthals",
+   "year": 2020,
+   "minPlayers": 2,
+   "maxPlayers": 12,
+   "minPlaytime": 15,
+   "maxPlaytime": 15,
+   "weight": 1.11,
+   "tier": "party",
+   "categories": [
+    "Humor",
+    "Party Game",
+    "Prehistoric",
+    "Real-time",
+    "Word Game"
+   ],
+   "mechanics": [
+    "Communication Limits",
+    "Real-Time",
+    "Team-Based Game"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 244521,
+   "name": "Quacks",
+   "year": 2018,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 45,
+   "maxPlaytime": 45,
+   "weight": 1.94,
+   "tier": "strategy",
+   "categories": [
+    "Fantasy"
+   ],
+   "mechanics": [
+    "Catch the Leader",
+    "Deck, Bag, and Pool Building",
+    "Delayed Purchase",
+    "Dice Rolling",
+    "Die Icon Resolution",
+    "Events",
+    "Neighbor Scope",
+    "Push Your Luck",
+    "Score-and-Reset Game",
+    "Simultaneous Action Selection",
+    "Track Movement",
+    "Variable Set-up"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 25669,
+   "name": "Qwirkle",
+   "year": 2006,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 45,
+   "maxPlaytime": 45,
+   "weight": 1.57,
+   "tier": "party",
+   "categories": [
+    "Abstract Strategy"
+   ],
+   "mechanics": [
+    "Hand Management",
+    "Pattern Building",
+    "Square Grid",
+    "Tile Placement"
+   ],
+   "subdomains": [
+    "Abstract Games",
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 237182,
+   "name": "Root",
+   "year": 2018,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 60,
+   "maxPlaytime": 90,
+   "weight": 3.84,
+   "tier": "strategy",
+   "categories": [
+    "Animals",
+    "Fantasy",
+    "Negotiation",
+    "Territory Building",
+    "Wargame"
+   ],
+   "mechanics": [
+    "Action Points",
+    "Action Queue",
+    "Action Retrieval",
+    "Area Majority / Influence",
+    "Area Movement",
+    "Dice Rolling",
+    "Hand Management",
+    "Multi-Use Cards",
+    "Negotiation",
+    "Point to Point Movement",
+    "Race",
+    "Sudden Death Ending",
+    "Take That",
+    "Variable Player Powers",
+    "Variable Set-up"
+   ],
+   "subdomains": [
+    "Strategy Games",
+    "Wargames"
+   ]
+  },
+  {
+   "bggId": 9220,
+   "name": "Saboteur",
+   "year": 2004,
+   "minPlayers": 3,
+   "maxPlayers": 10,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 1.32,
+   "tier": "party",
+   "categories": [
+    "Bluffing",
+    "Card Game",
+    "Deduction",
+    "Exploration",
+    "Fantasy",
+    "Party Game"
+   ],
+   "mechanics": [
+    "Hand Management",
+    "Hidden Roles",
+    "Hidden Victory Points",
+    "Map Addition",
+    "Network and Route Building",
+    "Score-and-Reset Game",
+    "Take That",
+    "Traitor Game"
+   ],
+   "subdomains": [
+    "Family Games",
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 291453,
+   "name": "SCOUT",
+   "year": 2019,
+   "minPlayers": 2,
+   "maxPlayers": 5,
+   "minPlaytime": 20,
+   "maxPlaytime": 20,
+   "weight": 1.4,
+   "tier": "party",
+   "categories": [
+    "Card Game"
+   ],
+   "mechanics": [
+    "Hand Management",
+    "Ladder Climbing",
+    "Score-and-Reset Game"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 169786,
+   "name": "Scythe",
+   "year": 2016,
+   "minPlayers": 1,
+   "maxPlayers": 5,
+   "minPlaytime": 115,
+   "maxPlaytime": 115,
+   "weight": 3.45,
+   "tier": "strategy",
+   "categories": [
+    "Economic",
+    "Fighting",
+    "Science Fiction",
+    "Territory Building"
+   ],
+   "mechanics": [
+    "Area Majority / Influence",
+    "Card Play Conflict Resolution",
+    "Contracts",
+    "End Game Bonuses",
+    "Force Commitment",
+    "Grid Movement",
+    "Hexagon Grid",
+    "King of the Hill",
+    "Movement Points",
+    "Narrative Choice / Paragraph",
+    "Solo / Solitaire Game",
+    "Take That",
+    "Tech Trees / Tech Tracks",
+    "Variable Player Powers",
+    "Variable Set-up",
+    "Victory Points as a Resource",
+    "Zone of Control"
+   ],
+   "subdomains": [
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 367220,
+   "name": "Sea Salt & Paper",
+   "year": 2022,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 30,
+   "maxPlaytime": 45,
+   "weight": 1.49,
+   "tier": "party",
+   "categories": [
+    "Animals",
+    "Card Game"
+   ],
+   "mechanics": [
+    "Hand Management",
+    "Melding and Splaying",
+    "Open Drafting",
+    "Push Your Luck",
+    "Score-and-Reset Game",
+    "Set Collection",
+    "Sudden Death Ending",
+    "Take That"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 188834,
+   "name": "Secret Hitler",
+   "year": 2016,
+   "minPlayers": 5,
+   "maxPlayers": 10,
+   "minPlaytime": 45,
+   "maxPlaytime": 45,
+   "weight": 1.73,
+   "tier": "party",
+   "categories": [
+    "Bluffing",
+    "Card Game",
+    "Deduction",
+    "Humor",
+    "Party Game",
+    "Political",
+    "Print & Play",
+    "Spies / Secret Agents"
+   ],
+   "mechanics": [
+    "Hidden Roles",
+    "Player Elimination",
+    "Team-Based Game",
+    "Traitor Game",
+    "Voting"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 92415,
+   "name": "Skull",
+   "year": 2011,
+   "minPlayers": 3,
+   "maxPlayers": 6,
+   "minPlaytime": 15,
+   "maxPlaytime": 45,
+   "weight": 1.12,
+   "tier": "party",
+   "categories": [
+    "Bluffing",
+    "Card Game",
+    "Party Game"
+   ],
+   "mechanics": [
+    "Auction / Bidding",
+    "Auction: Turn Order Until Pass",
+    "Bids As Wagers",
+    "Hand Management",
+    "Player Elimination",
+    "Predictive Bid"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 373106,
+   "name": "Sky Team",
+   "year": 2023,
+   "minPlayers": 2,
+   "maxPlayers": 2,
+   "minPlaytime": 20,
+   "maxPlaytime": 20,
+   "weight": 2.04,
+   "tier": "coop",
+   "categories": [
+    "Aviation / Flight",
+    "Dice"
+   ],
+   "mechanics": [
+    "Communication Limits",
+    "Cooperative Game",
+    "Dice Rolling",
+    "Scenario / Mission / Campaign Game",
+    "Turn Order: Progressive",
+    "Variable Player Powers",
+    "Variable Set-up",
+    "Worker Placement with Dice Workers"
+   ],
+   "subdomains": [
+    "Family Games",
+    "Thematic Games"
+   ]
+  },
+  {
+   "bggId": 329839,
+   "name": "So Clover!",
+   "year": 2021,
+   "minPlayers": 3,
+   "maxPlayers": 6,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 1.12,
+   "tier": "coop",
+   "categories": [
+    "Party Game",
+    "Word Game"
+   ],
+   "mechanics": [
+    "Communication Limits",
+    "Cooperative Game"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 123096,
+   "name": "Space Cadets",
+   "year": 2012,
+   "minPlayers": 3,
+   "maxPlayers": 6,
+   "minPlaytime": 60,
+   "maxPlaytime": 120,
+   "weight": 2.75,
+   "tier": "coop",
+   "categories": [
+    "Action / Dexterity",
+    "Puzzle",
+    "Real-time",
+    "Science Fiction",
+    "Space Exploration"
+   ],
+   "mechanics": [
+    "Cooperative Game",
+    "Dice Rolling",
+    "Flicking",
+    "Grid Movement",
+    "Memory",
+    "Modular Board",
+    "Pattern Building",
+    "Pattern Recognition",
+    "Programmed Movement",
+    "Push Your Luck",
+    "Re-rolling and Locking",
+    "Real-Time",
+    "Scenario / Mission / Campaign Game",
+    "Set Collection",
+    "Variable Player Powers"
+   ],
+   "subdomains": [
+    "Thematic Games"
+   ]
+  },
+  {
+   "bggId": 162886,
+   "name": "Spirit Island",
+   "year": 2017,
+   "minPlayers": 1,
+   "maxPlayers": 4,
+   "minPlaytime": 90,
+   "maxPlaytime": 120,
+   "weight": 4.08,
+   "tier": "coop",
+   "categories": [
+    "Environmental",
+    "Fantasy",
+    "Mythology",
+    "Territory Building"
+   ],
+   "mechanics": [
+    "Action Retrieval",
+    "Area Majority / Influence",
+    "Automatic Resource Growth",
+    "Campaign / Battle Card Driven",
+    "Cooperative Game",
+    "Deck, Bag, and Pool Building",
+    "Hand Management",
+    "Modular Board",
+    "Solo / Solitaire Game",
+    "Tags",
+    "Variable Player Powers",
+    "Variable Set-up"
+   ],
+   "subdomains": [
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 148228,
+   "name": "Splendor",
+   "year": 2014,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 1.77,
+   "tier": "strategy",
+   "categories": [
+    "Card Game",
+    "Economic",
+    "Renaissance"
+   ],
+   "mechanics": [
+    "Contracts",
+    "Open Drafting",
+    "Race",
+    "Set Collection"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 63268,
+   "name": "Spot it!",
+   "year": 2009,
+   "minPlayers": 2,
+   "maxPlayers": 8,
+   "minPlaytime": 15,
+   "maxPlaytime": 15,
+   "weight": 1.04,
+   "tier": "party",
+   "categories": [
+    "Card Game",
+    "Children's Game",
+    "Educational",
+    "Party Game",
+    "Real-time",
+    "Sports"
+   ],
+   "mechanics": [
+    "Hot Potato",
+    "Pattern Recognition",
+    "Speed Matching"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 164153,
+   "name": "Star Wars: Imperial Assault",
+   "year": 2014,
+   "minPlayers": 2,
+   "maxPlayers": 5,
+   "minPlaytime": 60,
+   "maxPlaytime": 120,
+   "weight": 3.3,
+   "tier": "strategy",
+   "categories": [
+    "Adventure",
+    "Exploration",
+    "Fighting",
+    "Miniatures",
+    "Movies / TV / Radio theme",
+    "Science Fiction",
+    "Wargame"
+   ],
+   "mechanics": [
+    "Dice Rolling",
+    "Die Icon Resolution",
+    "Grid Movement",
+    "Line of Sight",
+    "Modular Board",
+    "Role Playing",
+    "Scenario / Mission / Campaign Game",
+    "Solo / Solitaire Game",
+    "Square Grid",
+    "Stat Check Resolution",
+    "Team-Based Game",
+    "Variable Player Powers"
+   ],
+   "subdomains": [
+    "Thematic Games"
+   ]
+  },
+  {
+   "bggId": 192291,
+   "name": "Sushi Go Party!",
+   "year": 2016,
+   "minPlayers": 2,
+   "maxPlayers": 8,
+   "minPlaytime": 20,
+   "maxPlaytime": 20,
+   "weight": 1.33,
+   "tier": "party",
+   "categories": [
+    "Card Game",
+    "Party Game"
+   ],
+   "mechanics": [
+    "Closed Drafting",
+    "End Game Bonuses",
+    "Hand Management",
+    "Push Your Luck",
+    "Score-and-Reset Game",
+    "Set Collection",
+    "Simultaneous Action Selection",
+    "Variable Set-up"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 253664,
+   "name": "Taco Cat Goat Cheese Pizza",
+   "year": 2018,
+   "minPlayers": 2,
+   "maxPlayers": 8,
+   "minPlaytime": 10,
+   "maxPlaytime": 30,
+   "weight": 1.03,
+   "tier": "party",
+   "categories": [
+    "Action / Dexterity",
+    "Card Game",
+    "Children's Game",
+    "Party Game",
+    "Real-time"
+   ],
+   "mechanics": [
+    "Interrupts",
+    "Pattern Recognition",
+    "Race",
+    "Real-Time",
+    "Speed Matching"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 70919,
+   "name": "Takenoko",
+   "year": 2011,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 45,
+   "maxPlaytime": 45,
+   "weight": 1.97,
+   "tier": "strategy",
+   "categories": [
+    "Animals",
+    "Environmental",
+    "Farming",
+    "Territory Building"
+   ],
+   "mechanics": [
+    "Action Points",
+    "Contracts",
+    "Dice Rolling",
+    "Die Icon Resolution",
+    "End Game Bonuses",
+    "Grid Movement",
+    "Hexagon Grid",
+    "Modular Board",
+    "Network and Route Building",
+    "Pattern Building",
+    "Race",
+    "Set Collection",
+    "Tags",
+    "Tile Placement"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 118048,
+   "name": "Targi",
+   "year": 2012,
+   "minPlayers": 2,
+   "maxPlayers": 2,
+   "minPlaytime": 60,
+   "maxPlaytime": 60,
+   "weight": 2.34,
+   "tier": "strategy",
+   "categories": [
+    "Arabian",
+    "Card Game"
+   ],
+   "mechanics": [
+    "End Game Bonuses",
+    "Modular Board",
+    "Open Drafting",
+    "Pattern Building",
+    "Set Collection",
+    "Square Grid",
+    "Turn Order: Progressive",
+    "Worker Placement"
+   ],
+   "subdomains": [
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 46213,
+   "name": "Telestrations",
+   "year": 2009,
+   "minPlayers": 4,
+   "maxPlayers": 8,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 1.07,
+   "tier": "party",
+   "categories": [
+    "Humor",
+    "Party Game",
+    "Real-time"
+   ],
+   "mechanics": [
+    "Drawing",
+    "Paper-and-Pencil"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 167791,
+   "name": "Terraforming Mars",
+   "year": 2016,
+   "minPlayers": 1,
+   "maxPlayers": 5,
+   "minPlaytime": 120,
+   "maxPlaytime": 120,
+   "weight": 3.27,
+   "tier": "strategy",
+   "categories": [
+    "Civilization",
+    "Economic",
+    "Environmental",
+    "Industry / Manufacturing",
+    "Science Fiction",
+    "Space Exploration",
+    "Territory Building"
+   ],
+   "mechanics": [
+    "Closed Drafting",
+    "Contracts",
+    "End Game Bonuses",
+    "Hand Management",
+    "Hexagon Grid",
+    "Income",
+    "Solo / Solitaire Game",
+    "Tags",
+    "Take That",
+    "Tile Placement",
+    "Turn Order: Progressive",
+    "Variable Player Powers",
+    "Variable Set-up"
+   ],
+   "subdomains": [
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 324856,
+   "name": "The Crew: Mission Deep Sea",
+   "year": 2021,
+   "minPlayers": 2,
+   "maxPlayers": 5,
+   "minPlaytime": 20,
+   "maxPlaytime": 20,
+   "weight": 2.06,
+   "tier": "coop",
+   "categories": [
+    "Adventure",
+    "Card Game",
+    "Mythology",
+    "Nautical"
+   ],
+   "mechanics": [
+    "Communication Limits",
+    "Cooperative Game",
+    "Deduction",
+    "Hand Management",
+    "Scenario / Mission / Campaign Game",
+    "Trick-taking"
+   ],
+   "subdomains": [
+    "Family Games",
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 284083,
+   "name": "The Crew: The Quest for Planet Nine",
+   "year": 2019,
+   "minPlayers": 2,
+   "maxPlayers": 5,
+   "minPlaytime": 20,
+   "maxPlaytime": 20,
+   "weight": 1.97,
+   "tier": "coop",
+   "categories": [
+    "Card Game",
+    "Science Fiction",
+    "Space Exploration"
+   ],
+   "mechanics": [
+    "Communication Limits",
+    "Cooperative Game",
+    "Deduction",
+    "Hand Management",
+    "Scenario / Mission / Campaign Game",
+    "Trick-taking"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 221965,
+   "name": "The Fox in the Forest",
+   "year": 2017,
+   "minPlayers": 2,
+   "maxPlayers": 2,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 1.62,
+   "tier": "strategy",
+   "categories": [
+    "Animals",
+    "Card Game",
+    "Fantasy"
+   ],
+   "mechanics": [
+    "Hand Management",
+    "Race",
+    "Score-and-Reset Game",
+    "Trick-taking",
+    "Turn Order: Stat-Based"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 281259,
+   "name": "The Isle of Cats",
+   "year": 2019,
+   "minPlayers": 1,
+   "maxPlayers": 4,
+   "minPlaytime": 60,
+   "maxPlaytime": 90,
+   "weight": 2.36,
+   "tier": "strategy",
+   "categories": [
+    "Animals",
+    "Fantasy",
+    "Nautical",
+    "Pirates",
+    "Puzzle"
+   ],
+   "mechanics": [
+    "Closed Drafting",
+    "Grid Coverage",
+    "Hidden Victory Points",
+    "Income",
+    "Open Drafting",
+    "Pattern Building",
+    "Set Collection",
+    "Solo / Solitaire Game",
+    "Square Grid",
+    "Tile Placement",
+    "Turn Order: Stat-Based"
+   ],
+   "subdomains": [
+    "Family Games",
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 823,
+   "name": "The Lord of the Rings",
+   "year": 2000,
+   "minPlayers": 2,
+   "maxPlayers": 5,
+   "minPlaytime": 60,
+   "maxPlaytime": 90,
+   "weight": 2.53,
+   "tier": "coop",
+   "categories": [
+    "Adventure",
+    "Fantasy",
+    "Novel-based"
+   ],
+   "mechanics": [
+    "Cooperative Game",
+    "Dice Rolling",
+    "Hand Management",
+    "Player Elimination",
+    "Set Collection",
+    "Variable Player Powers"
+   ],
+   "subdomains": [
+    "Thematic Games"
+   ]
+  },
+  {
+   "bggId": 244992,
+   "name": "The Mind",
+   "year": 2018,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 20,
+   "maxPlaytime": 20,
+   "weight": 1.07,
+   "tier": "coop",
+   "categories": [
+    "Card Game",
+    "Number"
+   ],
+   "mechanics": [
+    "Communication Limits",
+    "Cooperative Game",
+    "Hand Management"
+   ],
+   "subdomains": [
+    "Family Games",
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 41114,
+   "name": "The Resistance",
+   "year": 2009,
+   "minPlayers": 5,
+   "maxPlayers": 10,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 1.59,
+   "tier": "party",
+   "categories": [
+    "Bluffing",
+    "Card Game",
+    "Deduction",
+    "Negotiation",
+    "Party Game",
+    "Print & Play",
+    "Science Fiction",
+    "Spies / Secret Agents"
+   ],
+   "mechanics": [
+    "Hidden Roles",
+    "Memory",
+    "Roles with Asymmetric Information",
+    "Simultaneous Action Selection",
+    "Team-Based Game",
+    "Traitor Game",
+    "Voting"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 128882,
+   "name": "The Resistance: Avalon",
+   "year": 2012,
+   "minPlayers": 5,
+   "maxPlayers": 10,
+   "minPlaytime": 30,
+   "maxPlaytime": 30,
+   "weight": 1.74,
+   "tier": "party",
+   "categories": [
+    "Bluffing",
+    "Card Game",
+    "Deduction",
+    "Fantasy",
+    "Medieval",
+    "Negotiation",
+    "Party Game",
+    "Spies / Secret Agents"
+   ],
+   "mechanics": [
+    "Finale Ending",
+    "Hidden Roles",
+    "Roles with Asymmetric Information",
+    "Simultaneous Action Selection",
+    "Team-Based Game",
+    "Traitor Game",
+    "Variable Player Powers",
+    "Voting"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 182028,
+   "name": "Through the Ages: A New Story of Civilization",
+   "year": 2015,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 120,
+   "maxPlaytime": 120,
+   "weight": 4.44,
+   "tier": "strategy",
+   "categories": [
+    "Civilization",
+    "Economic"
+   ],
+   "mechanics": [
+    "Action Points",
+    "Auction / Bidding",
+    "Auction: Dutch",
+    "Events",
+    "Income",
+    "Open Drafting",
+    "Player Elimination",
+    "Tags",
+    "Take That"
+   ],
+   "subdomains": [
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 14996,
+   "name": "Ticket to Ride: Europe",
+   "year": 2005,
+   "minPlayers": 2,
+   "maxPlayers": 5,
+   "minPlaytime": 30,
+   "maxPlaytime": 60,
+   "weight": 1.92,
+   "tier": "strategy",
+   "categories": [
+    "Trains"
+   ],
+   "mechanics": [
+    "Connections",
+    "Contracts",
+    "End Game Bonuses",
+    "Hand Management",
+    "Network and Route Building",
+    "Open Drafting",
+    "Push Your Luck",
+    "Set Collection"
+   ],
+   "subdomains": [
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 163967,
+   "name": "Tiny Epic Galaxies",
+   "year": 2015,
+   "minPlayers": 1,
+   "maxPlayers": 5,
+   "minPlaytime": 30,
+   "maxPlaytime": 45,
+   "weight": 2.15,
+   "tier": "strategy",
+   "categories": [
+    "Dice",
+    "Print & Play",
+    "Science Fiction",
+    "Space Exploration"
+   ],
+   "mechanics": [
+    "Action Retrieval",
+    "Contracts",
+    "Dice Rolling",
+    "End Game Bonuses",
+    "Follow",
+    "Layering",
+    "Open Drafting",
+    "Re-rolling and Locking",
+    "Solo / Solitaire Game",
+    "Take That",
+    "Variable Phase Order",
+    "Variable Player Powers"
+   ],
+   "subdomains": [
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 16992,
+   "name": "Tsuro",
+   "year": 2005,
+   "minPlayers": 2,
+   "maxPlayers": 8,
+   "minPlaytime": 15,
+   "maxPlaytime": 20,
+   "weight": 1.22,
+   "tier": "party",
+   "categories": [
+    "Fantasy"
+   ],
+   "mechanics": [
+    "Hand Management",
+    "Network and Route Building",
+    "Player Elimination",
+    "Tile Placement"
+   ],
+   "subdomains": [
+    "Abstract Games",
+    "Family Games"
+   ]
+  },
+  {
+   "bggId": 126163,
+   "name": "Tzolk'in: The Mayan Calendar",
+   "year": 2012,
+   "minPlayers": 2,
+   "maxPlayers": 4,
+   "minPlaytime": 90,
+   "maxPlaytime": 90,
+   "weight": 3.66,
+   "tier": "strategy",
+   "categories": [
+    "Ancient",
+    "Civilization",
+    "Economic",
+    "Farming",
+    "Mythology"
+   ],
+   "mechanics": [
+    "Bias",
+    "End Game Bonuses",
+    "Once-Per-Game Abilities",
+    "Track Movement",
+    "Turn Order: Claim Action",
+    "Worker Placement"
+   ],
+   "subdomains": [
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 234190,
+   "name": "Unstable Unicorns",
+   "year": 2017,
+   "minPlayers": 2,
+   "maxPlayers": 8,
+   "minPlaytime": 30,
+   "maxPlaytime": 60,
+   "weight": 1.47,
+   "tier": "party",
+   "categories": [
+    "Card Game",
+    "Humor",
+    "Party Game"
+   ],
+   "mechanics": [
+    "Hand Management",
+    "Set Collection",
+    "Take That"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 262543,
+   "name": "Wavelength",
+   "year": 2019,
+   "minPlayers": 2,
+   "maxPlayers": 12,
+   "minPlaytime": 30,
+   "maxPlaytime": 45,
+   "weight": 1.1,
+   "tier": "party",
+   "categories": [
+    "Party Game"
+   ],
+   "mechanics": [
+    "Race",
+    "Targeted Clues",
+    "Team-Based Game"
+   ],
+   "subdomains": [
+    "Party Games"
+   ]
+  },
+  {
+   "bggId": 266192,
+   "name": "Wingspan",
+   "year": 2019,
+   "minPlayers": 1,
+   "maxPlayers": 5,
+   "minPlaytime": 40,
+   "maxPlaytime": 70,
+   "weight": 2.48,
+   "tier": "strategy",
+   "categories": [
+    "Animals",
+    "Card Game",
+    "Educational",
+    "Environmental"
+   ],
+   "mechanics": [
+    "Action Queue",
+    "Dice Rolling",
+    "End Game Bonuses",
+    "Hand Management",
+    "Open Drafting",
+    "Set Collection",
+    "Solo / Solitaire Game",
+    "Turn Order: Progressive"
+   ],
+   "subdomains": [
+    "Family Games",
+    "Strategy Games"
+   ]
+  },
+  {
+   "bggId": 410201,
+   "name": "Wyrmspan",
+   "year": 2024,
+   "minPlayers": 1,
+   "maxPlayers": 5,
+   "minPlaytime": 90,
+   "maxPlaytime": 90,
+   "weight": 2.83,
+   "tier": "strategy",
+   "categories": [
+    "Animals",
+    "Card Game",
+    "Fantasy"
+   ],
+   "mechanics": [
+    "End Game Bonuses",
+    "Hand Management",
+    "Once-Per-Game Abilities",
+    "Open Drafting",
+    "Solo / Solitaire Game",
+    "Track Movement",
+    "Turn Order: Progressive"
+   ],
+   "subdomains": [
+    "Strategy Games"
+   ]
+  }
+ ]
+}

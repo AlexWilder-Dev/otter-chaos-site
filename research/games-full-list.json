@@ -1,0 +1,3252 @@
+{
+ "source": "geekgroup.app mirror of BGG collection (POST https://api.geekgroup.app/api/users/collection.json, body {name:'otter_chaos', filter:{status:{own:1}, sort:'name'}, page:N})",
+ "bggUser": "Otter_Chaos",
+ "bggUserId": 3999501,
+ "retrieved": "2026-10-18",
+ "counts": {
+  "topLevelOwned": 520,
+  "nestedExpansions": 17,
+  "total": 537
+ },
+ "games": [
+  {
+   "bggId": 137167,
+   "name": "...I should have known that!",
+   "year": 2011,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 423850,
+   "name": "13 Beavers",
+   "year": 2024,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1275,
+   "name": "221B Baker Street: The Master Detective Game",
+   "year": 1975,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 249039,
+   "name": "5 Minute Chase",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 86073,
+   "name": "5 Second Rule",
+   "year": 2010,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 261307,
+   "name": "5 Second Rule Jr.",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 268586,
+   "name": "6 nimmt! 25 Jahre",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 68448,
+   "name": "7 Wonders",
+   "year": 2010,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 173346,
+   "name": "7 Wonders Duel",
+   "year": 2015,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 309116,
+   "name": "7 Wonders Duel: Agora",
+   "year": 2020,
+   "type": "expansion",
+   "nestedUnder": 173346
+  },
+  {
+   "bggId": 367617,
+   "name": "99 Ninja",
+   "year": 2024,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 370771,
+   "name": "Absolute Balderdash",
+   "year": 2007,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 155987,
+   "name": "Abyss",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 351643,
+   "name": "Achroma",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 31260,
+   "name": "Agricola",
+   "year": 2007,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 43018,
+   "name": "Agricola: Farmers of the Moor",
+   "year": 2009,
+   "type": "expansion",
+   "nestedUnder": 31260
+  },
+  {
+   "bggId": 357563,
+   "name": "Akropolis",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 161970,
+   "name": "Alchemists",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 421969,
+   "name": "Anger Smash",
+   "year": 2024,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 17329,
+   "name": "Animal Upon Animal",
+   "year": 2005,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 67877,
+   "name": "Anomia",
+   "year": 2010,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 365248,
+   "name": "Ansagrams",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 202737,
+   "name": "Are You Dumber Than a Box of Rocks?",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 6541,
+   "name": "Articulate!",
+   "year": 1992,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 371980,
+   "name": "Asteroid Dice",
+   "year": 2024,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 114405,
+   "name": "Astronauts: The Ultimate Space Game",
+   "year": 2011,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 261831,
+   "name": "Avocado Smash!",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 249629,
+   "name": "The Awesome Game of Meme",
+   "year": null,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 268588,
+   "name": "The Awkward Storyteller",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 230802,
+   "name": "Azul",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2397,
+   "name": "Backgammon",
+   "year": -3000,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 14953,
+   "name": "Backpacker",
+   "year": 2004,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 27225,
+   "name": "Bananagrams",
+   "year": 2006,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 202477,
+   "name": "Bananagrams Party",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 299571,
+   "name": "Bandida",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 191925,
+   "name": "Bandido",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 424875,
+   "name": "Bang! Out of Order",
+   "year": 2024,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 143741,
+   "name": "BANG! The Dice Game",
+   "year": 2013,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 157779,
+   "name": "Barragoon",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2425,
+   "name": "Battleship",
+   "year": 1931,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 211534,
+   "name": "Bears vs Babies",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 185709,
+   "name": "Beasts of Balance",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 358504,
+   "name": "Betrayal at House on the Hill: 3rd Edition",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 253677,
+   "name": "Blame Space",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 379300,
+   "name": "Block Party",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 272438,
+   "name": "Blockbuster",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2453,
+   "name": "Blokus",
+   "year": 2000,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 256536,
+   "name": "Bob Ross: Happy Little Accidents",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1293,
+   "name": "Boggle",
+   "year": 1972,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 11,
+   "name": "Bohnanza",
+   "year": 1997,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 302014,
+   "name": "Bold Made",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 355433,
+   "name": "boop.",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 237214,
+   "name": "BRAINBO!",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 244911,
+   "name": "Brainwaves: The Wise Whale",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 224517,
+   "name": "Brass: Birmingham",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 28720,
+   "name": "Brass: Lancashire",
+   "year": 2007,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 401006,
+   "name": "Bumfuzzle",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 406561,
+   "name": "Bunch of Butts",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 59149,
+   "name": "Bunny Bunny Moose Moose",
+   "year": 2009,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 184921,
+   "name": "Bunny Kingdom",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 365714,
+   "name": "Burger Balance",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 155362,
+   "name": "Ca$h 'n Guns: Second Edition",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 260605,
+   "name": "Camel Up (Second Edition)",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 299570,
+   "name": "Captain Bluff",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 171131,
+   "name": "Captain Sonar",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 380040,
+   "name": "Captivade",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 822,
+   "name": "Carcassonne",
+   "year": 2000,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 364405,
+   "name": "Carcassonne Big Box 7",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 50381,
+   "name": "Cards Against Humanity",
+   "year": 2009,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 111861,
+   "name": "Cards Against Humanity: First Expansion",
+   "year": 2011,
+   "type": "expansion",
+   "nestedUnder": 50381
+  },
+  {
+   "bggId": 399104,
+   "name": "Cards vs Gravity",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 245934,
+   "name": "Carpe Diem",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 160814,
+   "name": "Cartoon Network Fluxx",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 155426,
+   "name": "Castles of Mad King Ludwig",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 345972,
+   "name": "Cat in the Box: Deluxe Edition",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 13,
+   "name": "Catan",
+   "year": 1995,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2807,
+   "name": "Catan: 5-6 Player Expansion",
+   "year": 1996,
+   "type": "expansion",
+   "nestedUnder": 13
+  },
+  {
+   "bggId": 27760,
+   "name": "Catan: Traders & Barbarians",
+   "year": 2007,
+   "type": "expansion",
+   "nestedUnder": 13
+  },
+  {
+   "bggId": 408727,
+   "name": "Catan: New Energies",
+   "year": 2024,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 218129,
+   "name": "Catch the Moon",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 209685,
+   "name": "Century: Spice Road",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 227072,
+   "name": "The Chameleon",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 398059,
+   "name": "The Chameleon: Picture Edition",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 5122,
+   "name": "Charades",
+   "year": 1550,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 156580,
+   "name": "The Chase",
+   "year": 2012,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 105593,
+   "name": "Cheating Moth",
+   "year": 2011,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 171,
+   "name": "Chess",
+   "year": 1475,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 359895,
+   "name": "Chicken vs Hotdog",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 302312,
+   "name": "Chronicles of Crime: 2400",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 5432,
+   "name": "Chutes and Ladders",
+   "year": -200,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 316546,
+   "name": "Clever Cubed",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 254417,
+   "name": "Clickbait",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 34297,
+   "name": "The Climbers",
+   "year": 2008,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 374342,
+   "name": "Clue",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 198328,
+   "name": "Clue: Game of Thrones",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 17700,
+   "name": "Cluedo?: Card Game",
+   "year": 1990,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 429779,
+   "name": "Clues in Twos",
+   "year": 2024,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 220700,
+   "name": "Cobra Paw",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 11971,
+   "name": "Cockroach Poker",
+   "year": 2004,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 178900,
+   "name": "Codenames",
+   "year": 2015,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 224037,
+   "name": "Codenames: Duet",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 198773,
+   "name": "Codenames: Pictures",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 277017,
+   "name": "Color Brain: Disney Edition",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 223742,
+   "name": "Colourbrain",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 195501,
+   "name": "Coloured Yatzy",
+   "year": 2013,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 158899,
+   "name": "Colt Express",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 364266,
+   "name": "Complices",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 147151,
+   "name": "Concept",
+   "year": 2013,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 65262,
+   "name": "Connect 4 (Revised Edition)",
+   "year": 2008,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 397461,
+   "name": "CoOperate",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 298572,
+   "name": "Cosmic Encounter Duel",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 203408,
+   "name": "Cosmocracy",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 131357,
+   "name": "Coup",
+   "year": 2012,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 148931,
+   "name": "Coup: Reformation",
+   "year": 2013,
+   "type": "expansion",
+   "nestedUnder": 131357
+  },
+  {
+   "bggId": 402283,
+   "name": "Courtisans",
+   "year": 2024,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 373284,
+   "name": "Crack List",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 891,
+   "name": "Cranium",
+   "year": 1998,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 414768,
+   "name": "Crash Landed",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 324856,
+   "name": "The Crew: Mission Deep Sea",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 284083,
+   "name": "The Crew: The Quest for Planet Nine",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2398,
+   "name": "Cribbage",
+   "year": 1630,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 246784,
+   "name": "Cryptid",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 8946,
+   "name": "Da Vinci Code",
+   "year": 2002,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 238329,
+   "name": "Dan and Phil's Truth Bombs",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 150376,
+   "name": "Dead of Winter: A Crossroads Game",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 225694,
+   "name": "Decrypto",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 169654,
+   "name": "Deep Sea Adventure",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 54395,
+   "name": "Difference",
+   "year": 2009,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 192235,
+   "name": "Difference Junior",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 182633,
+   "name": "Dinkee Linkee",
+   "year": 2015,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 265583,
+   "name": "Dino Dump",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 483,
+   "name": "Diplomacy",
+   "year": 1959,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 256382,
+   "name": "Disney Villainous: The Worst Takes it All",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 271518,
+   "name": "Disney Villainous: Wicked to the Core",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 39856,
+   "name": "Dixit",
+   "year": 2008,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 262547,
+   "name": "Don't Get Got!",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 268254,
+   "name": "Don't Get Got!: A Christmas Party Game",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 253786,
+   "name": "Don't Mess with Cthulhu Deluxe",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 370591,
+   "name": "Dorfromantik: The Board Game",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 215311,
+   "name": "Downforce",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 300010,
+   "name": "Dragomino",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 405537,
+   "name": "DroPolter",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 423792,
+   "name": "Dumb Questions to Ask Your Friends",
+   "year": 2024,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 397598,
+   "name": "Dune: Imperium – Uprising",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 315196,
+   "name": "Dungeons & Dragons: Adventure Begins",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 94902,
+   "name": "Dungeons & Dragons Starter Set",
+   "year": 2008,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 307963,
+   "name": "Durian",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 365251,
+   "name": "Egg Slam!",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 272516,
+   "name": "Emotify",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 227456,
+   "name": "Escape the Dark Castle",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 394106,
+   "name": "Everdell Farshore",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 238908,
+   "name": "Evil Corp",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 393975,
+   "name": "Evil Corp.",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 9619,
+   "name": "Ex Libris",
+   "year": 1991,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 226518,
+   "name": "EXIT: The Game – The Sunken Treasure",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 172225,
+   "name": "Exploding Kittens",
+   "year": 2015,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 312667,
+   "name": "Exploding Kittens: Barking Kittens",
+   "year": 2020,
+   "type": "expansion",
+   "nestedUnder": 172225
+  },
+  {
+   "bggId": 204053,
+   "name": "Exploding Kittens: Imploding Kittens",
+   "year": 2016,
+   "type": "expansion",
+   "nestedUnder": 172225
+  },
+  {
+   "bggId": 260214,
+   "name": "Exploding Kittens: Streaking Kittens",
+   "year": 2018,
+   "type": "expansion",
+   "nestedUnder": 172225
+  },
+  {
+   "bggId": 135779,
+   "name": "A Fake Artist Goes to New York",
+   "year": 2011,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 286394,
+   "name": "Fake News Game: Kanye Edition",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 170,
+   "name": "Family Business",
+   "year": 1982,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 429777,
+   "name": "The Fast and the Curious",
+   "year": 2024,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 135101,
+   "name": "Fifty Shades of Grey Party Game",
+   "year": 2012,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 212392,
+   "name": "Finn McCool The Giant's Causeway Game",
+   "year": null,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 138161,
+   "name": "Firefly: The Game",
+   "year": 2013,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 157354,
+   "name": "Five Tribes: The Djinns of Naqala",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 333553,
+   "name": "For the King (and Me)",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 136063,
+   "name": "Forbidden Desert",
+   "year": 2013,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 65244,
+   "name": "Forbidden Island",
+   "year": 2010,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 380226,
+   "name": "Forbidden Jungle",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 10213,
+   "name": "Fox and Geese",
+   "year": 1400,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 221965,
+   "name": "The Fox in the Forest",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 252374,
+   "name": "FReNeTiC",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 351811,
+   "name": "Friends Trivia Game",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 291458,
+   "name": "Frozen Unicorns",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 330952,
+   "name": "Fruit Punch",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 142296,
+   "name": "Funemployed",
+   "year": 2013,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 314421,
+   "name": "The Fuzzies",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 375565,
+   "name": "Game Backwards The",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2921,
+   "name": "The Game of Life",
+   "year": 1960,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 10934,
+   "name": "The Game of Things",
+   "year": 2002,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 205610,
+   "name": "A Game of Thrones: Hand of the King",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 234769,
+   "name": "Game Off",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 176914,
+   "name": "Gateway: Uprising",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 273065,
+   "name": "Genius Square",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 393458,
+   "name": "Get the Ick",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 83195,
+   "name": "Ghost Blitz",
+   "year": 2010,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 428089,
+   "name": "Ghosts Can't Draw",
+   "year": 2024,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 128271,
+   "name": "Ginkgopolis",
+   "year": 2012,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 188,
+   "name": "Go",
+   "year": -2200,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 184346,
+   "name": "Go Nuts for Donuts",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 195205,
+   "name": "Goat Lords",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 379297,
+   "name": "Good Face Bad Face",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 330322,
+   "name": "Grab A Pig",
+   "year": 2003,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 14639,
+   "name": "Greenfingers",
+   "year": 1990,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 4143,
+   "name": "Guess Who?",
+   "year": 1979,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 312535,
+   "name": "Gullible",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 232224,
+   "name": "Gutterhead",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 227254,
+   "name": "Hafid's Grand Bazaar",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 98778,
+   "name": "Hanabi",
+   "year": 2010,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 272743,
+   "name": "Hanabi Deluxe II",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 158600,
+   "name": "Hanamikoji",
+   "year": 2013,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 282346,
+   "name": "Head Hackers",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 366013,
+   "name": "Heat: Pedal to the Metal",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 410291,
+   "name": "Heat: Heavy Rain",
+   "year": 2024,
+   "type": "expansion",
+   "nestedUnder": 366013
+  },
+  {
+   "bggId": 224272,
+   "name": "Hellapagos",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 347802,
+   "name": "Hellapagos: Big Box",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 311322,
+   "name": "Herd Mentality",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 396384,
+   "name": "Herd Mentality: Moosic & Moovies",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 8203,
+   "name": "Hey, That's My Fish!",
+   "year": 2003,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 220,
+   "name": "High Society",
+   "year": 1995,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2655,
+   "name": "Hive",
+   "year": 2001,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 343669,
+   "name": "Horrible Histories: The Board Game",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 312459,
+   "name": "How Am I Weird",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 302520,
+   "name": "Hues and Cues",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 5895,
+   "name": "Hungry Hungry Hippos",
+   "year": 1978,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 255674,
+   "name": "Imhotep: The Duel",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 340980,
+   "name": "ImmunoWars: The Most Infectious Boardgame",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 304285,
+   "name": "Infinity Gauntlet: A Love Letter Game",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 181797,
+   "name": "Inhabit the Earth",
+   "year": 2015,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 466,
+   "name": "Inkognito",
+   "year": 1988,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 206051,
+   "name": "Insider",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 281259,
+   "name": "The Isle of Cats",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 369258,
+   "name": "Isle of Skye: Big Box",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 154906,
+   "name": "Isle of Trains",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 410385,
+   "name": "It Takes Two to Mango",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 230667,
+   "name": "Itchy Feet: The Travel Game",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 54043,
+   "name": "Jaipur",
+   "year": 2009,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 28023,
+   "name": "Jamaica",
+   "year": 2007,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2452,
+   "name": "Jenga",
+   "year": 1983,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 171087,
+   "name": "Jenga Quake",
+   "year": 2013,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 253215,
+   "name": "Jetpack Joyride",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 287577,
+   "name": "Jibbergiggle",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 193621,
+   "name": "Joking Hazard",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1751,
+   "name": "Jumanji",
+   "year": 1995,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 8098,
+   "name": "Jungle Speed",
+   "year": 1997,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 15866,
+   "name": "Junior Articulate",
+   "year": 2006,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 327600,
+   "name": "Junior Colourbrain",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2448,
+   "name": "Kalah",
+   "year": 1940,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1648,
+   "name": "Kan-U-Go",
+   "year": 1934,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 367583,
+   "name": "Karen",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 172552,
+   "name": "Karmaka",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 6931,
+   "name": "Katamino",
+   "year": 1992,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 387515,
+   "name": "Kavango",
+   "year": 2024,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 3728,
+   "name": "Ker Plunk",
+   "year": 1967,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 283124,
+   "name": "Kids Against Maturity",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 391795,
+   "name": "Kinfire Delve: Vainglory's Grotto",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 172996,
+   "name": "The King Is Dead",
+   "year": 2015,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 70323,
+   "name": "King of Tokyo",
+   "year": 2011,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 127067,
+   "name": "King of Tokyo: Power Up!",
+   "year": 2012,
+   "type": "expansion",
+   "nestedUnder": 70323
+  },
+  {
+   "bggId": 204583,
+   "name": "Kingdomino",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 348072,
+   "name": "Kinoko",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 348096,
+   "name": "Kites",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 277458,
+   "name": "Kluster",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 408383,
+   "name": "Kluster Duo",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 260815,
+   "name": "kNOW!",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 242328,
+   "name": "Kontour",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 293309,
+   "name": "Kraken Attack!",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 266083,
+   "name": "L.L.A.M.A.",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1219,
+   "name": "Labyrinth",
+   "year": 1986,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 533,
+   "name": "Labyrinth: The Card Game",
+   "year": 2000,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 386937,
+   "name": "Lacuna",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 154553,
+   "name": "Last Letter",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 45,
+   "name": "Liar's Dice",
+   "year": 1800,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 943,
+   "name": "Ligretto",
+   "year": 1988,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 365305,
+   "name": "Like Herding Cats",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 382960,
+   "name": "Line-it",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 147194,
+   "name": "Linkee!",
+   "year": 2012,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 241266,
+   "name": "Little Town",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 335869,
+   "name": "A Little Wordy",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 268936,
+   "name": "Llamas Unleashed",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 64204,
+   "name": "The Logo Board Game",
+   "year": 2008,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 236191,
+   "name": "London (Second Edition)",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 823,
+   "name": "The Lord of the Rings",
+   "year": 2000,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 50,
+   "name": "Lost Cities",
+   "year": 1999,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 312484,
+   "name": "Lost Ruins of Arnak",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 5131,
+   "name": "Love it or Hate it",
+   "year": 1995,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 129622,
+   "name": "Love Letter",
+   "year": 2012,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 228,
+   "name": "Lunch Money",
+   "year": 1996,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 143884,
+   "name": "Machi Koro",
+   "year": 2012,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 143789,
+   "name": "Machi Koro: Harbor",
+   "year": 2012,
+   "type": "expansion",
+   "nestedUnder": 143884
+  },
+  {
+   "bggId": 340364,
+   "name": "Machi Koro 2",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 463,
+   "name": "Magic: The Gathering",
+   "year": 1993,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2093,
+   "name": "Mahjong",
+   "year": 1850,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 365727,
+   "name": "Make the Difference",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 268800,
+   "name": "Maki Staki",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 33024,
+   "name": "Mapominoes: Europe",
+   "year": 2007,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 29223,
+   "name": "Marrakech",
+   "year": 2007,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 139030,
+   "name": "Mascarade",
+   "year": 2013,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2392,
+   "name": "Mastermind",
+   "year": 1971,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 11634,
+   "name": "Mexican Train",
+   "year": 1994,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1452,
+   "name": "Mhing",
+   "year": 1982,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 7422,
+   "name": "Mid-Life Crisis",
+   "year": 1982,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 244992,
+   "name": "The Mind",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 378851,
+   "name": "The Mind: Soulmates",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 229537,
+   "name": "Mind the Gap",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1923,
+   "name": "MindTrap",
+   "year": 1991,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 31075,
+   "name": "Ming Dynasty",
+   "year": 2007,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 43400,
+   "name": "MOBopoly",
+   "year": 2009,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 118,
+   "name": "Modern Art",
+   "year": 1992,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1406,
+   "name": "Monopoly",
+   "year": 1935,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 327797,
+   "name": "Monopoly Bid",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 41186,
+   "name": "Monopoly City",
+   "year": 2009,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 40398,
+   "name": "Monopoly Deal Card Game",
+   "year": 2008,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1420,
+   "name": "Monopoly Express",
+   "year": 1991,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 265297,
+   "name": "Monopoly for Millennials",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 260942,
+   "name": "Monopoly: Fortnite",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 268948,
+   "name": "Monopoly: Friends – The TV Series",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 684,
+   "name": "Monopoly: The Card Game",
+   "year": 2000,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 282045,
+   "name": "Monopoly: Walking Dead",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 36345,
+   "name": "Monty Python Fluxx",
+   "year": 2008,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 122298,
+   "name": "Morels",
+   "year": 2012,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 134085,
+   "name": "Mozaa",
+   "year": 2012,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 344273,
+   "name": "The Muddles",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 286735,
+   "name": "Muffin Time",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1927,
+   "name": "Munchkin",
+   "year": 2001,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 112869,
+   "name": "Munchkin Apocalypse",
+   "year": 2012,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 33581,
+   "name": "Mwahahaha!",
+   "year": 2008,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 295486,
+   "name": "My City",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 249768,
+   "name": "My First Adventure: Finding the Dragon",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 202478,
+   "name": "My First Bananagrams",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 181304,
+   "name": "Mysterium",
+   "year": 2015,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 194607,
+   "name": "Mystic Vale",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 67695,
+   "name": "Nab-It!",
+   "year": 2010,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 353545,
+   "name": "Next Station: London",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 246345,
+   "name": "Ninja Rush",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 12942,
+   "name": "No Thanks!",
+   "year": 2004,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 365235,
+   "name": "Noggin",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 25554,
+   "name": "Notre Dame",
+   "year": 2007,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 15721,
+   "name": "N-Tropy",
+   "year": 2004,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 307450,
+   "name": "The Number",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 184525,
+   "name": "Obama Llama",
+   "year": 2015,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 266071,
+   "name": "Obama Llama 2",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 396621,
+   "name": "Obey the Clay",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 183840,
+   "name": "Oh My Goods!",
+   "year": 2015,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 266072,
+   "name": "OK Play Duel",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 289018,
+   "name": "On a Scale of One to T-Rex",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 204431,
+   "name": "One Night Ultimate Alien",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 201406,
+   "name": "OrganATTACK!",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 11105,
+   "name": "Orgy",
+   "year": 1986,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 172931,
+   "name": "Outfoxed!",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 315186,
+   "name": "Over-Rated",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 311330,
+   "name": "P for Pizza",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2136,
+   "name": "Pachisi",
+   "year": 400,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 154003,
+   "name": "Pagoda",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 60311,
+   "name": "Pairs in Pears",
+   "year": 2009,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 30549,
+   "name": "Pandemic",
+   "year": 2008,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 40849,
+   "name": "Pandemic: On the Brink",
+   "year": 2009,
+   "type": "expansion",
+   "nestedUnder": 30549
+  },
+  {
+   "bggId": 43530,
+   "name": "Party Alias",
+   "year": 2009,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 137,
+   "name": "Pass the Bomb",
+   "year": 1994,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2593,
+   "name": "Pass the Pigs",
+   "year": 1977,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 401177,
+   "name": "Passo",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 163412,
+   "name": "Patchwork",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 364430,
+   "name": "Pear Shaped",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 365216,
+   "name": "Pecking Order",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 12325,
+   "name": "Perpetual Commotion",
+   "year": 2003,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1258,
+   "name": "Phase 10",
+   "year": 1982,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 218603,
+   "name": "Photosynthesis",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 6424,
+   "name": "Pick Up Sticks",
+   "year": 1850,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2281,
+   "name": "Pictionary",
+   "year": 1985,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 76065,
+   "name": "Pictionary Card Game",
+   "year": 2009,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 67823,
+   "name": "Piou Piou",
+   "year": 2009,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 31159,
+   "name": "Piratatak",
+   "year": 2008,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 140,
+   "name": "Pit",
+   "year": 1903,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 252929,
+   "name": "Planet",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 365104,
+   "name": "Planted: A Game of Nature & Nurture",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 340858,
+   "name": "Platformer",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 312786,
+   "name": "Poetry for Neanderthals",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 310953,
+   "name": "Pokémon Trading Card Game: Battle Academy",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1115,
+   "name": "Poker",
+   "year": 1810,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 10502,
+   "name": "Poker Dice",
+   "year": null,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 256853,
+   "name": "The Pretender",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 257262,
+   "name": "Psycho Loco",
+   "year": null,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1419,
+   "name": "Pylos",
+   "year": 1993,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 368465,
+   "name": "Qawale",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 66088,
+   "name": "Q•bitz",
+   "year": 2009,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 139026,
+   "name": "Q•bitz Extreme",
+   "year": 2012,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 244521,
+   "name": "Quacks",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 354886,
+   "name": "Quacks & Co.: Quedlinburg Dash",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 286295,
+   "name": "Quantik",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 681,
+   "name": "Quarto",
+   "year": 1991,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 232043,
+   "name": "Queendomino",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 231559,
+   "name": "Quirk!",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 3190,
+   "name": "Quixo",
+   "year": 1995,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 624,
+   "name": "Quoridor",
+   "year": 1997,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 25669,
+   "name": "Qwirkle",
+   "year": 2006,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 208807,
+   "name": "Rainbow Rage",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 187205,
+   "name": "Randomise",
+   "year": 2015,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 349812,
+   "name": "Ransom Notes",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 6617,
+   "name": "Rapidough",
+   "year": 1994,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 133633,
+   "name": "RARRR!!",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 3837,
+   "name": "Rat-a-Tat Cat",
+   "year": 1995,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 46586,
+   "name": "Ratuki",
+   "year": 2009,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 190736,
+   "name": "Recto Verso",
+   "year": 2015,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 41114,
+   "name": "The Resistance",
+   "year": 2009,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 128882,
+   "name": "The Resistance: Avalon",
+   "year": 2012,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 366246,
+   "name": "Richard Osman's House of Games",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 220926,
+   "name": "Rick and Morty: Anatomy Park – The Game",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 181,
+   "name": "Risk",
+   "year": 1959,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 237182,
+   "name": "Root",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 614,
+   "name": "Rubik's Race",
+   "year": 1982,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 811,
+   "name": "Rummikub",
+   "year": 1950,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 9220,
+   "name": "Saboteur",
+   "year": 2004,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 266073,
+   "name": "Santa Banter",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2381,
+   "name": "Scattergories",
+   "year": 1988,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 438,
+   "name": "Scotland Yard",
+   "year": 1983,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 291453,
+   "name": "SCOUT",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 320,
+   "name": "Scrabble",
+   "year": 1948,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 31935,
+   "name": "Scrabble Express",
+   "year": 2007,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 202982,
+   "name": "Scrawl",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 169786,
+   "name": "Scythe",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 367220,
+   "name": "Sea Salt & Paper",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 396545,
+   "name": "Sea Salt & Paper: Extra Salt",
+   "year": 2023,
+   "type": "expansion",
+   "nestedUnder": 367220
+  },
+  {
+   "bggId": 406660,
+   "name": "Seaside",
+   "year": 2024,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 188834,
+   "name": "Secret Hitler",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 347112,
+   "name": "Secret Identity",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1198,
+   "name": "SET",
+   "year": 1988,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 402241,
+   "name": "Shape Invaders",
+   "year": 2024,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 298638,
+   "name": "Sheriff of Nottingham: 2nd Edition",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 458,
+   "name": "Sherlock Holmes: The Card Game",
+   "year": 1991,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2065,
+   "name": "Shogi",
+   "year": 1587,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 9851,
+   "name": "Shut the Box",
+   "year": 1750,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 278553,
+   "name": "Silver",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 351488,
+   "name": "Six Second Scribbles",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1269,
+   "name": "Skip-Bo",
+   "year": 1967,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 232595,
+   "name": "Skulk Hollow",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 92415,
+   "name": "Skull",
+   "year": 2011,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 373106,
+   "name": "Sky Team",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 204135,
+   "name": "Skyjo",
+   "year": 2015,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 3804,
+   "name": "Slamwich",
+   "year": 1994,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 17053,
+   "name": "Sleeping Queens",
+   "year": 2005,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 415836,
+   "name": "Slide",
+   "year": 2024,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 27389,
+   "name": "Smart Ass",
+   "year": 2006,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 113289,
+   "name": "Snake Oil",
+   "year": 2010,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 337389,
+   "name": "Snakesss",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 329839,
+   "name": "So Clover!",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 244320,
+   "name": "SOS Dino",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 411015,
+   "name": "Sosig",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 256982,
+   "name": "Soundiculous",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 359893,
+   "name": "Sounds Fishy",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 123096,
+   "name": "Space Cadets",
+   "year": 2012,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 10370,
+   "name": "Speedy Graffiti",
+   "year": 1991,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 6610,
+   "name": "Spinergy",
+   "year": 2000,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 162886,
+   "name": "Spirit Island",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 148228,
+   "name": "Splendor",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 364073,
+   "name": "Splendor Duel",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 63268,
+   "name": "Spot it!",
+   "year": 2009,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 372559,
+   "name": "Spots",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 193308,
+   "name": "Spyfall 2",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 245222,
+   "name": "Squadro",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 205359,
+   "name": "Star Wars: Destiny",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 251538,
+   "name": "Star Wars: Han Solo Card Game",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 164153,
+   "name": "Star Wars: Imperial Assault",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 409925,
+   "name": "Star Wars: Timeline Twist",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 103885,
+   "name": "Star Wars: X-Wing Miniatures Game",
+   "year": 2012,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 329845,
+   "name": "Stella: Dixit Universe",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 367771,
+   "name": "Stomp the Plank",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 258855,
+   "name": "Stupid Deaths",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 217097,
+   "name": "Sugar Cubes",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 17557,
+   "name": "Super Farmer",
+   "year": 1943,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 133473,
+   "name": "Sushi Go!",
+   "year": 2013,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 192291,
+   "name": "Sushi Go Party!",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 383692,
+   "name": "Suspicious Spuds",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 317311,
+   "name": "Switch & Signal",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1111,
+   "name": "Taboo",
+   "year": 1989,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 253664,
+   "name": "Taco Cat Goat Cheese Pizza",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 70919,
+   "name": "Takenoko",
+   "year": 2011,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 55833,
+   "name": "Tarantel Tango",
+   "year": 2009,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 118048,
+   "name": "Targi",
+   "year": 2012,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 46213,
+   "name": "Telestrations",
+   "year": 2009,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 167791,
+   "name": "Terraforming Mars",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 367601,
+   "name": "That Sound Game",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 4355,
+   "name": "Therapy",
+   "year": 1986,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 30364,
+   "name": "Those Pesky Garden Gnomes",
+   "year": 2012,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 182028,
+   "name": "Through the Ages: A New Story of Civilization",
+   "year": 2015,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 274533,
+   "name": "Throw Throw Burrito",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 14996,
+   "name": "Ticket to Ride: Europe",
+   "year": 2005,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 379290,
+   "name": "Timeline Twist",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 295192,
+   "name": "Tinderblox",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 163967,
+   "name": "Tiny Epic Galaxies",
+   "year": 2015,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 408527,
+   "name": "Top of the World",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 23552,
+   "name": "Totally Dingbats",
+   "year": 1990,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 216632,
+   "name": "Tournament at Camelot",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 403000,
+   "name": "Traitors Aboard",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 315184,
+   "name": "Trézors",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 282171,
+   "name": "Trial by Trolley",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 242325,
+   "name": "Tricks and the Phantom",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 4040,
+   "name": "Tri-Ominos",
+   "year": 1965,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2952,
+   "name": "Trivial Pursuit: Genus Edition",
+   "year": 1981,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 179280,
+   "name": "Trivial Pursuit: Harry Potter – Volume 1",
+   "year": 2014,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 268195,
+   "name": "Trivial Pursuit: Rick and Morty",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 16992,
+   "name": "Tsuro",
+   "year": 2005,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 365662,
+   "name": "Turn a Phrase",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 126163,
+   "name": "Tzolk'in: The Mayan Calendar",
+   "year": 2012,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 306735,
+   "name": "Under Falling Skies",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 381297,
+   "name": "Unmatched Adventures: Tales to Amaze",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 274637,
+   "name": "Unmatched: Battle of Legends, Volume One",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 294484,
+   "name": "Unmatched: Cobble & Fog",
+   "year": 2020,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 354544,
+   "name": "Unmatched: Houdini vs. The Genie",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 274638,
+   "name": "Unmatched: Robin Hood vs. Bigfoot",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 415945,
+   "name": "Unmatched: Slings and Arrows",
+   "year": 2024,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2223,
+   "name": "UNO",
+   "year": 1971,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 271460,
+   "name": "UNO Flip!",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 234190,
+   "name": "Unstable Unicorns",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 400711,
+   "name": "Up for Debate",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 14084,
+   "name": "Up-a-bit",
+   "year": 2004,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1515,
+   "name": "Upwords",
+   "year": 1982,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 92099,
+   "name": "Vampireology",
+   "year": 2010,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 257769,
+   "name": "Walking in Burano",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 9609,
+   "name": "War of the Ring",
+   "year": 2004,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1314,
+   "name": "Warhamster Rally",
+   "year": 2001,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 262543,
+   "name": "Wavelength",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 254419,
+   "name": "Weird Things Humans Search For",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 219215,
+   "name": "Werewords",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 226610,
+   "name": "What Do You Meme?",
+   "year": 2016,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 244592,
+   "name": "What Do You Meme?: Fresh Memes Expansion Pack #1",
+   "year": 2018,
+   "type": "expansion",
+   "nestedUnder": 226610
+  },
+  {
+   "bggId": 368167,
+   "name": "What The Actual Factual",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 367619,
+   "name": "Wheels vs Doors",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 395638,
+   "name": "Who Am I & What Am I Doing?",
+   "year": 2021,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 31217,
+   "name": "Whooops!",
+   "year": 1967,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 244654,
+   "name": "Wildlands",
+   "year": 2018,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 266192,
+   "name": "Wingspan",
+   "year": 2019,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 366161,
+   "name": "Wingspan Asia",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 300580,
+   "name": "Wingspan: Oceania Expansion",
+   "year": 2020,
+   "type": "expansion",
+   "nestedUnder": 366161
+  },
+  {
+   "bggId": 290448,
+   "name": "Wingspan: European Expansion",
+   "year": 2019,
+   "type": "expansion",
+   "nestedUnder": 366161
+  },
+  {
+   "bggId": 137095,
+   "name": "The Witches",
+   "year": 2013,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 20100,
+   "name": "Wits & Wagers",
+   "year": 2005,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 367033,
+   "name": "Wordle: The Party Game",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 156567,
+   "name": "Would I Lie to You?",
+   "year": 2011,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 410201,
+   "name": "Wyrmspan",
+   "year": 2024,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 2393,
+   "name": "Xiangqi",
+   "year": 762,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 224271,
+   "name": "Yogi",
+   "year": 2017,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 394272,
+   "name": "You are the President",
+   "year": 2022,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 17247,
+   "name": "You Be the Judge",
+   "year": 1995,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 397376,
+   "name": "You Can't Say \"Umm\"",
+   "year": 2023,
+   "type": "boardgame"
+  },
+  {
+   "bggId": 1117,
+   "name": "You're Bluffing!",
+   "year": 1985,
+   "type": "boardgame"
+  }
+ ]
+}
