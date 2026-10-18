@@ -1,0 +1,90 @@
+.pcard {
+  flex: none;
+  width: 200px;
+  height: 268px;
+  padding: 0;
+  border: 0;
+  background: none;
+  perspective: 900px;
+  scroll-snap-align: start;
+  text-align: left;
+}
+.pcard__inner {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+.pcard__face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border-radius: 16px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border: 2px solid var(--otter);
+  box-shadow: 0 6px 0 var(--otter);
+}
+.pcard__front {
+  background: #fffdf8;
+}
+.pcard__corner {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--display);
+  font-weight: 700;
+}
+.pcard__price {
+  font-size: 22px;
+}
+.pcard__name {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1.1;
+  margin-top: 4px;
+}
+.pcard__desc {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.4;
+}
+.pcard__hint {
+  margin-top: auto;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--pip);
+}
+.pcard__back {
+  transform: rotateY(180deg);
+  background: var(--die);
+  justify-content: center;
+}
+.pcard__back-k {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--otter);
+}
+.pcard__game {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.08;
+}
+.pcard__shelf {
+  font-size: 14px;
+  font-weight: 600;
+}
+.pcard__bigsuit {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  color: var(--otter);
+}

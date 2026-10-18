@@ -1,0 +1,54 @@
+.arch {
+  position: relative;
+  width: 100%;
+}
+.arch__img {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: var(--otter);
+}
+.arch__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.arch__svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: visible;
+}
+.bulb__core {
+  fill: #ffe6b3;
+}
+.bulb {
+  animation: bulb-twinkle 3.1s ease-in-out infinite;
+  transform-box: fill-box;
+}
+@keyframes bulb-twinkle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.72; }
+}
+.arch__svg.is-rumbling .arch__lights {
+  animation: festoon-shiver 1.8s ease-out;
+}
+.arch__svg.is-rumbling .bulb {
+  animation: bulb-twinkle 3.1s ease-in-out infinite, bulb-flare 0.9s ease-out;
+}
+@keyframes festoon-shiver {
+  0% { transform: translateY(0); }
+  12% { transform: translateY(2px); }
+  24% { transform: translateY(-1.5px); }
+  36% { transform: translateY(1.5px); }
+  52% { transform: translateY(-1px); }
+  70% { transform: translateY(0.6px); }
+  100% { transform: translateY(0); }
+}
+@keyframes bulb-flare {
+  0% { opacity: 1; }
+  35% { opacity: 0.35; }
+  100% { opacity: 1; }
+}

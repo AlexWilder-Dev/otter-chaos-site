@@ -1,59 +1,44 @@
-# Next.js Project
+# Otter Chaos: demo site
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+A speculative redesign of the website for [Otter Chaos](https://www.otterchaos.co.uk), Brixton's boardgame café and bar in two
+railway arches under Brixton station. Built to show the owners what their site could do; it is a front-end demo only.
 
-## Getting Started
+**Live:** https://alexwilder-dev.github.io/otter-chaos/
 
-First, run the development server:
+## What's in it
+
+- **Tonight**: open-now for the café and the kitchen (London time), what's on tonight or next, book, call, and the table fee.
+- **What's on**: a swipeable fortnight, today first, with every weekly night, the monthly Live Music Night and one-offs, each with
+  its real sign-up route (Meetup, Ticket Tailor or on the door). Past dates drop off by themselves.
+- **Games**: a picker (players, time, party / co-op / strategy) that pulls real titles from the Otter_Chaos BoardGameGeek collection,
+  and the library drawn as box spines on shelves.
+- **Menu**: the April 2026 food & drink menu transcribed in full, with the card-suit markers from the printed menu and pizzas that
+  flip to show the game they're named after.
+- **Book**: a mock booking flow that shows the table fee for your group before you type anything.
+- **Private hire**, **gift cards** (sold via DesignMyNight) and **Find us** (hours, transport, access, contact).
+
+Forms only show a confirmation state; nothing is sent anywhere.
+
+## Content
+
+Everything the site says lives in one file: [`src/data/otterChaos.ts`](src/data/otterChaos.ts) (contact, hours, table fee, menu,
+events, games, hire, gift cards). Research and sources are in [`research/notes.md`](research/notes.md).
+
+## Develop
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev        # http://localhost:5173/otter-chaos/
+npm run build      # type-check and build to dist/
+npm run images     # re-cut photos from research/img into public/img
+npm run og         # rebuild public/og.jpg (1200x630 link preview)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Stack: Vite, React, TypeScript, Framer Motion, React Router (HashRouter). Deployed to GitHub Pages under `/otter-chaos/` by
+`.github/workflows/deploy.yml` on pushes to `main`.
 
-You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
+Photos and logo belong to Otter Chaos. Headings use TeX Gyre Adventor (GUST Font License); body text uses Host Grotesk (SIL OFL).
 
-## Project Structure
+---
 
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── app/
-│   │   ├── layout.tsx
-│   │   └── page.tsx
-│   └── components/
-└── package.json
-```
-
-## Scripts
-
-| Command | Action |
-| :------ | :----- |
-| `npm run dev` | Starts the development server at `localhost:3000` |
-| `npm run build` | Builds the application for production |
-| `npm run start` | Runs the built application in production mode |
-| `npm run lint` | Runs the linter |
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Site by AlexWilder-Dev

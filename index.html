@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Otter Chaos · Brixton's Boardgame Café</title>
+    <meta name="description" content="Over 500 games in two railway arches under Brixton station. Sourdough pizzas named after games, cocktails, and D&amp;D, Clocktower and social nights every week. Book a table from £2 an hour (&gt;ᴗ•)" />
+    <meta name="theme-color" content="#fff8ef" />
+    <link rel="canonical" href="https://alexwilder-dev.github.io/otter-chaos/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Otter Chaos" />
+    <meta property="og:title" content="Otter Chaos · Brixton's Boardgame Café" />
+    <meta property="og:description" content="Over 500 games under Brixton station, pizzas named after games, and something on most nights of the week. Grab a table from £2 an hour (&gt;ᴗ•)" />
+    <meta property="og:url" content="https://alexwilder-dev.github.io/otter-chaos/" />
+    <meta property="og:image" content="https://alexwilder-dev.github.io/otter-chaos/og.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Inside Otter Chaos: a white railway arch strung with fairy lights, wooden booths and floor-to-ceiling shelves of board games, with the Otter Chaos otter logo." />
+    <meta property="og:locale" content="en_GB" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Otter Chaos · Brixton's Boardgame Café" />
+    <meta name="twitter:description" content="Over 500 games under Brixton station, pizzas named after games, and something on most nights of the week. Grab a table from £2 an hour (&gt;ᴗ•)" />
+    <meta name="twitter:image" content="https://alexwilder-dev.github.io/otter-chaos/og.jpg" />
+    <meta name="twitter:image:alt" content="Inside Otter Chaos: a white railway arch strung with fairy lights, wooden booths and floor-to-ceiling shelves of board games." />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="https://alexwilder-dev.github.io/otter-chaos/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="https://alexwilder-dev.github.io/otter-chaos/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://alexwilder-dev.github.io/otter-chaos/apple-touch-icon.png" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+    (() => {
+      try {
+        if (location.hash === '#me') localStorage.setItem('me', '1');
+        if (localStorage.getItem('me') || sessionStorage.getItem('pinged')) return;
+        sessionStorage.setItem('pinged', '1');
+      } catch (e) {}
+      const v = new URLSearchParams(location.search).get('v') || 'untagged';
+      fetch('https://ntfy.sh/YOUR-NTFY-TOPIC', {
+        method: 'POST', body: `${v} opened ${location.pathname}`, keepalive: true
+      }).catch(() => {});
+    })();
+    </script>
+  </body>
+</html>

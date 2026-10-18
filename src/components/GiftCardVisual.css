@@ -1,0 +1,91 @@
+.gcard {
+  width: min(250px, 70vw);
+  aspect-ratio: 5 / 7;
+  padding: 0;
+  border: 0;
+  background: none;
+  perspective: 1000px;
+  justify-self: center;
+}
+.gcard__inner {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+.gcard__face {
+  position: absolute;
+  inset: 0;
+  border-radius: 18px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 22px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+}
+.gcard__front {
+  background: var(--cream);
+  color: var(--ink);
+  border: 8px solid var(--chalk);
+  outline: 2px solid var(--otter);
+  outline-offset: -14px;
+}
+.gcard__otter {
+  width: 70%;
+}
+.gcard__name {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 24px;
+}
+.gcard__range {
+  font-weight: 700;
+  color: var(--pip);
+}
+.gcard__corner {
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  font-family: var(--display);
+  font-size: 14px;
+  line-height: 1;
+  gap: 2px;
+}
+.gcard__corner--tl {
+  top: 18px;
+  left: 18px;
+}
+.gcard__corner--br {
+  bottom: 18px;
+  right: 18px;
+  transform: rotate(180deg);
+}
+.gcard__back {
+  transform: rotateY(180deg);
+  background: var(--die);
+  color: var(--ink);
+  align-items: flex-start;
+}
+.gcard__back-title {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 22px;
+}
+.gcard__list {
+  display: grid;
+  gap: 8px;
+  font-weight: 600;
+}
+.gcard__list span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.gcard__list svg {
+  color: var(--otter);
+}
