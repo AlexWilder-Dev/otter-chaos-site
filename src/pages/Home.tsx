@@ -55,7 +55,7 @@ function Tonight() {
         <div>
           <p className="tonight__open">{cafe.open ? 'We’re open!' : 'Closed right now'}</p>
           <p className="tonight__sub">
-            {cafe.open ? `Till ${fmtMin(cafe.until!)}` : cafeText.replace('Closed · ', '')} · {kitchenText}
+            {cafe.open ? `Till ${fmtMin(cafe.until!)}` : cafeText.replace('Closed · ', '').replace(/^./, (c) => c.toUpperCase())} · {kitchenText}
           </p>
         </div>
       </div>
