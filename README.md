@@ -34,8 +34,9 @@ npm run images     # re-cut photos from research/img into public/img
 npm run og         # rebuild public/og.jpg (1200x630 link preview)
 ```
 
-Stack: Vite, React, TypeScript, Framer Motion, React Router (HashRouter). Deployed to GitHub Pages under `/otter-chaos/` by
-`.github/workflows/deploy.yml` on pushes to `main`.
+Stack: Vite, React, TypeScript, Framer Motion, React Router (HashRouter). Deployed to GitHub Pages by
+`.github/workflows/deploy.yml` on pushes to `main`. Asset paths are relative, so the build works from any Pages path; the
+link-preview tags in `index.html` point at `https://alexwilder-dev.github.io/otter-chaos/`.
 
 Photos and logo belong to Otter Chaos. Headings use TeX Gyre Adventor (GUST Font License); body text uses Host Grotesk (SIL OFL).
 
