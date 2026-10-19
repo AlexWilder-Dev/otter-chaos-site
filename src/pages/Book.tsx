@@ -8,6 +8,8 @@ import { money, tableFee } from '../lib/fees';
 import { DieFace } from '../components/DieFace';
 import { Photo } from '../components/Photo';
 import { PhoneIcon } from '../components/Icons';
+import { ChessStrip } from '../components/ChessStrip';
+import { useChaos } from '../components/Chaos';
 import './Book.css';
 
 function Stepper({ label, sub, value, min, max, onChange, die }: { label: string; sub: string; value: number; min: number; max: number; onChange: (n: number) => void; die?: boolean }) {
@@ -70,6 +72,7 @@ export function Book() {
   const [hours, setHours] = useState(3);
   const [sent, setSent] = useState(false);
   const [form, setForm] = useState({ name: '', email: '', phone: '', notes: '' });
+  const { chaos } = useChaos();
 
   const chosenTime = time !== null && slots.includes(time) ? time : null;
   const events = eventsOn(date);
@@ -87,7 +90,10 @@ export function Book() {
 
   function submit(e: FormEvent) {
     e.preventDefault();
-    if (canSend) setSent(true);
+    if (!canSend) return;
+    setSent(true);
+    window.scrollTo({ top: 0 });
+    chaos();
   }
 
   if (sent && chosenTime !== null) {
@@ -96,8 +102,8 @@ export function Book() {
         <div className="wrap">
           <motion.div className="booked" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}>
             <DieFace n={6} size={64} />
-            <p className="kicker">Request received</p>
-            <h1>See you {date === now.key ? 'later' : dateLong(date)}, {form.name.split(' ')[0]}.</h1>
+            <p className="kicker kicker--pink">Checkmate! Well, nearly</p>
+            <h1>See you {date === now.key ? 'later' : dateLong(date)}, {form.name.split(' ')[0]}!</h1>
             <dl className="booked__summary">
               <div>
                 <dt>When</dt>
@@ -138,10 +144,14 @@ export function Book() {
       <div className="wrap book__grid">
         <div className="book__main">
           <header className="page-head">
-            <p className="kicker">Book a table</p>
-            <h1>Grab a table under the arches.</h1>
+            <p className="kicker kicker--blue">Book a table</p>
+            <h1>Make your move.</h1>
             <p>{BOOKING_COPY.always}</p>
           </header>
+
+          <div className="book__chess">
+            <ChessStrip />
+          </div>
 
           <p className="book__rates">
             <strong>Table fee per person:</strong> adults {money(TABLE_FEE.adult.perHour)}/hour or {money(TABLE_FEE.adult.threeHours)} for 3 hours,
@@ -150,13 +160,17 @@ export function Book() {
 
           <form onSubmit={submit} className="book__form" noValidate>
             <fieldset className="book__set">
-              <legend>How many of you?</legend>
+              <legend>
+                <span className="move">1</span> How many of you?
+              </legend>
               <Stepper label="Adults" sub="16 and over" value={adults} min={1} max={20} onChange={setAdults} die />
               <Stepper label="Children" sub="Under 16" value={kids} min={0} max={12} onChange={setKids} />
             </fieldset>
 
             <fieldset className="book__set">
-              <legend>Which day?</legend>
+              <legend>
+                <span className="move">2</span> Which day?
+              </legend>
               <div className="dates" role="radiogroup" aria-label="Date">
                 {days.map((d, i) => {
                   const ev = eventsOn(d);
@@ -197,7 +211,9 @@ export function Book() {
             </fieldset>
 
             <fieldset className="book__set">
-              <legend>What time?</legend>
+              <legend>
+                <span className="move">3</span> What time?
+              </legend>
               <div className="slots" role="radiogroup" aria-label="Arrival time">
                 {slots.map((m) => (
                   <button type="button" role="radio" aria-checked={m === chosenTime} key={m} className={`chip ${m === chosenTime ? 'is-on' : ''}`} aria-pressed={m === chosenTime} onClick={() => setTime(m)}>
@@ -209,7 +225,9 @@ export function Book() {
             </fieldset>
 
             <fieldset className="book__set">
-              <legend>How long are you staying?</legend>
+              <legend>
+                <span className="move">4</span> How long are you staying?
+              </legend>
               <div className="hours">
                 {[1, 2, 3].map((n) => (
                   <button type="button" key={n} className={`hour ${n === stay ? 'is-on' : ''}`} aria-pressed={n === stay} disabled={n > maxHours} onClick={() => setHours(n)}>
@@ -224,7 +242,9 @@ export function Book() {
             </fieldset>
 
             <fieldset className="book__set">
-              <legend>Your details</legend>
+              <legend>
+                <span className="move">5</span> Who’s booking?
+              </legend>
               <div className="book__fields">
                 <div className="field">
                   <label htmlFor="b-name">Name</label>
@@ -256,7 +276,7 @@ export function Book() {
 
             <div className="book__submit">
               <button className="btn btn--die btn--block" type="submit" disabled={!canSend}>
-                {chosenTime === null ? 'Pick a time to book' : `Request ${fmtMin(chosenTime)}, ${dateShort(date)}`}
+                {chosenTime === null ? 'Pick a time first' : `Make your move: ${fmtMin(chosenTime)}, ${dateShort(date)}`}
               </button>
               <p className="note">{BOOKING_COPY.confirm}</p>
               <p className="note">

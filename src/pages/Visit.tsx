@@ -3,6 +3,7 @@ import { useOpenStatus } from '../components/StatusPill';
 import { Photo } from '../components/Photo';
 import { ArchFrame } from '../components/ArchFrame';
 import { MailIcon, PhoneIcon, PinIcon } from '../components/Icons';
+import { ABoard } from '../components/ABoard';
 import './Visit.css';
 
 const ROWS_FOR_DAY = [2, 0, 0, 0, 0, 1, 2]; // Sun..Sat -> HOURS_TABLE row
@@ -15,7 +16,7 @@ export function Visit() {
     <div className="page visit">
       <div className="wrap">
         <header className="page-head">
-          <p className="kicker">Find us</p>
+          <p className="kicker kicker--sky">Find us</p>
           <h1>Arch 22, under Brixton station.</h1>
           <p>{GETTING_HERE.line}</p>
         </header>
@@ -69,6 +70,9 @@ export function Visit() {
             </p>
           </div>
           <div className="visit__photo">
+            <div className="visit__aboard">
+              <ABoard />
+            </div>
             <ArchFrame ratio={1.6} lights={false}>
               <Photo
                 k="outside-day"

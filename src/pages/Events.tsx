@@ -73,8 +73,8 @@ export function Events() {
     <div className="page events">
       <div className="wrap">
         <header className="page-head">
-          <p className="kicker">What’s on</p>
-          <h1>Something on most nights. Every one of them, here.</h1>
+          <p className="kicker kicker--blue">What’s on</p>
+          <h1>Pick your quest.</h1>
           <p>
             {ABOUT.cheeky} (&gt;ᴗ•) {EVENTS_COPY.intro}
           </p>
@@ -83,10 +83,11 @@ export function Events() {
 
       <section className="wall section events__week" aria-labelledby="ew">
         <div className="wrap">
+          <p className="kicker">The next two weeks</p>
           <h2 id="ew" className="section-title">
-            The next two weeks
+            Dealt out, today first.
           </h2>
-          <p className="section-lede">Today first. Swipe along for the fortnight.</p>
+          <p className="section-lede">Swipe through the fortnight. Something on most nights.</p>
           <div style={{ marginTop: 18 }}>
             <WeekStrip />
           </div>
@@ -96,9 +97,9 @@ export function Events() {
       {oneOffs.length > 0 && (
         <section className="section" aria-labelledby="oneoffs">
           <div className="wrap">
-            <p className="kicker">One-offs</p>
+            <p className="kicker kicker--pink">One-offs</p>
             <h2 id="oneoffs" className="section-title">
-              Don’t miss these
+              Don’t miss these!
             </h2>
             <div className="egrid egrid--oneoff">
               {oneOffs.map((e, i) => (
@@ -116,7 +117,7 @@ export function Events() {
 
       <section className="section" aria-labelledby="weekly">
         <div className="wrap">
-          <p className="kicker">Every week</p>
+          <p className="kicker kicker--sky">Every week</p>
           <h2 id="weekly" className="section-title">
             The regulars
           </h2>
@@ -131,7 +132,7 @@ export function Events() {
       {MONTHLY_EVENTS.length > 0 && (
         <section className="section events__monthly" aria-labelledby="monthly">
           <div className="wrap">
-            <p className="kicker">Every month</p>
+            <p className="kicker kicker--pink">Every month</p>
             <h2 id="monthly" className="section-title">
               Last Sunday of the month
             </h2>
@@ -147,7 +148,7 @@ export function Events() {
       <section className="section" aria-labelledby="yours">
         <div className="wrap events__yours">
           <h2 id="yours" className="section-title">
-            Want to run a night here?
+            Got a quest of your own?
           </h2>
           <p className="section-lede">
             Clubs, leagues, launches and tournaments: two arches, a kitchen, a bar and 500-odd games.

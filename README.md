@@ -7,14 +7,15 @@ railway arches under Brixton station. Built to show the owners what their site c
 
 ## What's in it
 
-- **Tonight**: open-now for the café and the kitchen (London time), what's on tonight or next, book, call, and the table fee.
+- **Tonight**: their window sticker with a bobbing otter (tap it to roll its die; tap it three times for chaos), open-now for the
+  café and the kitchen (London time), what's on tonight or next, book, call, and the table fee.
 - **What's on**: a swipeable fortnight, today first, with every weekly night, the monthly Live Music Night and one-offs, each with
   its real sign-up route (Meetup, Ticket Tailor or on the door). Past dates drop off by themselves.
 - **Games**: a picker (players, time, party / co-op / strategy) that pulls real titles from the Otter_Chaos BoardGameGeek collection,
   and the library drawn as box spines on shelves.
-- **Menu**: the April 2026 food & drink menu transcribed in full, with the card-suit markers from the printed menu and pizzas that
-  flip to show the game they're named after.
-- **Book**: a mock booking flow that shows the table fee for your group before you type anything.
+- **Menu**: the April 2026 food & drink menu transcribed in full, headed in Scrabble tiles, with the card-suit markers from the
+  printed menu and pizzas that flip to show the game they're named after.
+- **Book**: a chess-themed mock booking flow ("Make your move") that shows the table fee for your group before you type anything.
 - **Private hire**, **gift cards** (sold via DesignMyNight) and **Find us** (hours, transport, access, contact).
 
 Forms only show a confirmation state; nothing is sent anywhere.
@@ -38,7 +39,8 @@ Stack: Vite, React, TypeScript, Framer Motion, React Router (HashRouter). Deploy
 `.github/workflows/deploy.yml` on pushes to `main`. Asset paths are relative, so the build works from any Pages path; the
 link-preview tags in `index.html` point at `https://alexwilder-dev.github.io/otter-chaos/`.
 
-Photos and logo belong to Otter Chaos. Headings use TeX Gyre Adventor (GUST Font License); body text uses Host Grotesk (SIL OFL).
+Photos and logo belong to Otter Chaos. Headings use Fredoka and body text uses Host Grotesk (both SIL OFL); `scripts/fonts`
+holds a static Fredoka cut so `npm run og` can letter the preview image.
 
 ---
 

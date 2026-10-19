@@ -14,6 +14,11 @@ import {
 } from '../lib/time';
 import { img } from '../lib/img';
 import { EventArt } from './EventArt';
+import { Suit } from './Suit';
+
+const SUITS = ['heart', 'spade', 'diamond', 'club'] as const;
+// dealt by hand, so never quite straight
+const TILTS = [-1.6, 1.2, -0.6, 1.8, -1.2, 0.8];
 import { SignupButtons } from './SignupButtons';
 import './WeekStrip.css';
 
@@ -34,7 +39,7 @@ function Occ({ o, status }: { o: Occurrence; status: ReturnType<typeof occurrenc
         </p>
         <h3 className="occ__name">{e.name}</h3>
         {e.kind === 'one-off' && e.presentedBy && <p className="occ__by">{e.presentedBy}</p>}
-        {status !== 'earlier' && <SignupButtons event={e} tone="dark" />}
+        {status !== 'earlier' && <SignupButtons event={e} />}
       </div>
     </div>
   );
@@ -92,10 +97,15 @@ export function WeekStrip({ days = 14 }: { days?: number }) {
             <motion.li
               key={d.key}
               className={`day ${i === 0 ? 'is-today' : ''}`}
-              initial={{ opacity: 0, x: 24 }}
-              animate={{ opacity: 1, x: 0 }}
+              style={{ rotate: `${TILTS[i % TILTS.length]}deg` }}
+              initial={{ opacity: 0, x: 60, y: -20 }}
+              animate={{ opacity: 1, x: 0, y: 0 }}
               transition={{ delay: Math.min(i, 5) * 0.06, duration: 0.4 }}
             >
+              <span className="day__corner" aria-hidden="true">
+                <b>{Number(d.key.slice(8))}</b>
+                <Suit kind={SUITS[i % 4]} size={14} />
+              </span>
               <header className="day__head">
                 <p className="day__rel">{i === 0 ? (now.min >= 17 * 60 ? 'Tonight' : 'Today') : relativeDay(d.key, now.key)}</p>
                 <p className="day__date">{dateShort(d.key)}</p>
@@ -107,7 +117,7 @@ export function WeekStrip({ days = 14 }: { days?: number }) {
                 <div className="day__free">
                   <p className="day__free-title">No event on.</p>
                   <p>Just you, your mates and 500-odd games from {fmtMin(open)}.</p>
-                  <Link className="btn btn--chalk btn--small" to={`/book?date=${d.key}`}>
+                  <Link className="btn btn--yellow btn--small" to={`/book?date=${d.key}`}>
                     Book a table
                   </Link>
                 </div>

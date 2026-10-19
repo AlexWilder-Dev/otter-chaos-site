@@ -4,6 +4,7 @@ import { AnimatePresence, LayoutGroup, motion } from 'framer-motion';
 import { ABOUT, CONTACT, GAMES, REVIEWS, TABLE_FEE, TIERS, type Game, type GameTier } from '../data/otterChaos';
 import { money, tableFee } from '../lib/fees';
 import { DieFace } from '../components/DieFace';
+import { RollForAGame } from '../components/RollForAGame';
 import { Photo } from '../components/Photo';
 import { ArrowIcon, ExternalIcon } from '../components/Icons';
 import './Games.css';
@@ -271,14 +272,18 @@ export function Games() {
     <div className="page games">
       <div className="wrap">
         <header className="page-head games__head">
-          <p className="kicker">Games library</p>
-          <h1>500+ games. We’ll help you pick.</h1>
+          <p className="kicker kicker--pink">Games library</p>
+          <h1>500+ games. Roll for one!</h1>
           <p>{ABOUT.lines[1]}</p>
         </header>
+        <div className="games__roll">
+          <RollForAGame />
+        </div>
       </div>
 
       <section className="section games__picker" aria-labelledby="pick-title">
         <div className="wrap">
+          <p className="kicker">Or let us pick</p>
           <h2 id="pick-title" className="section-title">
             Find tonight’s game
           </h2>
@@ -335,13 +340,13 @@ export function Games() {
             <h2 id="staff-title" className="section-title">
               Not sure? Ask whoever’s behind the bar.
             </h2>
-            <figure className="quote">
+            <figure className="quote pop">
               <blockquote>“{REVIEWS[0].text}”</blockquote>
               <figcaption>
                 {REVIEWS[0].source}, {REVIEWS[0].date}
               </figcaption>
             </figure>
-            <figure className="quote">
+            <figure className="quote pop">
               <blockquote>“{REVIEWS[1].text}”</blockquote>
               <figcaption>
                 {REVIEWS[1].source}, {REVIEWS[1].date}

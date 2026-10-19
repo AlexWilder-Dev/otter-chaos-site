@@ -1,0 +1,16 @@
+.chaos {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 90;
+  overflow: hidden;
+}
+.chaos__bit {
+  position: absolute;
+  margin: -18px 0 0 -18px;
+  will-change: transform;
+}
+.chaos__bit svg {
+  display: block;
+  filter: drop-shadow(0 3px 0 rgba(48, 39, 28, 0.25));
+}

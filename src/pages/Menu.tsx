@@ -25,6 +25,7 @@ import {
 import { menuPrice, money } from '../lib/fees';
 import { Suit, SUIT_CHAR } from '../components/Suit';
 import { Photo } from '../components/Photo';
+import { ScrabbleWord } from '../components/ScrabbleWord';
 import { useOpenStatus } from '../components/StatusPill';
 import './Menu.css';
 
@@ -184,8 +185,9 @@ export function Menu() {
     <div className="page menu">
       <div className="wrap">
         <header className="page-head menu__head">
-          <p className="kicker">Food &amp; drink</p>
-          <h1>Pizza in one hand, dice in the other.</h1>
+          <p className="kicker kicker--pink">Food &amp; drink · tap the tiles</p>
+          <ScrabbleWord word="Menu" as="h1" size="lg" />
+          <p className="menu__lead">Pizza in one hand, dice in the other.</p>
           <p>
             Handmade sourdough pizzas with vegan options and gluten-free bases on request, and a wide range of soft and alcoholic drinks,
             including a wide range of cocktails.
@@ -208,7 +210,7 @@ export function Menu() {
         <div className="menu__main">
           <section id="pizza" className="msec">
             <div className="msec__head">
-              <h2>Pizza</h2>
+              <ScrabbleWord word="Pizza" />
               <div className="mfilter" role="group" aria-label="Filter food">
                 {(
                   [
@@ -241,7 +243,7 @@ export function Menu() {
               if (!items.length) return null;
               return (
                 <div key={sec.title} className="msub">
-                  <h2>{sec.title}</h2>
+                  <ScrabbleWord word={sec.title} size="sm" />
                   <Rows items={items} />
                 </div>
               );
@@ -258,7 +260,7 @@ export function Menu() {
           </figure>
 
           <section id="cocktails" className="msec">
-            <h2>Cocktails</h2>
+            <ScrabbleWord word="Cocktails" size="sm" />
             <div className="deal-banner">
               <p>
                 One for <strong>{money(COCKTAIL_DEAL.one)}</strong>
@@ -278,12 +280,13 @@ export function Menu() {
           </section>
 
           <section id="mocktails" className="msec">
-            <h2>Mocktails</h2>
+            <ScrabbleWord word="Mocktails" size="sm" />
             <Rows items={MOCKTAILS} />
           </section>
 
           <section id="beer" className="msec">
-            <h2>Craft beer &amp; cider</h2>
+            <ScrabbleWord word="Beer" size="sm" />
+            <p className="msec__name">Craft beer &amp; cider</p>
             <h3 className="msec__sub">Draught</h3>
             <PourTable sizes={DRAUGHT.sizes} items={DRAUGHT.items} />
             <div className="cans">
@@ -295,7 +298,7 @@ export function Menu() {
           </section>
 
           <section id="wine" className="msec">
-            <h2>Wine</h2>
+            <ScrabbleWord word="Wine" size="sm" />
             <p className="suits-key">
               <span>
                 <Suit kind="club" size={14} /> white
@@ -320,7 +323,7 @@ export function Menu() {
           </section>
 
           <section id="mead" className="msec">
-            <h2>Mead</h2>
+            <ScrabbleWord word="Mead" size="sm" />
             <p className="msec__intro">{MEAD.intro}</p>
             <table className="pours">
               <thead>
@@ -355,7 +358,7 @@ export function Menu() {
               </tbody>
             </table>
             <div className="msub">
-              <h2>Spirits</h2>
+              <ScrabbleWord word="Spirits" size="sm" />
               <p className="note">Single / Double</p>
               <Rows items={SPIRITS} />
             </div>
@@ -363,11 +366,13 @@ export function Menu() {
 
           <section id="hot" className="msec msec--two">
             <div>
-              <h2>Hot drinks</h2>
+              <ScrabbleWord word="Hot" size="sm" />
+              <p className="msec__name">Hot drinks</p>
               <Rows items={HOT_DRINKS} />
             </div>
             <div>
-              <h2>Soft drinks</h2>
+              <ScrabbleWord word="Soft" size="sm" />
+              <p className="msec__name">Soft drinks</p>
               <Rows items={SOFT_DRINKS} />
             </div>
           </section>

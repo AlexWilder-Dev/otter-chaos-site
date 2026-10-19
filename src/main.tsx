@@ -1,6 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import '@fontsource-variable/host-grotesk';
+import '@fontsource-variable/fredoka';
 import './styles/global.css';
 import { App } from './App';
 

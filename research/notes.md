@@ -153,21 +153,32 @@ Left out or flagged:
 
 ## Design reasoning
 
-- **Palette** is the logo, then the room: cream #FFF8EF and ink #30271C from their CSS; otter browns; the die’s orange for every
-  primary action (it’s the one thing the otter is holding); bottle green from the wall for the “what’s on” board, like their
-  chalkboard; birch-ply tones for shelves; brick red only on the arch frames.
-- **Type**: Host Grotesk for body, as on their site. Headings use **TeX Gyre Adventor**, a freely licensed cut of the same Avant
-  Garde Gothic design as their Clemente PD wordmark and shop sign. Clemente PD is “All rights reserved” with restricted embedding,
-  so it isn’t redistributed in this repo; it can be swapped in at handover if their licence covers web use.
-- **Layout** comes from the arches: photos sit inside a brick railway-arch frame with a festoon of fairy lights that shiver every
-  so often as if a train has gone over. Shelves become the games library (box spines on birch shelves). The menu’s card suits mark
-  drinks and sections, and the gift card is drawn as a playing card.
-- **Phone first**: the first screen answers open-now (café and kitchen separately), what’s on tonight (or what’s next), how to
-  book, and what the table fee is. A bottom bar keeps Book one thumb away.
-- **Signature interactions**: (1) a swipeable fortnight strip, today first, every night with its event, price and real sign-up
-  route, honest about quiet nights; (2) a game picker (players on the logo’s die, time, party / co-op / strategy) that pulls real
-  boxes from their BGG collection and ends at “Book a table for N” with the fee worked out. Pizza cards flip to show the game each
-  one is named after.
+Second pass: the first version was tasteful but too quiet for a place that is about fun, food and friendship. Round two takes
+its cue from that line and from the earlier Otter Chaos site in this repo's history (July 2025), which themed
+every page as a different game: Scrabble tiles spelling MENU, a chessboard behind booking ("Make your move"), "Upcoming Quests" for
+events, meeples floating round the home page, a floating logo, and a click burst.
+
+- **Palette** from their **window sticker** on Atlantic Road: hot pink, lemon yellow and royal blue bands with the otter bursting
+  out of them (photographed in cafe-web-1-6 and IMG_0565). Under that, the logo browns and the die's orange for "Book", the
+  bottle-green wall as the card-table felt for what's on, cream from their site CSS.
+- **Type**: Fredoka (OFL) for headings, the closest free match to the chunky rounded white lettering on the sticker; Host Grotesk
+  (their site's body font) for reading. The Avant Garde-style face from round one was dropped.
+- **Shapes**: everything is a game piece you can press: chunky ink outlines, hard drop shadows, buttons that squash when tapped,
+  things slapped on at an angle like stickers. Photos still sit in the brick railway-arch frame with fairy lights.
+- **One game per page**, carried over from the old site: Scrabble tiles with real letter values for every menu heading (PIZZA
+  scores 25; tap to jumble), a chess strip whose pieces keep moving on the booking page with numbered moves and a "Make your
+  move" button, quests on the events page with the fortnight dealt out as playing cards on the green felt, shelves of box spines
+  for the games library, bunting for parties.
+- **Toys**: the sticker otter bobs on the home page; tap it and it rolls the die it's holding and offers a table for that many
+  (with the table fee worked out); tap it three times and the screen erupts with meeples, dice, tiles, cards and pawns (Otter
+  *Chaos*). A die on the home and games pages rolls for a random real game off their shelves. Footer pieces can be flung;
+  booking and enquiry confirmations end in a burst. All motion stops for people who ask their phone for reduced motion.
+- **Their own copy kept front and centre**: the A-board line "Board Games + Beer On Tap + Pizza" scrolls as a ticker and is drawn
+  as the chalk A-board on "finding us"; "Bring your family, a couple of friends, or the whole gang"; "(>ᴗ•)".
+- **Phone first** still: the first screen answers open now, what's on tonight and how to book, with the table fee beside the
+  Book button and a Book button in the bottom bar.
+- **Signature interactions** kept from round one: the swipeable fortnight with real sign-up routes, and the game picker that
+  ends at "Book a table for N".
 
 ## What the owners most want this site to do
 

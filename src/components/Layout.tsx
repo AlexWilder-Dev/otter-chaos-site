@@ -5,6 +5,7 @@ import { CONTACT } from '../data/otterChaos';
 import { logo } from '../lib/img';
 import { StatusPill } from './StatusPill';
 import { Footer } from './Footer';
+import { useChaos } from './Chaos';
 import { ArchIcon, CalendarIcon, CloseIcon, GlassIcon, MenuIcon, PhoneIcon, ShelfIcon } from './Icons';
 import './Layout.css';
 
@@ -21,6 +22,11 @@ const MAIN_LINKS = [
 export function Layout() {
   const [open, setOpen] = useState(false);
   const { pathname } = useLocation();
+  const { burst } = useChaos();
+  const pop = (e: React.MouseEvent<HTMLElement>) => {
+    const r = e.currentTarget.getBoundingClientRect();
+    burst(r.left + r.width / 2, r.top, 8, 0.6);
+  };
 
   useEffect(() => {
     setOpen(false);
@@ -39,7 +45,7 @@ export function Layout() {
       <header className="hdr">
         <div className="hdr__in wrap">
           <Link to="/" className="hdr__brand" aria-label="Otter Chaos, home">
-            <img src={logo(96)} alt="" width="44" height="42" />
+            <img src={logo(96)} alt="" width="46" height="44" />
             <span className="hdr__name">Otter Chaos</span>
           </Link>
           <div className="hdr__status">
@@ -52,7 +58,7 @@ export function Layout() {
               </NavLink>
             ))}
           </nav>
-          <Link to="/book" className="btn btn--die btn--small hdr__book">
+          <Link to="/book" className="btn btn--die btn--small hdr__book" onClick={pop}>
             Book a table
           </Link>
           <button className="hdr__menu" aria-expanded={open} aria-controls="sheet" onClick={() => setOpen((o) => !o)}>
@@ -121,7 +127,7 @@ export function Layout() {
           <ShelfIcon />
           <span>Games</span>
         </NavLink>
-        <NavLink to="/book" className="bbar__book">
+        <NavLink to="/book" className="bbar__book" onClick={pop}>
           <span>Book</span>
         </NavLink>
       </nav>

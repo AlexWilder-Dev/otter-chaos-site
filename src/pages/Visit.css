@@ -5,14 +5,19 @@
 }
 .nowcard {
   padding: 16px;
-  border-radius: 18px;
-  background: var(--paper);
-  border: 1.5px solid var(--line);
+  border-radius: 20px;
+  background: #e9e1d6;
+  border: 2.5px solid var(--ink);
+  box-shadow: 0 5px 0 var(--ink);
 }
 .nowcard.is-open {
-  background: var(--wall);
-  color: var(--chalk);
-  border-color: var(--wall);
+  background: var(--sky);
+}
+.nowcard:nth-child(2) {
+  rotate: 1.2deg;
+}
+.nowcard:nth-child(1) {
+  rotate: -1deg;
 }
 .nowcard__k {
   font-size: 13px;
@@ -78,11 +83,24 @@
   color: var(--muted);
 }
 .visit__photo {
+  position: relative;
   max-width: 600px;
+}
+.visit__aboard {
+  position: absolute;
+  right: -10px;
+  bottom: -30px;
+  width: 120px;
+  z-index: 3;
+}
+.visit__aboard .aboard {
+  width: 100%;
 }
 
 .visit__how {
   background: var(--paper);
+  border-top: 3px solid var(--ink);
+  border-bottom: 3px solid var(--ink);
 }
 .visit__addr {
   display: flex;
@@ -122,9 +140,11 @@
 }
 .access li {
   padding: 10px 14px;
-  border-radius: 12px;
+  border-radius: 14px;
   background: #fffdf8;
-  border: 1px solid var(--line);
+  border: 2px solid var(--ink);
+  box-shadow: 0 3px 0 var(--ink);
+  font-family: var(--display);
   font-weight: 600;
 }
 
@@ -138,9 +158,21 @@
   align-items: center;
   gap: 14px;
   padding: 16px;
-  border-radius: 16px;
-  border: 1.5px solid var(--line-strong);
+  border-radius: 18px;
+  border: 2.5px solid var(--ink);
+  background: #fffdf8;
+  box-shadow: 0 4px 0 var(--ink);
   text-decoration: none;
+}
+.contact:nth-child(1) {
+  background: var(--yellow);
+}
+.contact:nth-child(3) {
+  background: var(--pink);
+  color: #fff;
+}
+.contact:nth-child(4) {
+  background: var(--sky);
 }
 .contact span {
   display: grid;

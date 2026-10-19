@@ -1,47 +1,38 @@
-@font-face {
-  font-family: 'Adventor';
-  src: url('../assets/fonts/adventor-bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Adventor';
-  src: url('../assets/fonts/adventor-regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
 :root {
-  /* from their site CSS + logo */
-  --cream: #fff8ef;
-  --paper: #f9eedd;
-  --ink: #30271c;
+  /* their window sticker */
+  --pink: #e4237e;
+  --pink-deep: #b8135f;
+  --yellow: #f7d93a;
+  --blue: #1f5fb4;
+  --sky: #a9d8f2;
+  /* the logo */
   --otter: #4e3b2f;
   --otter-mid: #835e4b;
   --die: #f18c45;
   --pip: #d05731;
-  /* from the arches */
+  /* their site + the arches */
+  --cream: #fff8ef;
+  --paper: #fbefdc;
+  --ink: #30271c;
   --wall: #0d4a3e;
   --wall-deep: #083a30;
   --chalk: #f6f0e4;
   --ply: #e8c792;
   --ply-edge: #c99a5b;
-  --vault: #f4efe6;
 
   --line: rgba(48, 39, 28, 0.14);
-  --line-strong: rgba(48, 39, 28, 0.28);
+  --line-strong: rgba(48, 39, 28, 0.3);
   --muted: #6b5a4b;
 
-  --display: 'Adventor', 'Avenir Next', 'Century Gothic', 'Futura', system-ui, sans-serif;
+  --display: 'Fredoka Variable', 'Fredoka', 'Baloo 2', 'Arial Rounded MT Bold', system-ui, sans-serif;
   --body: 'Host Grotesk Variable', 'Host Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
 
   --gutter: 16px;
-  --radius: 14px;
-  --header-h: 60px;
-  --bottombar-h: 68px;
+  --header-h: 62px;
+  --bottombar-h: 70px;
   --max: 1180px;
+  --pop: 0 5px 0 var(--ink);
+  --pop-lg: 0 7px 0 var(--ink);
 
   color-scheme: light;
 }
@@ -53,6 +44,7 @@
 }
 
 html {
+  overflow-x: clip;
   -webkit-text-size-adjust: 100%;
   scroll-padding-top: calc(var(--header-h) + 56px);
 }
@@ -66,7 +58,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 img {
@@ -91,9 +83,9 @@ button {
 }
 
 :focus-visible {
-  outline: 3px solid var(--die);
-  outline-offset: 2px;
-  border-radius: 6px;
+  outline: 3px solid var(--blue);
+  outline-offset: 3px;
+  border-radius: 8px;
 }
 
 h1,
@@ -102,7 +94,7 @@ h3,
 h4 {
   font-family: var(--display);
   font-weight: 700;
-  line-height: 1.05;
+  line-height: 1.02;
   letter-spacing: -0.01em;
   margin: 0;
   text-wrap: balance;
@@ -131,116 +123,190 @@ p {
   border: 0;
 }
 
-/* --- shared bits --------------------------------------------------- */
+/* --- labels ---------------------------------------------------------- */
 
+/* a little sticker, slapped on at an angle */
 .kicker {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   font-family: var(--display);
-  font-size: 13px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--otter-mid);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  padding: 4px 12px 3px;
+  border-radius: 999px;
+  background: var(--yellow);
+  color: var(--ink);
+  border: 2px solid var(--ink);
+  transform: rotate(-2deg);
+  width: fit-content;
 }
+.kicker--pink {
+  background: var(--pink);
+  color: #fff;
+}
+.kicker--blue {
+  background: var(--blue);
+  color: #fff;
+}
+.kicker--sky {
+  background: var(--sky);
+}
+
+.sticker {
+  display: inline-grid;
+  place-items: center;
+  text-align: center;
+  font-family: var(--display);
+  font-weight: 700;
+  line-height: 1;
+  border: 2.5px solid var(--ink);
+  box-shadow: 0 4px 0 var(--ink);
+  border-radius: 999px;
+}
+
+/* --- buttons: chunky, like a game piece you press -------------------- */
 
 .btn {
   --bg: var(--ink);
-  --fg: var(--cream);
+  --fg: #fff;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  min-height: 48px;
-  padding: 0 20px;
+  min-height: 50px;
+  padding: 0 22px;
   border-radius: 999px;
-  border: 2px solid var(--bg);
+  border: 2.5px solid var(--ink);
   background: var(--bg);
   color: var(--fg);
   font-family: var(--display);
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 17px;
   text-decoration: none;
   white-space: nowrap;
-  transition: transform 0.15s ease, background 0.15s ease;
+  box-shadow: var(--pop);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--pop-lg);
 }
 .btn:active {
-  transform: scale(0.97);
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 var(--ink);
 }
 .btn--die {
   --bg: var(--die);
   --fg: var(--ink);
 }
-.btn--die:hover {
-  --bg: #f59a58;
+.btn--pink {
+  --bg: var(--pink);
+  --fg: #fff;
+}
+.btn--blue {
+  --bg: var(--blue);
+  --fg: #fff;
+}
+.btn--yellow {
+  --bg: var(--yellow);
+  --fg: var(--ink);
 }
 .btn--ghost {
-  --bg: transparent;
+  --bg: #fffdf8;
   --fg: var(--ink);
-  border-color: var(--line-strong);
 }
 .btn--chalk {
   --bg: var(--chalk);
-  --fg: var(--wall-deep);
+  --fg: var(--ink);
 }
 .btn--small {
-  min-height: 38px;
-  padding: 0 14px;
-  font-size: 14px;
+  min-height: 40px;
+  padding: 0 15px;
+  font-size: 15px;
+  box-shadow: 0 3px 0 var(--ink);
+}
+.btn--small:hover {
+  box-shadow: 0 5px 0 var(--ink);
 }
 .btn--block {
   width: 100%;
+}
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
 }
 
 .chip {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  min-height: 40px;
-  padding: 0 14px;
+  min-height: 42px;
+  padding: 0 15px;
   border-radius: 999px;
-  border: 1.5px solid var(--line-strong);
-  background: transparent;
-  font-size: 15px;
+  border: 2px solid var(--ink);
+  background: #fffdf8;
+  font-family: var(--display);
   font-weight: 500;
+  font-size: 16px;
   white-space: nowrap;
+  box-shadow: 0 3px 0 var(--ink);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
 }
-.chip[aria-pressed='true'] {
-  background: var(--ink);
-  border-color: var(--ink);
-  color: var(--cream);
+.chip:active {
+  transform: translateY(3px);
+  box-shadow: 0 0 0 var(--ink);
+}
+.chip[aria-pressed='true'],
+.chip.is-on {
+  background: var(--pink);
+  color: #fff;
+}
+
+/* a card that pops off the table */
+.pop {
+  background: #fffdf8;
+  border: 2.5px solid var(--ink);
+  border-radius: 20px;
+  box-shadow: 0 6px 0 var(--ink);
 }
 
 .diet {
   display: inline-block;
+  font-family: var(--display);
   font-size: 12px;
   font-weight: 600;
-  letter-spacing: 0.02em;
-  color: var(--wall);
-  border: 1px solid currentColor;
+  color: #fff;
+  background: var(--wall);
   border-radius: 999px;
-  padding: 0 6px;
-  line-height: 18px;
+  padding: 0 7px;
+  line-height: 19px;
   vertical-align: 2px;
   margin-left: 6px;
 }
 
 .price {
   font-variant-numeric: tabular-nums;
-  font-weight: 600;
+  font-weight: 700;
 }
+
+/* --- page furniture ---------------------------------------------------- */
 
 .page {
   padding-bottom: 40px;
 }
 
 .page-head {
-  padding: 18px 0 14px;
+  padding: 22px 0 14px;
 }
 .page-head h1 {
-  font-size: clamp(34px, 9vw, 64px);
+  font-size: clamp(38px, 10vw, 72px);
+  margin-top: 12px;
 }
-.page-head p {
+.page-head > p:not(.kicker) {
   margin-top: 12px;
   max-width: 60ch;
   font-size: 17px;
@@ -248,26 +314,27 @@ p {
 }
 
 .section {
-  padding: 40px 0;
+  padding: 44px 0;
 }
 .section-title {
-  font-size: clamp(26px, 6.5vw, 40px);
-  margin-bottom: 8px;
+  font-size: clamp(30px, 7.5vw, 48px);
+  margin: 10px 0 8px;
 }
 .section-lede {
   color: var(--muted);
   max-width: 58ch;
+  font-size: 17px;
 }
 
+/* the bottle-green wall, doubling as a card-table felt */
 .wall {
-  background: var(--wall);
+  background:
+    radial-gradient(120% 80% at 50% 0%, rgba(255, 255, 255, 0.08), transparent 60%),
+    var(--wall);
   color: var(--chalk);
 }
-.wall .kicker {
-  color: var(--ply);
-}
 .wall .section-lede {
-  color: rgba(246, 240, 228, 0.78);
+  color: rgba(246, 240, 228, 0.82);
 }
 
 .note {
@@ -281,17 +348,18 @@ p {
 }
 .field label,
 .field .label {
+  font-family: var(--display);
   font-weight: 600;
-  font-size: 15px;
+  font-size: 16px;
 }
 .field input,
 .field select,
 .field textarea {
   width: 100%;
-  min-height: 48px;
+  min-height: 50px;
   padding: 10px 14px;
-  border-radius: 12px;
-  border: 1.5px solid var(--line-strong);
+  border-radius: 14px;
+  border: 2px solid var(--ink);
   background: #fffdf9;
   font-size: 16px;
 }
@@ -303,20 +371,30 @@ p {
 .field select:focus,
 .field textarea:focus {
   outline: none;
-  border-color: var(--die);
-  box-shadow: 0 0 0 3px rgba(241, 140, 69, 0.25);
+  box-shadow: 0 0 0 4px var(--yellow);
+}
+
+/* wiggle on demand */
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0); }
+  25% { transform: rotate(-6deg); }
+  75% { transform: rotate(6deg); }
+}
+@keyframes bob {
+  0%, 100% { transform: translateY(0) rotate(-2deg); }
+  50% { transform: translateY(-10px) rotate(2deg); }
 }
 
 @media (min-width: 900px) {
   :root {
     --gutter: 32px;
-    --header-h: 72px;
+    --header-h: 74px;
   }
   .page-head {
-    padding: 48px 0 28px;
+    padding: 44px 0 28px;
   }
   .section {
-    padding: 64px 0;
+    padding: 72px 0;
   }
 }
 

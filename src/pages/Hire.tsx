@@ -5,6 +5,8 @@ import { Photo } from '../components/Photo';
 import { ArchFrame } from '../components/ArchFrame';
 import { Suit } from '../components/Suit';
 import { MailIcon, PhoneIcon } from '../components/Icons';
+import { Bunting } from '../components/Bunting';
+import { useChaos } from '../components/Chaos';
 import './Hire.css';
 
 type Space = 'part' | 'whole' | 'unsure';
@@ -14,20 +16,24 @@ export function Hire() {
   const [space, setSpace] = useState<Space>('unsure');
   const [f, setF] = useState({ name: '', email: '', phone: '', company: '', date: '', guests: '', details: '' });
   const [sent, setSent] = useState(false);
+  const { chaos } = useChaos();
   const kindTitle = HIRE.kinds.find((k) => k.id === kind)?.title ?? '';
   const ok = f.name.trim() && f.email.includes('@');
 
   function submit(e: FormEvent) {
     e.preventDefault();
-    if (ok) setSent(true);
+    if (!ok) return;
+    setSent(true);
+    chaos();
   }
 
   return (
     <div className="page hire">
+      <Bunting />
       <div className="wrap">
         <header className="page-head">
-          <p className="kicker">Private hire &amp; corporate</p>
-          <h1>Two railway arches, from a birthday table to a full brand takeover.</h1>
+          <p className="kicker kicker--pink">Private hire &amp; corporate</p>
+          <h1>Bring the whole gang. Or the whole company.</h1>
           <p>{HIRE.pitch}</p>
         </header>
       </div>
@@ -101,7 +107,7 @@ export function Hire() {
       <section className="section" aria-labelledby="enquire">
         <div className="wrap enquire">
           <div className="enquire__intro">
-            <p className="kicker">Enquire</p>
+            <p className="kicker kicker--blue">Enquire</p>
             <h2 id="enquire" className="section-title">
               Tell us what you’ve got in mind.
             </h2>
@@ -119,7 +125,7 @@ export function Hire() {
           {sent ? (
             <motion.div className="enquire__done" initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }}>
               <Suit kind="heart" size={34} />
-              <h3>Thanks, {f.name.split(' ')[0]}. We’ll be in touch.</h3>
+              <h3>Party on, {f.name.split(' ')[0]}! We’ll be in touch.</h3>
               <p>
                 {kindTitle}
                 {f.date ? ` on ${new Date(f.date + 'T12:00:00').toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' })}` : ''}

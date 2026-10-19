@@ -1,4 +1,23 @@
+.menu {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Crect x='40' y='0' width='40' height='40' fill='%23e4237e' fill-opacity='.12'/%3E%3Crect x='160' y='80' width='40' height='40' fill='%231f5fb4' fill-opacity='.12'/%3E%3Crect x='0' y='160' width='40' height='40' fill='%23a9d8f2' fill-opacity='.35'/%3E%3Crect x='200' y='200' width='40' height='40' fill='%23f18c45' fill-opacity='.18'/%3E%3Cpath d='M0 .5H240M0 40.5H240M0 80.5H240M0 120.5H240M0 160.5H240M0 200.5H240M.5 0V240M40.5 0V240M80.5 0V240M120.5 0V240M160.5 0V240M200.5 0V240' stroke='%2330271c' stroke-opacity='.06'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+}
+.menu__lead {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 22px !important;
+  color: var(--ink) !important;
+  margin-top: 4px !important;
+}
+.msec__name {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--muted);
+  margin: -4px 0 6px;
+}
 .menu__kitchen {
+  font-family: var(--display);
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -25,7 +44,7 @@
   top: var(--header-h);
   z-index: 20;
   background: var(--cream);
-  border-bottom: 1px solid var(--line);
+  border-bottom: 3px solid var(--ink);
 }
 .mtabs__in {
   max-width: var(--max);
@@ -41,17 +60,20 @@
 }
 .mtabs button {
   flex: none;
-  border: 0;
+  border: 2px solid transparent;
   background: none;
-  padding: 8px 12px;
+  padding: 6px 13px;
   border-radius: 999px;
+  font-family: var(--display);
   font-weight: 600;
-  font-size: 15px;
+  font-size: 16px;
   color: var(--muted);
 }
 .mtabs button.is-active {
-  background: var(--ink);
-  color: var(--cream);
+  background: var(--pink);
+  border-color: var(--ink);
+  color: #fff;
+  box-shadow: 0 3px 0 var(--ink);
 }
 
 .menu__body {
@@ -92,9 +114,14 @@
   color: var(--muted);
 }
 .msec__sub {
-  font-size: 20px;
-  margin: 18px 0 6px;
-  color: var(--otter-mid);
+  display: inline-block;
+  font-size: 18px;
+  margin: 20px 0 6px;
+  padding: 3px 12px;
+  border-radius: 999px;
+  background: var(--blue);
+  color: #fff;
+  border: 2px solid var(--ink);
 }
 .msub + .msub {
   margin-top: 26px;
@@ -118,9 +145,9 @@
   gap: 8px;
 }
 .mrow__name {
-  font-family: var(--body);
-  font-weight: 700;
-  font-size: 17px;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 19px;
   letter-spacing: 0;
   line-height: 1.3;
 }
@@ -140,17 +167,18 @@
 }
 .namedafter {
   margin-top: 8px;
-  border: 0;
-  background: var(--paper);
+  border: 2px solid var(--ink);
+  font-family: var(--display);
+  background: var(--yellow);
   border-radius: 999px;
   padding: 6px 12px;
   font-size: 14px;
-  color: var(--pip);
+  color: var(--ink);
   font-weight: 600;
   perspective: 400px;
 }
 .namedafter strong {
-  color: var(--ink);
+  color: var(--pink);
 }
 .namedafter > span {
   display: inline-block;
@@ -167,6 +195,8 @@
 .mphoto {
   margin: 20px 0 0;
   border-radius: 999px 999px 18px 18px / 220px 220px 18px 18px;
+  border: 3px solid var(--ink);
+  box-shadow: 0 6px 0 var(--ink);
   overflow: hidden;
   aspect-ratio: 16 / 10;
 }
@@ -180,8 +210,12 @@
   display: grid;
   gap: 2px;
   padding: 16px 18px;
-  border-radius: 18px;
-  background: var(--die);
+  border-radius: 20px;
+  border: 2.5px solid var(--ink);
+  box-shadow: 0 5px 0 var(--ink);
+  transform: rotate(-1.5deg);
+  color: #fff;
+  background: var(--pink);
   font-family: var(--display);
   font-size: 22px;
   line-height: 1.2;
@@ -198,8 +232,21 @@
   grid-template-columns: 1fr 1fr;
   gap: 16px 18px;
 }
+.cocktails li {
+  padding: 10px 12px;
+  background: #fffdf8;
+  border: 2px solid var(--ink);
+  border-radius: 14px;
+  box-shadow: 0 3px 0 var(--ink);
+}
+.cocktails li:nth-child(4n + 1) {
+  transform: rotate(-1deg);
+}
+.cocktails li:nth-child(4n + 3) {
+  transform: rotate(1deg);
+}
 .cocktails h3 {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.2;
 }
 .cocktails p {
@@ -260,8 +307,9 @@
 .cans {
   margin: 16px 0;
   padding: 14px 16px;
-  border-radius: 14px;
-  border: 1.5px dashed var(--line-strong);
+  border-radius: 16px;
+  border: 2.5px dashed var(--ink);
+  background: var(--sky);
 }
 .cans h3 {
   font-size: 18px;
@@ -320,6 +368,14 @@
     aspect-ratio: 4 / 5;
     object-fit: cover;
     border-radius: 150px 150px 14px 14px;
+    border: 3px solid var(--ink);
+    box-shadow: 0 6px 0 var(--ink);
+  }
+  .menu__side img:nth-child(odd) {
+    transform: rotate(-2deg);
+  }
+  .menu__side img:nth-child(even) {
+    transform: rotate(2deg);
   }
 }
 #mead .msub { margin-top: 30px; }

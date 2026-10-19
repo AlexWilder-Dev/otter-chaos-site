@@ -1,0 +1,163 @@
+.sticker-hero {
+  position: relative;
+  padding: 26px 0 34px;
+  min-height: 238px;
+}
+.sticker-band {
+  position: relative;
+  margin: 0 calc(var(--gutter) * -1) 0 70px;
+  transform: rotate(-7deg);
+  transform-origin: left center;
+  border: 3px solid var(--ink);
+  border-right: 0;
+  border-radius: 26px 0 0 26px;
+  overflow: hidden;
+  box-shadow: 0 7px 0 var(--ink);
+}
+.sticker-band__pink {
+  background: var(--pink);
+  color: #fff;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(46px, 14vw, 92px);
+  line-height: 0.88;
+  padding: 16px 16px 12px 92px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.25em;
+  letter-spacing: -0.01em;
+  text-shadow: 0 3px 0 var(--pink-deep);
+}
+.sticker-band__yellow {
+  height: 14px;
+  background: var(--yellow);
+  border-top: 3px solid var(--ink);
+  border-bottom: 3px solid var(--ink);
+}
+.sticker-band__blue {
+  background: var(--blue);
+  color: #fff;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: clamp(15px, 4.1vw, 26px);
+  white-space: nowrap;
+  padding: 8px 16px 10px 84px;
+}
+
+.sticker-otter {
+  position: absolute;
+  left: -8px;
+  top: 6px;
+  width: clamp(150px, 42vw, 230px);
+  padding: 0;
+  border: 0;
+  background: none;
+  z-index: 3;
+  -webkit-tap-highlight-color: transparent;
+}
+.sticker-otter__float {
+  position: relative;
+  display: block;
+  animation: bob 3.2s ease-in-out infinite;
+}
+.sticker-otter img {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 6px 0 rgba(48, 39, 28, 0.25));
+}
+.sticker-otter__die {
+  position: absolute;
+  left: 1%;
+  top: 33%;
+  width: 30%;
+  display: block;
+  rotate: -14deg;
+}
+.sticker-otter__die svg {
+  width: 100%;
+  height: auto;
+}
+.sticker-otter__hint {
+  position: absolute;
+  right: -6px;
+  top: -4px;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 15px;
+  background: var(--yellow);
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  padding: 2px 10px;
+  transform: rotate(10deg);
+  animation: wiggle 1.6s ease-in-out infinite;
+}
+
+.sticker-bubble {
+  position: absolute;
+  z-index: 5;
+  left: 34%;
+  right: 0;
+  top: 54%;
+  max-width: 300px;
+  padding: 12px 14px;
+  background: #fffdf8;
+  border: 2.5px solid var(--ink);
+  border-radius: 18px;
+  box-shadow: 0 5px 0 var(--ink);
+  display: grid;
+  gap: 6px;
+  justify-items: start;
+  font-size: 15px;
+}
+.sticker-bubble::before {
+  content: '';
+  position: absolute;
+  left: -12px;
+  top: 18px;
+  width: 18px;
+  height: 18px;
+  background: #fffdf8;
+  border-left: 2.5px solid var(--ink);
+  border-bottom: 2.5px solid var(--ink);
+  transform: rotate(45deg);
+}
+.sticker-bubble__big {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.05;
+}
+
+@media (min-width: 1000px) {
+  .sticker-hero {
+    min-height: 300px;
+  }
+  .sticker-band {
+    margin: 0 0 0 96px;
+    border-right: 3px solid var(--ink);
+    border-radius: 30px;
+  }
+  .sticker-band__pink {
+    padding-left: 130px;
+    font-size: 84px;
+  }
+  .sticker-band__blue {
+    padding-left: 130px;
+  }
+  .sticker-otter {
+    width: 220px;
+  }
+}
+.sticker-bubble__x {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid var(--ink);
+  background: var(--yellow);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+}

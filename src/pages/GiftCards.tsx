@@ -12,7 +12,7 @@ export function GiftCards() {
     <div className="page gift">
       <div className="wrap gift__grid">
         <header className="page-head">
-          <p className="kicker">Gift cards</p>
+          <p className="kicker kicker--pink">Gift cards</p>
           <h1>A night of chaos, in an envelope.</h1>
           <p>
             The {GIFT_CARD.name} comes in anything from {GIFT_CARD.range}. Tap the card to turn it over.

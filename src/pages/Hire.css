@@ -31,16 +31,35 @@
 }
 .kind {
   padding: 18px;
-  border-radius: 18px;
+  border-radius: 20px;
   background: #fffdf8;
-  border: 2px solid var(--otter);
-  box-shadow: 0 5px 0 var(--otter);
+  border: 2.5px solid var(--ink);
+  box-shadow: 0 6px 0 var(--ink);
   display: grid;
   gap: 6px;
   align-content: start;
 }
+.kind:nth-child(1) {
+  background: var(--yellow);
+}
+.kind:nth-child(2) {
+  background: var(--sky);
+}
+.kind:nth-child(3) {
+  background: #fffdf8;
+}
+.kind:nth-child(4) {
+  background: var(--pink);
+  color: #fff;
+}
+.kind:nth-child(4) p {
+  color: rgba(255, 255, 255, 0.92);
+}
+.kind:nth-child(4) svg path {
+  fill: #fff;
+}
 .kind h3 {
-  font-size: 21px;
+  font-size: 23px;
 }
 .kind p {
   color: var(--muted);
@@ -64,8 +83,9 @@
   max-width: 420px;
 }
 .case__meta {
+  font-family: var(--display);
   font-weight: 700;
-  color: var(--die);
+  color: var(--yellow);
   margin-bottom: 10px;
 }
 .case__src {
@@ -124,8 +144,10 @@
   display: grid;
   gap: 16px;
   padding: 18px;
-  border-radius: 22px;
+  border-radius: 24px;
   background: var(--paper);
+  border: 2.5px solid var(--ink);
+  box-shadow: 0 6px 0 var(--ink);
 }
 .enquire__form fieldset {
   border: 0;
@@ -134,6 +156,7 @@
   min-width: 0;
 }
 .enquire__form legend {
+  font-family: var(--display);
   font-weight: 600;
   font-size: 15px;
   margin-bottom: 8px;
@@ -152,9 +175,11 @@
   align-items: center;
   gap: 8px;
   padding: 12px;
-  border-radius: 14px;
-  border: 1.5px solid var(--line-strong);
+  border-radius: 16px;
+  border: 2px solid var(--ink);
   background: #fffdf9;
+  box-shadow: 0 3px 0 var(--ink);
+  font-family: var(--display);
   font-weight: 600;
   font-size: 15px;
   cursor: pointer;
@@ -166,8 +191,7 @@
   pointer-events: none;
 }
 .kindpick.is-on {
-  border-color: var(--ink);
-  box-shadow: 0 0 0 1.5px var(--ink) inset;
+  background: var(--yellow);
 }
 .kindpick:focus-within {
   outline: 3px solid var(--die);
@@ -186,9 +210,8 @@
   background: #fffdf9;
 }
 .enquire__space .chip.is-on {
-  background: var(--ink);
-  color: var(--cream);
-  border-color: var(--ink);
+  background: var(--pink);
+  color: #fff;
 }
 .enquire__space .chip:focus-within {
   outline: 3px solid var(--die);
@@ -205,8 +228,10 @@
 }
 .enquire__done {
   padding: 24px;
-  border-radius: 22px;
-  background: var(--paper);
+  border-radius: 24px;
+  background: var(--yellow);
+  border: 2.5px solid var(--ink);
+  box-shadow: 0 6px 0 var(--ink);
   display: grid;
   gap: 10px;
   align-content: start;
@@ -225,4 +250,8 @@
     gap: 56px;
     align-items: start;
   }
+}
+
+.hire > .bunting {
+  margin-top: 8px;
 }

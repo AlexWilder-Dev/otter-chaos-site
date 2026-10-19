@@ -1,5 +1,14 @@
+.games__roll {
+  max-width: 560px;
+  margin: 4px 0 30px;
+}
+.games__roll .roll {
+  margin-top: 6px;
+}
 .games__picker {
-  background: var(--paper);
+  background: var(--sky);
+  border-top: 3px solid var(--ink);
+  border-bottom: 3px solid var(--ink);
 }
 .picker {
   margin-top: 20px;
@@ -20,7 +29,7 @@
 .picker__q {
   font-family: var(--display);
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 10px;
 }
 .picker__dice {
@@ -41,7 +50,8 @@
 }
 .picker__dice button.is-on {
   border-color: var(--ink);
-  background: #fffdf8;
+  background: var(--yellow);
+  box-shadow: 0 3px 0 var(--ink);
 }
 .picker__chips {
   display: flex;
@@ -49,11 +59,7 @@
   gap: 8px;
 }
 .picker__chips .chip {
-  background: #fffdf8;
-  min-height: 44px;
-}
-.picker__chips .chip[aria-pressed='true'] {
-  background: var(--ink);
+  min-height: 46px;
 }
 .picker__chips .chip:disabled {
   cursor: default;
@@ -82,16 +88,18 @@
   margin-top: 14px;
 }
 .picker__book {
-  margin-top: 20px;
+  margin-top: 22px;
   display: grid;
   gap: 14px;
   padding: 18px;
-  border-radius: 20px;
-  background: var(--wall);
-  color: var(--chalk);
+  border-radius: 22px;
+  background: var(--pink);
+  color: #fff;
+  border: 2.5px solid var(--ink);
+  box-shadow: 0 6px 0 var(--ink);
 }
 .picker__book .note {
-  color: rgba(246, 240, 228, 0.8);
+  color: rgba(255, 255, 255, 0.9);
 }
 .picker__book-big {
   font-family: var(--display);
@@ -112,16 +120,23 @@
 .box {
   --box: var(--otter);
   --box-ink: var(--chalk);
-  border-radius: 16px;
+  border-radius: 18px;
   overflow: hidden;
   background: #fffdf8;
-  border: 2px solid var(--otter);
-  box-shadow: 0 5px 0 var(--otter);
+  border: 2.5px solid var(--ink);
+  box-shadow: 0 5px 0 var(--ink);
+}
+.picker__boxes > :nth-child(odd) .box {
+  rotate: -1deg;
+}
+.picker__boxes > :nth-child(even) .box {
+  rotate: 1deg;
 }
 .box__lid {
   background: var(--box);
   color: var(--box-ink);
   padding: 14px 16px 12px;
+  border-bottom: 2.5px solid var(--ink);
 }
 .box__tier {
   font-size: 12px;
@@ -131,7 +146,7 @@
   opacity: 0.85;
 }
 .box__name {
-  font-size: 22px;
+  font-size: 24px;
   line-height: 1.1;
   margin-top: 4px;
 }
@@ -215,7 +230,7 @@
   margin-bottom: 8px;
 }
 .shelf__head h3 {
-  font-size: 22px;
+  font-size: 24px;
 }
 .shelf__row {
   display: flex;
@@ -229,10 +244,12 @@
   border-left: 10px solid var(--ply-edge);
   border-right: 10px solid var(--ply-edge);
   border-top: 10px solid var(--ply);
+  outline: 2.5px solid var(--ink);
 }
 .spine {
   flex: none;
-  border: 0;
+  border: 2px solid var(--ink);
+  border-bottom: 0;
   border-radius: 3px 3px 0 0;
   padding: 10px 0;
   display: flex;
@@ -253,10 +270,11 @@
   max-height: 100%;
 }
 .shelf__board {
-  height: 16px;
+  height: 18px;
   background: var(--ply);
-  border-bottom: 5px solid var(--ply-edge);
-  box-shadow: 0 8px 14px rgba(48, 39, 28, 0.15);
+  border: 2.5px solid var(--ink);
+  border-top: 0;
+  box-shadow: 0 5px 0 var(--ink);
 }
 .games__more {
   margin-top: 28px;
@@ -292,6 +310,8 @@
   border-radius: 999px 999px 18px 18px / 200px 200px 18px 18px;
   overflow: hidden;
   aspect-ratio: 3 / 2;
+  border: 3px solid var(--ink);
+  box-shadow: 0 6px 0 var(--ink);
 }
 .games__staff-photo img {
   width: 100%;

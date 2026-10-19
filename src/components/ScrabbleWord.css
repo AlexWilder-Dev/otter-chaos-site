@@ -1,0 +1,61 @@
+.scrabble {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0 10px;
+}
+.scrabble__tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.scrabble__tile {
+  --t: 46px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: var(--t);
+  height: var(--t);
+  background: #f3d9a6;
+  border: 2.5px solid var(--ink);
+  border-radius: 9px;
+  box-shadow: inset 0 -5px 0 rgba(160, 112, 52, 0.35), 0 3px 0 var(--ink);
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: calc(var(--t) * 0.56);
+  line-height: 1;
+  color: var(--ink);
+}
+.scrabble__tile i {
+  position: absolute;
+  right: 4px;
+  bottom: 3px;
+  font-style: normal;
+  font-size: calc(var(--t) * 0.22);
+  font-weight: 600;
+}
+.scrabble__gap {
+  width: 14px;
+}
+.scrabble--sm .scrabble__tile {
+  --t: 34px;
+}
+.scrabble--lg .scrabble__tile {
+  --t: clamp(46px, 13vw, 70px);
+}
+.scrabble__score {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 15px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--pink);
+  color: #fff;
+  border: 2px solid var(--ink);
+  transform: rotate(4deg);
+}

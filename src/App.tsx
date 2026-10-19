@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import { MotionConfig } from 'framer-motion';
 import { Layout } from './components/Layout';
+import { ChaosProvider } from './components/Chaos';
 import { Home } from './pages/Home';
 
 const Book = lazy(() => import('./pages/Book').then((m) => ({ default: m.Book })));
@@ -15,23 +16,25 @@ const Visit = lazy(() => import('./pages/Visit').then((m) => ({ default: m.Visit
 export function App() {
   return (
     <MotionConfig reducedMotion="user">
-      <HashRouter>
-        <Suspense fallback={<div className="page" style={{ minHeight: '80vh' }} />}>
-          <Routes>
-            <Route element={<Layout />}>
-              <Route index element={<Home />} />
-              <Route path="book" element={<Book />} />
-              <Route path="menu" element={<Menu />} />
-              <Route path="events" element={<Events />} />
-              <Route path="games" element={<Games />} />
-              <Route path="hire" element={<Hire />} />
-              <Route path="gift-cards" element={<GiftCards />} />
-              <Route path="visit" element={<Visit />} />
-              <Route path="*" element={<Home />} />
-            </Route>
-          </Routes>
-        </Suspense>
-      </HashRouter>
+      <ChaosProvider>
+        <HashRouter>
+          <Suspense fallback={<div className="page" style={{ minHeight: '80vh' }} />}>
+            <Routes>
+              <Route element={<Layout />}>
+                <Route index element={<Home />} />
+                <Route path="book" element={<Book />} />
+                <Route path="menu" element={<Menu />} />
+                <Route path="events" element={<Events />} />
+                <Route path="games" element={<Games />} />
+                <Route path="hire" element={<Hire />} />
+                <Route path="gift-cards" element={<GiftCards />} />
+                <Route path="visit" element={<Visit />} />
+                <Route path="*" element={<Home />} />
+              </Route>
+            </Routes>
+          </Suspense>
+        </HashRouter>
+      </ChaosProvider>
     </MotionConfig>
   );
 }

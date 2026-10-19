@@ -1,15 +1,18 @@
 .ftr {
   background: var(--otter);
   color: var(--chalk);
-  padding: 48px 0 24px;
-  margin-top: 24px;
+  padding: 40px 0 24px;
+  border-top: 3px solid var(--ink);
 }
 .ftr a {
   text-underline-offset: 3px;
 }
-.ftr__grid {
+.ftr__top {
   display: grid;
-  gap: 28px;
+  gap: 20px;
+  padding-bottom: 28px;
+  margin-bottom: 28px;
+  border-bottom: 2px dashed rgba(246, 240, 228, 0.25);
 }
 .ftr__brand {
   display: flex;
@@ -17,22 +20,50 @@
   gap: 14px;
 }
 .ftr__brand img {
-  width: 76px;
+  width: 82px;
   height: auto;
+  animation: bob 3.4s ease-in-out infinite;
 }
 .ftr__name {
   font-family: var(--display);
   font-weight: 700;
-  font-size: 26px;
+  font-size: 30px;
+  line-height: 1;
 }
 .ftr__tag {
-  color: var(--ply);
+  color: var(--yellow);
+  font-family: var(--display);
+  font-weight: 500;
+  margin-top: 4px;
+}
+.ftr__toys {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+.ftr__toy {
+  border: 0;
+  background: none;
+  padding: 4px;
+}
+.ftr__toy svg {
+  display: block;
+}
+.ftr__chaos {
+  margin-left: 6px;
+}
+.ftr__grid {
+  display: grid;
+  gap: 26px;
 }
 .ftr__h {
-  font-size: 14px;
-  letter-spacing: 0.08em;
+  font-family: var(--display);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--ply);
+  color: var(--yellow);
   margin-bottom: 8px;
 }
 .ftr address {
@@ -65,25 +96,21 @@
   font-size: 15px;
 }
 .ftr__base {
-  margin-top: 36px;
-  padding-top: 18px;
-  border-top: 1px solid rgba(246, 240, 228, 0.18);
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 2px dashed rgba(246, 240, 228, 0.25);
   display: flex;
   flex-wrap: wrap;
   gap: 8px 20px;
   font-size: 14px;
   color: rgba(246, 240, 228, 0.75);
 }
-.ftr__suits {
-  display: inline-flex;
-  gap: 4px;
-  color: var(--chalk);
-}
 @media (min-width: 900px) {
-  .ftr__grid {
-    grid-template-columns: 1.3fr 1fr 1fr 1.1fr;
+  .ftr__top {
+    grid-template-columns: 1fr auto;
+    align-items: center;
   }
-  .ftr__press {
-    grid-column: 1 / -1;
+  .ftr__grid {
+    grid-template-columns: 1fr 1fr 1fr 1.2fr;
   }
 }

@@ -12,6 +12,7 @@
   height: 10px;
   border-radius: 50%;
   background: #9a8b7d;
+  border: 1.5px solid var(--ink);
   flex: none;
 }
 .status.is-open .status__dot {
@@ -30,10 +31,13 @@
 .status.is-compact {
   flex-wrap: nowrap;
   white-space: nowrap;
-  font-size: 13px;
-  padding: 6px 10px;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 5px 11px;
   border-radius: 999px;
-  background: rgba(48, 39, 28, 0.06);
+  background: #fffdf8;
+  border: 2px solid var(--ink);
 }
 @keyframes status-pulse {
   0% { box-shadow: 0 0 0 0 rgba(47, 158, 106, 0.45); }

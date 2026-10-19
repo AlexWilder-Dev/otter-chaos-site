@@ -1,0 +1,14 @@
+.bunting {
+  display: block;
+  width: 100%;
+  height: 46px;
+  overflow: visible;
+}
+.bunting__flag {
+  stroke-width: 2px;
+  animation: flutter 2.4s ease-in-out infinite;
+}
+@keyframes flutter {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(3deg); }
+}
