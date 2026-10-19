@@ -11,8 +11,7 @@ export function GiftCardVisual() {
     <button className="gcard" onClick={() => setFlipped((f) => !f)} aria-pressed={flipped} aria-label="Otter Chaos gift card. Tap to turn it over.">
       <motion.span
         className="gcard__inner"
-        initial={{ rotate: -4 }}
-        whileHover={{ rotate: -1, y: -4 }}
+        whileHover={{ y: -4 }}
         animate={{ rotateY: flipped ? 180 : 0 }}
         transition={{ type: 'spring', stiffness: 220, damping: 22 }}
       >

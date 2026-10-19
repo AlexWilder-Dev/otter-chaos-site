@@ -18,7 +18,6 @@ import { Suit } from './Suit';
 
 const SUITS = ['heart', 'spade', 'diamond', 'club'] as const;
 // dealt by hand, so never quite straight
-const TILTS = [-1.6, 1.2, -0.6, 1.8, -1.2, 0.8];
 import { SignupButtons } from './SignupButtons';
 import './WeekStrip.css';
 
@@ -97,9 +96,8 @@ export function WeekStrip({ days = 14 }: { days?: number }) {
             <motion.li
               key={d.key}
               className={`day ${i === 0 ? 'is-today' : ''}`}
-              style={{ rotate: `${TILTS[i % TILTS.length]}deg` }}
-              initial={{ opacity: 0, x: 60, y: -20 }}
-              animate={{ opacity: 1, x: 0, y: 0 }}
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ delay: Math.min(i, 5) * 0.06, duration: 0.4 }}
             >
               <span className="day__corner" aria-hidden="true">
@@ -117,7 +115,7 @@ export function WeekStrip({ days = 14 }: { days?: number }) {
                 <div className="day__free">
                   <p className="day__free-title">No event on.</p>
                   <p>Just you, your mates and 500-odd games from {fmtMin(open)}.</p>
-                  <Link className="btn btn--yellow btn--small" to={`/book?date=${d.key}`}>
+                  <Link className="btn btn--secondary btn--small" to={`/book?date=${d.key}`}>
                     Book a table
                   </Link>
                 </div>

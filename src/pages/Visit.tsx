@@ -16,7 +16,7 @@ export function Visit() {
     <div className="page visit">
       <div className="wrap">
         <header className="page-head">
-          <p className="kicker kicker--sky">Find us</p>
+          <p className="kicker">Find us</p>
           <h1>Arch 22, under Brixton station.</h1>
           <p>{GETTING_HERE.line}</p>
         </header>
@@ -113,10 +113,10 @@ export function Visit() {
               <a className="btn btn--small" href={CONTACT.googleMaps}>
                 Google Maps
               </a>
-              <a className="btn btn--small btn--ghost" href={CONTACT.appleMaps}>
+              <a className="btn btn--small btn--secondary" href={CONTACT.appleMaps}>
                 Apple Maps
               </a>
-              <a className="btn btn--small btn--ghost" href={CONTACT.citymapper}>
+              <a className="btn btn--small btn--secondary" href={CONTACT.citymapper}>
                 Citymapper
               </a>
             </div>

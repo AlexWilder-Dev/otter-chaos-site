@@ -1,15 +1,11 @@
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
 import { CONTACT, HOURS_TABLE, PRESS } from '../data/otterChaos';
 import { logo } from '../lib/img';
-import { Bit, type BitKind } from './Bits';
 import { useChaos } from './Chaos';
 import './Footer.css';
 
-const TOYS: BitKind[] = ['meeple', 'die', 'card', 'tile', 'pawn', 'meeple'];
-
 export function Footer() {
-  const { chaos, burst } = useChaos();
+  const { chaos } = useChaos();
   return (
     <footer className="ftr">
       <div className="wrap">
@@ -21,26 +17,9 @@ export function Footer() {
               <p className="ftr__tag">Fun, food &amp; friendship under Brixton station</p>
             </div>
           </div>
-          <div className="ftr__toys">
-            {TOYS.map((k, i) => (
-              <motion.button
-                key={i}
-                className="ftr__toy"
-                whileHover={{ y: -8, rotate: i % 2 ? 12 : -12 }}
-                whileTap={{ scale: 0.8 }}
-                onClick={(e) => {
-                  const r = e.currentTarget.getBoundingClientRect();
-                  burst(r.left + r.width / 2, r.top, 6, 0.6);
-                }}
-                aria-label="Fling a game piece"
-              >
-                <Bit kind={k} seed={i * 2 + 1} size={34} />
-              </motion.button>
-            ))}
-            <button className="btn btn--pink btn--small ftr__chaos" onClick={chaos}>
-              Cause some chaos
-            </button>
-          </div>
+          <Link to="/book" className="btn btn--primary ftr__book">
+            Book a table
+          </Link>
         </div>
 
         <div className="ftr__grid">
@@ -91,7 +70,8 @@ export function Footer() {
             <ul>
               {PRESS.map((p) => (
                 <li key={p.url}>
-                  <a href={p.url}>{p.outlet}</a>: {p.title}
+                  <a href={p.url}>{p.outlet}</a>
+                  <span>{p.title}</span>
                 </li>
               ))}
             </ul>
@@ -101,6 +81,9 @@ export function Footer() {
         <div className="ftr__base">
           <span>© Otter Chaos Ltd</span>
           <span>Site by AlexWilder-Dev</span>
+          <button className="ftr__chaos" onClick={chaos}>
+            Cause some chaos
+          </button>
         </div>
       </div>
     </footer>

@@ -31,35 +31,16 @@
 }
 .kind {
   padding: 18px;
-  border-radius: 20px;
-  background: #fffdf8;
-  border: 2.5px solid var(--ink);
-  box-shadow: 0 6px 0 var(--ink);
+  border-radius: var(--radius);
+  background: var(--card);
+  border: 2px solid var(--ink);
+  box-shadow: var(--shadow);
   display: grid;
   gap: 6px;
   align-content: start;
 }
-.kind:nth-child(1) {
-  background: var(--yellow);
-}
-.kind:nth-child(2) {
-  background: var(--sky);
-}
-.kind:nth-child(3) {
-  background: #fffdf8;
-}
-.kind:nth-child(4) {
-  background: var(--pink);
-  color: #fff;
-}
-.kind:nth-child(4) p {
-  color: rgba(255, 255, 255, 0.92);
-}
-.kind:nth-child(4) svg path {
-  fill: #fff;
-}
 .kind h3 {
-  font-size: 23px;
+  font-size: 22px;
 }
 .kind p {
   color: var(--muted);
@@ -84,7 +65,7 @@
 }
 .case__meta {
   font-family: var(--display);
-  font-weight: 700;
+  font-weight: 600;
   color: var(--yellow);
   margin-bottom: 10px;
 }
@@ -144,10 +125,10 @@
   display: grid;
   gap: 16px;
   padding: 18px;
-  border-radius: 24px;
-  background: var(--paper);
-  border: 2.5px solid var(--ink);
-  box-shadow: 0 6px 0 var(--ink);
+  border-radius: var(--radius);
+  background: var(--card);
+  border: 2px solid var(--ink);
+  box-shadow: var(--shadow);
 }
 .enquire__form fieldset {
   border: 0;
@@ -175,12 +156,11 @@
   align-items: center;
   gap: 8px;
   padding: 12px;
-  border-radius: 16px;
-  border: 2px solid var(--ink);
-  background: #fffdf9;
-  box-shadow: 0 3px 0 var(--ink);
+  border-radius: 14px;
+  border: 1.5px solid var(--line-strong);
+  background: var(--card);
   font-family: var(--display);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
   cursor: pointer;
   line-height: 1.2;
@@ -191,10 +171,15 @@
   pointer-events: none;
 }
 .kindpick.is-on {
-  background: var(--yellow);
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--cream);
+}
+.kindpick.is-on svg path {
+  fill: var(--cream);
 }
 .kindpick:focus-within {
-  outline: 3px solid var(--die);
+  outline: 3px solid var(--blue);
   outline-offset: 2px;
 }
 .enquire__space {
@@ -207,14 +192,9 @@
 }
 .enquire__space .chip {
   cursor: pointer;
-  background: #fffdf9;
-}
-.enquire__space .chip.is-on {
-  background: var(--pink);
-  color: #fff;
 }
 .enquire__space .chip:focus-within {
-  outline: 3px solid var(--die);
+  outline: 3px solid var(--blue);
   outline-offset: 2px;
 }
 .enquire__row {
@@ -228,10 +208,10 @@
 }
 .enquire__done {
   padding: 24px;
-  border-radius: 24px;
-  background: var(--yellow);
-  border: 2.5px solid var(--ink);
-  box-shadow: 0 6px 0 var(--ink);
+  border-radius: var(--radius);
+  background: var(--card);
+  border: 2px solid var(--ink);
+  box-shadow: var(--shadow);
   display: grid;
   gap: 10px;
   align-content: start;

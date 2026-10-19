@@ -6,9 +6,7 @@
   margin-top: 6px;
 }
 .games__picker {
-  background: var(--sky);
-  border-top: 3px solid var(--ink);
-  border-bottom: 3px solid var(--ink);
+  background: var(--paper);
 }
 .picker {
   margin-top: 20px;
@@ -28,8 +26,8 @@
 }
 .picker__q {
   font-family: var(--display);
-  font-weight: 700;
-  font-size: 22px;
+  font-weight: 600;
+  font-size: 21px;
   margin-bottom: 10px;
 }
 .picker__dice {
@@ -41,17 +39,16 @@
   display: grid;
   justify-items: center;
   gap: 2px;
-  border: 2px solid transparent;
+  border: 1.5px solid transparent;
   background: none;
   border-radius: 14px;
   padding: 4px 4px 2px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 13px;
 }
 .picker__dice button.is-on {
   border-color: var(--ink);
-  background: var(--yellow);
-  box-shadow: 0 3px 0 var(--ink);
+  background: var(--card);
 }
 .picker__chips {
   display: flex;
@@ -73,7 +70,7 @@
   margin-top: 24px;
 }
 .picker__found {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 12px;
 }
 .picker__boxes {
@@ -92,19 +89,15 @@
   display: grid;
   gap: 14px;
   padding: 18px;
-  border-radius: 22px;
-  background: var(--pink);
-  color: #fff;
-  border: 2.5px solid var(--ink);
-  box-shadow: 0 6px 0 var(--ink);
-}
-.picker__book .note {
-  color: rgba(255, 255, 255, 0.9);
+  border-radius: var(--radius);
+  background: var(--card);
+  border: 2px solid var(--ink);
+  box-shadow: var(--shadow);
 }
 .picker__book-big {
   font-family: var(--display);
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 23px;
 }
 .picker__book .btn {
   justify-self: start;
@@ -120,28 +113,22 @@
 .box {
   --box: var(--otter);
   --box-ink: var(--chalk);
-  border-radius: 18px;
+  border-radius: var(--radius);
   overflow: hidden;
-  background: #fffdf8;
-  border: 2.5px solid var(--ink);
-  box-shadow: 0 5px 0 var(--ink);
-}
-.picker__boxes > :nth-child(odd) .box {
-  rotate: -1deg;
-}
-.picker__boxes > :nth-child(even) .box {
-  rotate: 1deg;
+  background: var(--card);
+  border: 2px solid var(--ink);
+  box-shadow: var(--shadow);
 }
 .box__lid {
   background: var(--box);
   color: var(--box-ink);
   padding: 14px 16px 12px;
-  border-bottom: 2.5px solid var(--ink);
+  border-bottom: 2px solid var(--ink);
 }
 .box__tier {
   font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   opacity: 0.85;
 }
@@ -168,7 +155,7 @@
 }
 .box__facts dd {
   margin: 0;
-  font-weight: 700;
+  font-weight: 600;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -212,7 +199,7 @@
   color: var(--cream);
   border-radius: 999px;
   padding: 8px 14px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /* shelves */
@@ -244,7 +231,7 @@
   border-left: 10px solid var(--ply-edge);
   border-right: 10px solid var(--ply-edge);
   border-top: 10px solid var(--ply);
-  outline: 2.5px solid var(--ink);
+  outline: 2px solid var(--ink);
 }
 .spine {
   flex: none;
@@ -272,9 +259,9 @@
 .shelf__board {
   height: 18px;
   background: var(--ply);
-  border: 2.5px solid var(--ink);
+  border: 2px solid var(--ink);
   border-top: 0;
-  box-shadow: 0 5px 0 var(--ink);
+  box-shadow: 0 4px 0 var(--ink);
 }
 .games__more {
   margin-top: 28px;
@@ -310,8 +297,7 @@
   border-radius: 999px 999px 18px 18px / 200px 200px 18px 18px;
   overflow: hidden;
   aspect-ratio: 3 / 2;
-  border: 3px solid var(--ink);
-  box-shadow: 0 6px 0 var(--ink);
+  border: 2px solid var(--ink);
 }
 .games__staff-photo img {
   width: 100%;

@@ -181,18 +181,18 @@ function Picker() {
             <LayoutGroup>
               <div className="picker__boxes">
                 {results.map((g, i) => (
-                  <motion.div key={`${g.id}-${shuffle}`} initial={{ opacity: 0, x: -30, rotate: -4 }} animate={{ opacity: 1, x: 0, rotate: 0 }} transition={{ delay: i * 0.07, type: 'spring', stiffness: 260, damping: 22 }}>
+                  <motion.div key={`${g.id}-${shuffle}`} initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.07, type: 'spring', stiffness: 260, damping: 22 }}>
                     <BoxCard g={g} />
                   </motion.div>
                 ))}
               </div>
             </LayoutGroup>
             <div className="picker__end">
-              <button className="btn btn--ghost" onClick={() => setShuffle((s) => s + 1)}>
+              <button className="btn btn--secondary" onClick={() => setShuffle((s) => s + 1)}>
                 Another handful
               </button>
               <button
-                className="btn btn--ghost"
+                className="btn btn--secondary"
                 onClick={() => {
                   setN(0);
                   setT(null);
@@ -210,7 +210,7 @@ function Picker() {
                   {n === 6 ? ' and up' : ''} ({money(TABLE_FEE.adult.threeHours)} per adult). Want something else? Ask the staff, they know the shelves.
                 </p>
               </div>
-              <Link to={`/book?party=${n}`} className="btn btn--die">
+              <Link to={`/book?party=${n}`} className="btn btn--primary">
                 Book a table for {n === 6 ? '6+' : n} <ArrowIcon size={18} />
               </Link>
             </div>
@@ -272,7 +272,7 @@ export function Games() {
     <div className="page games">
       <div className="wrap">
         <header className="page-head games__head">
-          <p className="kicker kicker--pink">Games library</p>
+          <p className="kicker">Games library</p>
           <h1>500+ games. Roll for one!</h1>
           <p>{ABOUT.lines[1]}</p>
         </header>
@@ -312,7 +312,7 @@ export function Games() {
                 <a className="btn btn--small" href={ABOUT.fullLibrary} target="_blank" rel="noopener noreferrer">
                   The full library <ExternalIcon size={14} />
                 </a>
-                <a className="btn btn--small btn--ghost" href={CONTACT.phoneHref}>
+                <a className="btn btn--small btn--secondary" href={CONTACT.phoneHref}>
                   Call to check a game
                 </a>
               </div>

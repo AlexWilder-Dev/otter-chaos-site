@@ -50,12 +50,9 @@
 }
 .scrabble__score {
   font-family: var(--display);
-  font-weight: 700;
-  font-size: 15px;
-  padding: 3px 10px;
-  border-radius: 999px;
-  background: var(--pink);
-  color: #fff;
-  border: 2px solid var(--ink);
-  transform: rotate(4deg);
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--muted);
+  align-self: flex-end;
+  margin-bottom: 4px;
 }

@@ -48,9 +48,9 @@ export function RollForAGame() {
           <motion.div
             key={game.id}
             className="roll__card pop"
-            initial={{ opacity: 0, x: 40, rotate: 8 }}
-            animate={{ opacity: 1, x: 0, rotate: -1.5 }}
-            exit={{ opacity: 0, x: -40, rotate: -8 }}
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -12 }}
             transition={{ type: 'spring', stiffness: 300, damping: 22 }}
             role="status"
           >
@@ -60,13 +60,13 @@ export function RollForAGame() {
               {game.minPlayers === game.maxPlayers ? game.minPlayers : `${game.minPlayers}–${game.maxPlayers}`} players ·{' '}
               {game.minTime === game.maxTime ? game.minTime : `${game.minTime}–${game.maxTime}`} min
             </p>
-            <button className="btn btn--blue btn--small" onClick={() => navigate(`/book?party=${Math.max(2, game.minPlayers)}`)}>
+            <button className="btn btn--primary btn--small" onClick={() => navigate(`/book?party=${Math.max(2, game.minPlayers)}`)}>
               Book a table to play it
             </button>
           </motion.div>
         ) : (
           <motion.div key="empty" className="roll__card roll__card--empty" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-            <p>Can’t decide? Let the die pick one of the real games off our shelves.</p>
+            <p>Tap the die and it’ll pick one of the real games off our shelves.</p>
           </motion.div>
         )}
       </AnimatePresence>

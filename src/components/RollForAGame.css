@@ -14,13 +14,13 @@
   border: 0;
   background: none;
   padding: 4px;
-  filter: drop-shadow(0 6px 0 var(--ink));
+  filter: drop-shadow(0 4px 0 var(--ink));
 }
 .roll__label {
   font-family: var(--display);
-  font-weight: 700;
-  font-size: 15px;
-  color: var(--pink);
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--muted);
 }
 .roll__card {
   padding: 14px 16px;
@@ -31,8 +31,8 @@
   align-content: center;
 }
 .roll__card--empty {
-  border: 2.5px dashed var(--ink);
-  border-radius: 20px;
+  border: 1.5px dashed var(--line-strong);
+  border-radius: var(--radius);
   font-family: var(--display);
   font-weight: 500;
   font-size: 17px;
@@ -40,15 +40,15 @@
 }
 .roll__tier {
   font-family: var(--display);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--blue);
+  letter-spacing: 0.1em;
+  color: var(--pink-deep);
 }
 .roll__name {
   font-family: var(--display);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 24px;
   line-height: 1.05;
 }

@@ -8,7 +8,7 @@ export function SignupButtons({ event, tone = 'light' }: { event: AnyEvent; tone
     if (event.id !== 'lorcana') return null;
     return (
       <div className="signups">
-        <a className={`btn btn--small btn--ghost ${tone === 'dark' ? 'on-dark' : ''}`} href={CONTACT.phoneHref}>
+        <a className={`btn btn--small btn--secondary ${tone === 'dark' ? 'on-dark' : ''}`} href={CONTACT.phoneHref}>
           Ask us
         </a>
       </div>
@@ -19,7 +19,7 @@ export function SignupButtons({ event, tone = 'light' }: { event: AnyEvent; tone
       {event.signups.map((s) => (
         <a
           key={s.label}
-          className={tone === 'dark' ? 'btn btn--chalk btn--small' : 'btn btn--small'}
+          className={tone === 'dark' ? 'btn btn--secondary btn--small' : 'btn btn--small'}
           href={s.url}
           target="_blank"
           rel="noopener noreferrer"

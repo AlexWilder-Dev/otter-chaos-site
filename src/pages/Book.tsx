@@ -8,7 +8,7 @@ import { money, tableFee } from '../lib/fees';
 import { DieFace } from '../components/DieFace';
 import { Photo } from '../components/Photo';
 import { PhoneIcon } from '../components/Icons';
-import { ChessStrip } from '../components/ChessStrip';
+import { ChessBoard } from '../components/ChessBoard';
 import { useChaos } from '../components/Chaos';
 import './Book.css';
 
@@ -102,7 +102,7 @@ export function Book() {
         <div className="wrap">
           <motion.div className="booked" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}>
             <DieFace n={6} size={64} />
-            <p className="kicker kicker--pink">Checkmate! Well, nearly</p>
+            <p className="kicker">Checkmate! Well, nearly</p>
             <h1>See you {date === now.key ? 'later' : dateLong(date)}, {form.name.split(' ')[0]}!</h1>
             <dl className="booked__summary">
               <div>
@@ -126,10 +126,10 @@ export function Book() {
             <p>{BOOKING_COPY.confirm}</p>
             <p className="note">This is a demo, so nothing has actually been sent. On the live site this request would go straight into Otter Chaos’s {BOOKING_COPY.provider} bookings.</p>
             <div className="booked__actions">
-              <Link to="/menu" className="btn btn--die">
+              <Link to="/menu" className="btn btn--primary">
                 Plan your pizzas
               </Link>
-              <Link to={`/games?players=${adults + kids}#picker`} className="btn btn--ghost">
+              <Link to={`/games?players=${adults + kids}#picker`} className="btn btn--secondary">
                 Pick a game
               </Link>
             </div>
@@ -141,18 +141,20 @@ export function Book() {
 
   return (
     <div className="page book">
-      <div className="wrap book__grid">
-        <div className="book__main">
+      <div className="book__top">
+        <div className="checker" aria-hidden="true" />
+        <div className="wrap">
           <header className="page-head">
-            <p className="kicker kicker--blue">Book a table</p>
+            <p className="kicker">Book a table</p>
             <h1>Make your move.</h1>
             <p>{BOOKING_COPY.always}</p>
           </header>
+        </div>
+      </div>
+      <ChessBoard />
 
-          <div className="book__chess">
-            <ChessStrip />
-          </div>
-
+      <div className="wrap book__grid">
+        <div className="book__main">
           <p className="book__rates">
             <strong>Table fee per person:</strong> adults {money(TABLE_FEE.adult.perHour)}/hour or {money(TABLE_FEE.adult.threeHours)} for 3 hours,
             under-16s {money(TABLE_FEE.child.perHour)}/hour or {money(TABLE_FEE.child.threeHours)} for 3 hours. It keeps the library going.
@@ -275,7 +277,7 @@ export function Book() {
             </div>
 
             <div className="book__submit">
-              <button className="btn btn--die btn--block" type="submit" disabled={!canSend}>
+              <button className="btn btn--primary btn--block" type="submit" disabled={!canSend}>
                 {chosenTime === null ? 'Pick a time first' : `Make your move: ${fmtMin(chosenTime)}, ${dateShort(date)}`}
               </button>
               <p className="note">{BOOKING_COPY.confirm}</p>

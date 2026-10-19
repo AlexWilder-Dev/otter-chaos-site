@@ -73,7 +73,7 @@ export function Events() {
     <div className="page events">
       <div className="wrap">
         <header className="page-head">
-          <p className="kicker kicker--blue">What’s on</p>
+          <p className="kicker">What’s on</p>
           <h1>Pick your quest.</h1>
           <p>
             {ABOUT.cheeky} (&gt;ᴗ•) {EVENTS_COPY.intro}
@@ -97,7 +97,7 @@ export function Events() {
       {oneOffs.length > 0 && (
         <section className="section" aria-labelledby="oneoffs">
           <div className="wrap">
-            <p className="kicker kicker--pink">One-offs</p>
+            <p className="kicker">One-offs</p>
             <h2 id="oneoffs" className="section-title">
               Don’t miss these!
             </h2>
@@ -117,7 +117,7 @@ export function Events() {
 
       <section className="section" aria-labelledby="weekly">
         <div className="wrap">
-          <p className="kicker kicker--sky">Every week</p>
+          <p className="kicker">Every week</p>
           <h2 id="weekly" className="section-title">
             The regulars
           </h2>
@@ -132,7 +132,7 @@ export function Events() {
       {MONTHLY_EVENTS.length > 0 && (
         <section className="section events__monthly" aria-labelledby="monthly">
           <div className="wrap">
-            <p className="kicker kicker--pink">Every month</p>
+            <p className="kicker">Every month</p>
             <h2 id="monthly" className="section-title">
               Last Sunday of the month
             </h2>
@@ -153,7 +153,7 @@ export function Events() {
           <p className="section-lede">
             Clubs, leagues, launches and tournaments: two arches, a kitchen, a bar and 500-odd games.
           </p>
-          <Link to="/hire" className="btn btn--die">
+          <Link to="/hire" className="btn btn--primary">
             Talk to us about hire
           </Link>
         </div>

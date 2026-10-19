@@ -153,32 +153,36 @@ Left out or flagged:
 
 ## Design reasoning
 
-Second pass: the first version was tasteful but too quiet for a place that is about fun, food and friendship. Round two takes
-its cue from that line and from the earlier Otter Chaos site in this repo's history (July 2025), which themed
-every page as a different game: Scrabble tiles spelling MENU, a chessboard behind booking ("Make your move"), "Upcoming Quests" for
-events, meeples floating round the home page, a floating logo, and a click burst.
+Third pass. Round one was tasteful but too quiet for a place that is about fun, food and friendship. Round two took its cue
+from that line and from the earlier Otter Chaos site in this repo's history (July 2025), which themed every page as a
+different game: Scrabble tiles spelling MENU, a chessboard behind booking ("Make your move"), "Upcoming Quests", meeples, a
+floating logo. It was fun but busy: tilted cards everywhere, five fill colours per screen, three kinds of button. Round three
+keeps the play and tidies the table, so it reads as a well-run business that happens to be about games.
 
-- **Palette** from their **window sticker** on Atlantic Road: hot pink, lemon yellow and royal blue bands with the otter bursting
-  out of them (photographed in cafe-web-1-6 and IMG_0565). Under that, the logo browns and the die's orange for "Book", the
-  bottle-green wall as the card-table felt for what's on, cream from their site CSS.
-- **Type**: Fredoka (OFL) for headings, the closest free match to the chunky rounded white lettering on the sticker; Host Grotesk
-  (their site's body font) for reading. The Avant Garde-style face from round one was dropped.
-- **Shapes**: everything is a game piece you can press: chunky ink outlines, hard drop shadows, buttons that squash when tapped,
-  things slapped on at an angle like stickers. Photos still sit in the brick railway-arch frame with fairy lights.
-- **One game per page**, carried over from the old site: Scrabble tiles with real letter values for every menu heading (PIZZA
-  scores 25; tap to jumble), a chess strip whose pieces keep moving on the booking page with numbered moves and a "Make your
-  move" button, quests on the events page with the fortnight dealt out as playing cards on the green felt, shelves of box spines
-  for the games library, bunting for parties.
-- **Toys**: the sticker otter bobs on the home page; tap it and it rolls the die it's holding and offers a table for that many
-  (with the table fee worked out); tap it three times and the screen erupts with meeples, dice, tiles, cards and pawns (Otter
-  *Chaos*). A die on the home and games pages rolls for a random real game off their shelves. Footer pieces can be flung;
-  booking and enquiry confirmations end in a burst. All motion stops for people who ask their phone for reduced motion.
-- **Their own copy kept front and centre**: the A-board line "Board Games + Beer On Tap + Pizza" scrolls as a ticker and is drawn
-  as the chalk A-board on "finding us"; "Bring your family, a couple of friends, or the whole gang"; "(>ᴗ•)".
+- **One or two toys per screen, an orderly grid for the rest.** Nothing is tilted except the hero sticker, because that is their
+  real window sticker. Sections alternate cream and paper, with the bottle-green wall used once (what's on) and the otter brown
+  for the footer. Cards share one radius, one outline and one shadow.
+- **One action colour.** Pink is for booking and buying; every other button is a cream card with an ink outline. Selected
+  chips, dates and tabs go ink. Eyebrow labels are small capitals in deep pink with a scrap of the sticker's three bands, and
+  the same pink, yellow and blue stripe edges the header and footer.
+- **Palette** from their **window sticker** on Atlantic Road: hot pink, lemon yellow and royal blue (photographed in
+  cafe-web-1-6 and IMG_0565), with the logo browns, the die's orange, the bottle-green wall and cream from their site CSS.
+- **Type**: Fredoka (OFL) for headings, the closest free match to the chunky rounded lettering on the sticker, at a calmer
+  weight than round two; Host Grotesk (their site's body font) for reading.
+- **The chessboard from the old site, brought back properly**: a faint board behind the home hero and the booking page head,
+  and a full-width strip of squares where a pink knight, a pawn, a meeple and a die take turns to hop. The knight only ever
+  moves in an L. It sits still for anyone who asks their phone for reduced motion.
+- **Game nods kept, one per page**: Scrabble tiles with real letter values on MENU and PIZZA (other menu headings are plain),
+  numbered "moves" on the booking form, quests on the events page with the fortnight dealt out as playing cards on the felt,
+  shelves of box spines for the library, bunting for parties, a playing-card gift card.
+- **A business at a glance**: under the hero, four plain facts from their own site (500+ games, open seven days till 11pm,
+  £2 an hour to play, two railway arches), then later the three DesignMyNight reviews and the Visit London and Brixton Buzz
+  write-ups.
+- **Toys**: tap the sticker otter and it rolls its die and offers a table for that many with the fee worked out; tap three
+  times for chaos. A die rolls for a random real game off their shelves. Booking and enquiry confirmations end in a burst, and
+  "Cause some chaos" lives quietly in the footer.
 - **Phone first** still: the first screen answers open now, what's on tonight and how to book, with the table fee beside the
   Book button and a Book button in the bottom bar.
-- **Signature interactions** kept from round one: the swipeable fortnight with real sign-up routes, and the game picker that
-  ends at "Book a table for N".
 
 ## What the owners most want this site to do
 

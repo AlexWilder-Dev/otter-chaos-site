@@ -2,15 +2,22 @@
   display: grid;
   gap: 24px;
 }
-.book__chess {
-  margin: 6px 0 18px;
+.book__top {
+  position: relative;
+  overflow: hidden;
+}
+.book__top .wrap {
+  position: relative;
+}
+.book__main {
+  padding-top: 24px;
 }
 .book__rates {
   font-size: 15px;
   padding: 12px 14px;
-  border-radius: 16px;
-  background: var(--sky);
-  border: 2px solid var(--ink);
+  border-radius: 14px;
+  background: var(--paper);
+  border: 1.5px solid var(--line);
   margin-bottom: 8px;
 }
 .book__form {
@@ -21,7 +28,7 @@
   border: 0;
   margin: 0;
   padding: 20px 0;
-  border-top: 2.5px dashed var(--line-strong);
+  border-top: 1.5px solid var(--line);
   display: grid;
   gap: 12px;
   min-width: 0;
@@ -31,8 +38,8 @@
   align-items: center;
   gap: 10px;
   font-family: var(--display);
-  font-weight: 700;
-  font-size: 23px;
+  font-weight: 600;
+  font-size: 22px;
   padding: 0;
   margin-bottom: 12px;
   float: left;
@@ -44,15 +51,13 @@
 .move {
   display: inline-grid;
   place-items: center;
-  width: 34px;
-  height: 34px;
-  border-radius: 10px;
-  background: var(--otter-mid);
-  color: #fff;
-  border: 2px solid var(--ink);
-  font-size: 18px;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: var(--ink);
+  color: var(--cream);
+  font-size: 17px;
   flex: none;
-  transform: rotate(-4deg);
 }
 
 .stepper {
@@ -63,7 +68,7 @@
 }
 .stepper__label {
   font-family: var(--display);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 19px;
 }
 .stepper__ctrl {
@@ -75,10 +80,10 @@
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  border: 2.5px solid var(--ink);
-  background: var(--yellow);
+  border: 2px solid var(--ink);
+  background: var(--card);
   font-family: var(--display);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 24px;
   line-height: 1;
   box-shadow: 0 3px 0 var(--ink);
@@ -125,9 +130,8 @@
   justify-items: center;
   padding: 8px 0;
   border-radius: 14px;
-  border: 2px solid var(--ink);
-  background: #fffdf9;
-  box-shadow: 0 3px 0 var(--ink);
+  border: 1.5px solid var(--line-strong);
+  background: var(--card);
   font-family: var(--display);
   font-size: 12px;
   font-weight: 600;
@@ -148,28 +152,28 @@
   height: 8px;
   border-radius: 50%;
   background: var(--pink);
-  border: 1.5px solid var(--ink);
 }
 .date.is-on {
-  background: var(--blue);
-  color: #fff;
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--cream);
 }
 .date.is-on em {
-  color: var(--sky);
+  color: rgba(255, 248, 239, 0.7);
 }
 .date.is-on i {
   background: var(--yellow);
 }
 .date:disabled {
   opacity: 0.35;
-  box-shadow: none;
 }
 .book__on {
   font-size: 15px;
-  padding: 10px 12px;
-  border-radius: 14px;
-  background: var(--yellow);
-  border: 2px solid var(--ink);
+  padding: 10px 12px 10px 14px;
+  border-radius: 12px;
+  background: var(--card);
+  border: 1.5px solid var(--line);
+  border-left: 4px solid var(--pink);
 }
 
 .slots {
@@ -181,16 +185,13 @@
   min-width: 80px;
   justify-content: center;
 }
-.slots .chip.is-on {
-  background: var(--blue);
-  color: #fff;
-}
 .book__warn {
   font-size: 14px;
-  padding: 10px 12px;
-  border-radius: 14px;
-  background: #fde6d2;
-  border: 2px solid var(--ink);
+  padding: 10px 12px 10px 14px;
+  border-radius: 12px;
+  background: #fdf0e3;
+  border: 1.5px solid var(--line);
+  border-left: 4px solid var(--die);
 }
 
 .hours {
@@ -203,10 +204,9 @@
   display: grid;
   gap: 2px;
   padding: 14px 6px 12px;
-  border-radius: 16px;
-  border: 2.5px solid var(--ink);
-  background: #fffdf9;
-  box-shadow: 0 4px 0 var(--ink);
+  border-radius: 14px;
+  border: 1.5px solid var(--line-strong);
+  background: var(--card);
   text-align: center;
 }
 .hour strong {
@@ -221,24 +221,24 @@
   position: absolute;
   top: -13px;
   left: 50%;
-  transform: translateX(-50%) rotate(-4deg);
+  transform: translateX(-50%);
   font-family: var(--display);
   font-style: normal;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   background: var(--pink);
   color: #fff;
-  border: 2px solid var(--ink);
-  padding: 1px 8px;
+  padding: 1px 9px;
   border-radius: 999px;
   white-space: nowrap;
 }
 .hour.is-on {
-  background: var(--blue);
-  color: #fff;
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--cream);
 }
 .hour.is-on span {
-  color: var(--sky);
+  color: rgba(255, 248, 239, 0.7);
 }
 .hour:disabled {
   opacity: 0.35;
@@ -258,11 +258,10 @@
   align-items: center;
   gap: 10px;
   padding: 10px 16px;
-  border-radius: 18px;
-  background: var(--pink);
-  color: #fff;
-  border: 2.5px solid var(--ink);
-  box-shadow: 0 5px 0 var(--ink);
+  border-radius: 16px;
+  background: var(--ink);
+  color: var(--cream);
+  box-shadow: 0 6px 18px rgba(43, 35, 26, 0.25);
   font-family: var(--display);
   font-weight: 600;
 }
@@ -271,7 +270,7 @@
   margin-left: 4px;
 }
 .feebar .note {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 248, 239, 0.8);
   text-align: right;
   font-family: var(--body);
 }
@@ -286,7 +285,7 @@
   font-size: 20px;
 }
 .book__submit a {
-  font-weight: 700;
+  font-weight: 600;
 }
 .book__submit svg {
   vertical-align: -2px;
@@ -296,15 +295,15 @@
   padding: 20px;
   display: grid;
   gap: 10px;
-  background: #fffdf8;
-  border: 2.5px solid var(--ink);
-  border-radius: 22px;
-  box-shadow: 0 6px 0 var(--ink);
+  background: var(--card);
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
 }
 .fee__total {
   display: grid;
   font-family: var(--display);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 52px;
   line-height: 1;
   color: var(--pink);
@@ -341,7 +340,7 @@
 }
 .fee__table td {
   font-variant-numeric: tabular-nums;
-  font-weight: 700;
+  font-weight: 600;
 }
 .book__photo {
   display: none;
@@ -363,10 +362,10 @@
   gap: 8px;
   width: 100%;
   padding: 16px;
-  border-radius: 18px;
-  background: var(--yellow);
-  border: 2.5px solid var(--ink);
-  box-shadow: 0 5px 0 var(--ink);
+  border-radius: var(--radius);
+  background: var(--card);
+  border: 2px solid var(--ink);
+  box-shadow: var(--shadow);
 }
 .booked__summary div {
   display: grid;
@@ -375,7 +374,7 @@
 }
 .booked__summary dt {
   font-family: var(--display);
-  font-weight: 700;
+  font-weight: 600;
 }
 .booked__summary dd {
   margin: 0;
@@ -395,7 +394,7 @@
   .book__side {
     position: sticky;
     top: calc(var(--header-h) + 24px);
-    margin-top: 48px;
+    margin-top: 24px;
     display: grid;
     gap: 18px;
   }
@@ -404,9 +403,7 @@
     border-radius: 190px 190px 18px 18px;
     overflow: hidden;
     aspect-ratio: 4 / 3;
-    border: 3px solid var(--ink);
-    box-shadow: 0 6px 0 var(--ink);
-    transform: rotate(1.5deg);
+    border: 2px solid var(--ink);
   }
   .book__photo img {
     width: 100%;

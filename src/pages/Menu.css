@@ -1,5 +1,5 @@
 .menu {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Crect x='40' y='0' width='40' height='40' fill='%23e4237e' fill-opacity='.12'/%3E%3Crect x='160' y='80' width='40' height='40' fill='%231f5fb4' fill-opacity='.12'/%3E%3Crect x='0' y='160' width='40' height='40' fill='%23a9d8f2' fill-opacity='.35'/%3E%3Crect x='200' y='200' width='40' height='40' fill='%23f18c45' fill-opacity='.18'/%3E%3Cpath d='M0 .5H240M0 40.5H240M0 80.5H240M0 120.5H240M0 160.5H240M0 200.5H240M.5 0V240M40.5 0V240M80.5 0V240M120.5 0V240M160.5 0V240M200.5 0V240' stroke='%2330271c' stroke-opacity='.06'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Crect x='40' y='0' width='40' height='40' fill='%23e4237e' fill-opacity='.06'/%3E%3Crect x='160' y='80' width='40' height='40' fill='%231f5fb4' fill-opacity='.05'/%3E%3Crect x='0' y='160' width='40' height='40' fill='%23a9d8f2' fill-opacity='.18'/%3E%3Crect x='200' y='200' width='40' height='40' fill='%23f18c45' fill-opacity='.09'/%3E%3Cpath d='M0 .5H240M0 40.5H240M0 80.5H240M0 120.5H240M0 160.5H240M0 200.5H240M.5 0V240M40.5 0V240M80.5 0V240M120.5 0V240M160.5 0V240M200.5 0V240' stroke='%2330271c' stroke-opacity='.045'/%3E%3C/svg%3E");
   background-attachment: fixed;
 }
 .menu__lead {
@@ -9,12 +9,16 @@
   color: var(--ink) !important;
   margin-top: 4px !important;
 }
-.msec__name {
-  font-family: var(--display);
-  font-weight: 600;
-  font-size: 18px;
-  color: var(--muted);
-  margin: -4px 0 6px;
+.msec__title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.msec__title::after {
+  content: '';
+  flex: 1;
+  height: 1.5px;
+  background: var(--line);
 }
 .menu__kitchen {
   font-family: var(--display);
@@ -22,7 +26,7 @@
   align-items: center;
   gap: 8px;
   margin-top: 14px !important;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--muted) !important;
 }
 .menu__kitchen::before {
@@ -43,8 +47,8 @@
   position: sticky;
   top: var(--header-h);
   z-index: 20;
-  background: var(--cream);
-  border-bottom: 3px solid var(--ink);
+  background: rgba(255, 248, 239, 0.96);
+  border-bottom: 1.5px solid var(--line);
 }
 .mtabs__in {
   max-width: var(--max);
@@ -60,9 +64,9 @@
 }
 .mtabs button {
   flex: none;
-  border: 2px solid transparent;
+  border: 0;
   background: none;
-  padding: 6px 13px;
+  padding: 7px 14px;
   border-radius: 999px;
   font-family: var(--display);
   font-weight: 600;
@@ -70,14 +74,13 @@
   color: var(--muted);
 }
 .mtabs button.is-active {
-  background: var(--pink);
-  border-color: var(--ink);
-  color: #fff;
-  box-shadow: 0 3px 0 var(--ink);
+  background: var(--ink);
+  color: var(--cream);
 }
 
 .menu__body {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 32px;
 }
 .menu__side {
@@ -88,7 +91,7 @@
   padding: 30px 0 10px;
 }
 .msec h2 {
-  font-size: clamp(28px, 7vw, 40px);
+  font-size: clamp(28px, 7vw, 38px);
   margin-bottom: 10px;
 }
 .msec__head {
@@ -114,20 +117,18 @@
   color: var(--muted);
 }
 .msec__sub {
-  display: inline-block;
-  font-size: 18px;
-  margin: 20px 0 6px;
-  padding: 3px 12px;
-  border-radius: 999px;
-  background: var(--blue);
-  color: #fff;
-  border: 2px solid var(--ink);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--pink-deep);
+  margin: 22px 0 4px;
 }
 .msub + .msub {
   margin-top: 26px;
 }
 .msub h2 {
-  font-size: clamp(24px, 6vw, 32px);
+  font-size: clamp(24px, 6vw, 30px);
 }
 
 .mlist {
@@ -167,18 +168,19 @@
 }
 .namedafter {
   margin-top: 8px;
-  border: 2px solid var(--ink);
+  border: 1.5px solid var(--line-strong);
   font-family: var(--display);
-  background: var(--yellow);
+  background: var(--card);
   border-radius: 999px;
-  padding: 6px 12px;
+  padding: 5px 12px;
   font-size: 14px;
   color: var(--ink);
-  font-weight: 600;
+  font-weight: 500;
   perspective: 400px;
 }
 .namedafter strong {
-  color: var(--pink);
+  color: var(--pink-deep);
+  font-weight: 600;
 }
 .namedafter > span {
   display: inline-block;
@@ -195,8 +197,7 @@
 .mphoto {
   margin: 20px 0 0;
   border-radius: 999px 999px 18px 18px / 220px 220px 18px 18px;
-  border: 3px solid var(--ink);
-  box-shadow: 0 6px 0 var(--ink);
+  border: 2px solid var(--ink);
   overflow: hidden;
   aspect-ratio: 16 / 10;
 }
@@ -207,22 +208,23 @@
 }
 
 .deal-banner {
-  display: grid;
-  gap: 2px;
-  padding: 16px 18px;
-  border-radius: 20px;
-  border: 2.5px solid var(--ink);
-  box-shadow: 0 5px 0 var(--ink);
-  transform: rotate(-1.5deg);
-  color: #fff;
-  background: var(--pink);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 28px;
+  padding: 14px 18px;
+  border-radius: var(--radius);
+  border: 2px solid var(--ink);
+  box-shadow: var(--shadow);
+  background: var(--card);
   font-family: var(--display);
-  font-size: 22px;
+  font-size: 19px;
   line-height: 1.2;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 .deal-banner strong {
-  font-size: 28px;
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--pink);
 }
 .cocktails {
   list-style: none;
@@ -233,17 +235,10 @@
   gap: 16px 18px;
 }
 .cocktails li {
-  padding: 10px 12px;
-  background: #fffdf8;
-  border: 2px solid var(--ink);
+  padding: 12px 14px;
+  background: var(--card);
+  border: 1.5px solid var(--line);
   border-radius: 14px;
-  box-shadow: 0 3px 0 var(--ink);
-}
-.cocktails li:nth-child(4n + 1) {
-  transform: rotate(-1deg);
-}
-.cocktails li:nth-child(4n + 3) {
-  transform: rotate(1deg);
 }
 .cocktails h3 {
   font-size: 18px;
@@ -284,7 +279,7 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 2px 6px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
 }
 .pour__origin {
@@ -307,9 +302,9 @@
 .cans {
   margin: 16px 0;
   padding: 14px 16px;
-  border-radius: 16px;
-  border: 2.5px dashed var(--ink);
-  background: var(--sky);
+  border-radius: 14px;
+  border: 1.5px dashed var(--line-strong);
+  background: var(--card);
 }
 .cans h3 {
   font-size: 18px;
@@ -368,14 +363,13 @@
     aspect-ratio: 4 / 5;
     object-fit: cover;
     border-radius: 150px 150px 14px 14px;
-    border: 3px solid var(--ink);
-    box-shadow: 0 6px 0 var(--ink);
-  }
-  .menu__side img:nth-child(odd) {
-    transform: rotate(-2deg);
-  }
-  .menu__side img:nth-child(even) {
-    transform: rotate(2deg);
+    border: 2px solid var(--ink);
   }
 }
 #mead .msub { margin-top: 30px; }
+@media (max-width: 380px) {
+  .pours thead th,
+  .pours td {
+    padding-left: 6px;
+  }
+}

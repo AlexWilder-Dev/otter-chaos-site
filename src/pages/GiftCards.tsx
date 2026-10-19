@@ -12,16 +12,16 @@ export function GiftCards() {
     <div className="page gift">
       <div className="wrap gift__grid">
         <header className="page-head">
-          <p className="kicker kicker--pink">Gift cards</p>
+          <p className="kicker">Gift cards</p>
           <h1>A night of chaos, in an envelope.</h1>
           <p>
             The {GIFT_CARD.name} comes in anything from {GIFT_CARD.range}. Tap the card to turn it over.
           </p>
           <div className="gift__actions">
-            <a className="btn btn--die" href={GIFT_CARD.url} target="_blank" rel="noopener noreferrer">
+            <a className="btn btn--primary" href={GIFT_CARD.url} target="_blank" rel="noopener noreferrer">
               Buy on DesignMyNight <ExternalIcon size={16} />
             </a>
-            <Link className="btn btn--ghost" to="/book">
+            <Link className="btn btn--secondary" to="/book">
               Or book a table
             </Link>
           </div>

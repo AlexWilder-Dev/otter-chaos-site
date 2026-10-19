@@ -1,35 +1,35 @@
 .sticker-hero {
   position: relative;
-  padding: 26px 0 34px;
-  min-height: 238px;
+  padding: 22px 0 28px;
+  min-height: 214px;
 }
+/* the one thing on the page that sits at an angle: it's their window sticker */
 .sticker-band {
   position: relative;
-  margin: 0 calc(var(--gutter) * -1) 0 70px;
-  transform: rotate(-7deg);
+  margin: 0 calc(var(--gutter) * -1) 0 64px;
+  transform: rotate(-4deg);
   transform-origin: left center;
   border: 3px solid var(--ink);
   border-right: 0;
-  border-radius: 26px 0 0 26px;
+  border-radius: 24px 0 0 24px;
   overflow: hidden;
-  box-shadow: 0 7px 0 var(--ink);
+  box-shadow: 0 5px 0 var(--ink);
 }
 .sticker-band__pink {
   background: var(--pink);
   color: #fff;
   font-family: var(--display);
   font-weight: 700;
-  font-size: clamp(46px, 14vw, 92px);
-  line-height: 0.88;
-  padding: 16px 16px 12px 92px;
+  font-size: clamp(42px, 12.5vw, 80px);
+  line-height: 0.9;
+  padding: 14px 16px 10px 86px;
   display: flex;
   flex-wrap: wrap;
   column-gap: 0.25em;
   letter-spacing: -0.01em;
-  text-shadow: 0 3px 0 var(--pink-deep);
 }
 .sticker-band__yellow {
-  height: 14px;
+  height: 12px;
   background: var(--yellow);
   border-top: 3px solid var(--ink);
   border-bottom: 3px solid var(--ink);
@@ -39,16 +39,16 @@
   color: #fff;
   font-family: var(--display);
   font-weight: 600;
-  font-size: clamp(15px, 4.1vw, 26px);
+  font-size: clamp(14px, 3.9vw, 22px);
   white-space: nowrap;
-  padding: 8px 16px 10px 84px;
+  padding: 7px 16px 9px 80px;
 }
 
 .sticker-otter {
   position: absolute;
-  left: -8px;
-  top: 6px;
-  width: clamp(150px, 42vw, 230px);
+  left: -6px;
+  top: 4px;
+  width: clamp(140px, 38vw, 200px);
   padding: 0;
   border: 0;
   background: none;
@@ -58,12 +58,12 @@
 .sticker-otter__float {
   position: relative;
   display: block;
-  animation: bob 3.2s ease-in-out infinite;
+  animation: bob 4s ease-in-out infinite;
 }
 .sticker-otter img {
   width: 100%;
   height: auto;
-  filter: drop-shadow(0 6px 0 rgba(48, 39, 28, 0.25));
+  filter: drop-shadow(0 5px 0 rgba(48, 39, 28, 0.2));
 }
 .sticker-otter__die {
   position: absolute;
@@ -79,17 +79,19 @@
 }
 .sticker-otter__hint {
   position: absolute;
-  right: -6px;
-  top: -4px;
+  left: 50%;
+  bottom: -22px;
+  translate: -50% 0;
   font-family: var(--display);
-  font-weight: 700;
-  font-size: 15px;
-  background: var(--yellow);
-  border: 2px solid var(--ink);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  background: var(--card);
+  border: 1.5px solid var(--line-strong);
   border-radius: 999px;
-  padding: 2px 10px;
-  transform: rotate(10deg);
-  animation: wiggle 1.6s ease-in-out infinite;
+  padding: 1px 10px;
+  white-space: nowrap;
 }
 
 .sticker-bubble {
@@ -100,10 +102,10 @@
   top: 54%;
   max-width: 300px;
   padding: 12px 14px;
-  background: #fffdf8;
-  border: 2.5px solid var(--ink);
-  border-radius: 18px;
-  box-shadow: 0 5px 0 var(--ink);
+  background: var(--card);
+  border: 2px solid var(--ink);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
   display: grid;
   gap: 6px;
   justify-items: start;
@@ -112,41 +114,20 @@
 .sticker-bubble::before {
   content: '';
   position: absolute;
-  left: -12px;
+  left: -11px;
   top: 18px;
   width: 18px;
   height: 18px;
-  background: #fffdf8;
-  border-left: 2.5px solid var(--ink);
-  border-bottom: 2.5px solid var(--ink);
+  background: var(--card);
+  border-left: 2px solid var(--ink);
+  border-bottom: 2px solid var(--ink);
   transform: rotate(45deg);
 }
 .sticker-bubble__big {
   font-family: var(--display);
-  font-weight: 700;
-  font-size: 22px;
+  font-weight: 600;
+  font-size: 21px;
   line-height: 1.05;
-}
-
-@media (min-width: 1000px) {
-  .sticker-hero {
-    min-height: 300px;
-  }
-  .sticker-band {
-    margin: 0 0 0 96px;
-    border-right: 3px solid var(--ink);
-    border-radius: 30px;
-  }
-  .sticker-band__pink {
-    padding-left: 130px;
-    font-size: 84px;
-  }
-  .sticker-band__blue {
-    padding-left: 130px;
-  }
-  .sticker-otter {
-    width: 220px;
-  }
 }
 .sticker-bubble__x {
   position: absolute;
@@ -155,9 +136,30 @@
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  border: 2px solid var(--ink);
-  background: var(--yellow);
+  border: 1.5px solid var(--line-strong);
+  background: var(--card);
   font-weight: 700;
   font-size: 16px;
   line-height: 1;
+}
+
+@media (min-width: 1000px) {
+  .sticker-hero {
+    min-height: 268px;
+  }
+  .sticker-band {
+    margin: 0 0 0 88px;
+    border-right: 3px solid var(--ink);
+    border-radius: 26px;
+  }
+  .sticker-band__pink {
+    padding-left: 118px;
+    font-size: 74px;
+  }
+  .sticker-band__blue {
+    padding-left: 118px;
+  }
+  .sticker-otter {
+    width: 200px;
+  }
 }

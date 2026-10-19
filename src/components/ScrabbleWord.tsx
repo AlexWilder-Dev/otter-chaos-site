@@ -26,7 +26,7 @@ export function ScrabbleWord({ word, as: Tag = 'h2', size = 'md', showScore = tr
               key={i}
               layout
               className="scrabble__tile"
-              style={{ rotate: ((i * 37) % 7) - 3 }}
+              style={{ rotate: (((i * 37) % 5) - 2) * 0.75 }}
               transition={{ type: 'spring', stiffness: 500, damping: 26 }}
               whileHover={{ y: -6, rotate: 0 }}
               data-pos={pos}

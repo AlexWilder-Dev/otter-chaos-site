@@ -32,7 +32,7 @@ export function Hire() {
       <Bunting />
       <div className="wrap">
         <header className="page-head">
-          <p className="kicker kicker--pink">Private hire &amp; corporate</p>
+          <p className="kicker">Private hire &amp; corporate</p>
           <h1>Bring the whole gang. Or the whole company.</h1>
           <p>{HIRE.pitch}</p>
         </header>
@@ -58,8 +58,8 @@ export function Hire() {
               <motion.div
                 key={k.id}
                 className="kind"
-                initial={{ opacity: 0, y: 16, rotate: i % 2 ? 1.5 : -1.5 }}
-                whileInView={{ opacity: 1, y: 0, rotate: 0 }}
+                initial={{ opacity: 0, y: 16 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.06 }}
               >
@@ -107,7 +107,7 @@ export function Hire() {
       <section className="section" aria-labelledby="enquire">
         <div className="wrap enquire">
           <div className="enquire__intro">
-            <p className="kicker kicker--blue">Enquire</p>
+            <p className="kicker">Enquire</p>
             <h2 id="enquire" className="section-title">
               Tell us what you’ve got in mind.
             </h2>
@@ -199,7 +199,7 @@ export function Hire() {
                   placeholder="Times, food and drink, games you’d like out, anything you need from us…"
                 />
               </div>
-              <button className="btn btn--die btn--block" type="submit" disabled={!ok}>
+              <button className="btn btn--primary btn--block" type="submit" disabled={!ok}>
                 Send enquiry
               </button>
             </form>

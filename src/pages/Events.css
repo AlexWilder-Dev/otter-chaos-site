@@ -1,24 +1,18 @@
 .egrid {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 16px;
   margin-top: 18px;
 }
 .ecard {
   display: grid;
-  grid-template-columns: 96px 1fr;
+  grid-template-columns: 96px minmax(0, 1fr);
   gap: 14px;
   padding: 16px;
-  border-radius: 20px;
-  background: #fffdf8;
-  border: 2.5px solid var(--ink);
-  box-shadow: 0 6px 0 var(--ink);
-}
-.egrid > :nth-child(3n + 1) .ecard,
-.egrid > .ecard:nth-child(3n + 1) {
-  rotate: -0.8deg;
-}
-.egrid > .ecard:nth-child(3n + 2) {
-  rotate: 0.6deg;
+  border-radius: var(--radius);
+  background: var(--card);
+  border: 2px solid var(--ink);
+  box-shadow: var(--shadow);
 }
 .ecard__art {
   width: 96px;
@@ -26,7 +20,7 @@
   border-radius: 48px 48px 10px 10px;
   overflow: hidden;
   background: var(--wall);
-  border: 2px solid var(--ink);
+  border: 1.5px solid var(--ink);
 }
 .ecard__art img,
 .ecard__art svg {
@@ -38,8 +32,8 @@
 .ecard__when {
   font-family: var(--display);
   font-size: 15px;
-  font-weight: 700;
-  color: var(--blue);
+  font-weight: 600;
+  color: var(--pink-deep);
 }
 .ecard__name {
   font-size: 22px;
@@ -50,14 +44,9 @@
   color: var(--muted);
 }
 .ecard__price {
-  display: inline-block;
   font-family: var(--display);
-  font-weight: 700;
-  margin: 4px 0 10px;
-  padding: 1px 10px;
-  border-radius: 999px;
-  background: var(--yellow);
-  border: 2px solid var(--ink);
+  font-weight: 600;
+  margin: 2px 0 10px;
 }
 .ecard__blurb {
   font-size: 15px;
@@ -73,11 +62,11 @@
   display: inline-block;
   font-family: var(--display);
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   padding: 3px 10px;
   border-radius: 999px;
-  background: var(--sky);
-  border: 2px solid var(--ink);
+  background: var(--paper);
+  border: 1.5px solid var(--line);
 }
 .ecard__extra {
   display: inline-block;
@@ -87,24 +76,13 @@
 }
 
 .oneoff__date {
-  display: inline-block;
   font-family: var(--display);
+  font-weight: 600;
   font-size: 18px;
   margin-bottom: 10px;
-  padding: 3px 12px;
-  border-radius: 999px;
-  background: var(--pink);
-  color: #fff;
-  border: 2px solid var(--ink);
-  transform: rotate(-2deg);
-}
-.oneoff .ecard {
-  background: var(--yellow);
 }
 .events__monthly {
-  background: var(--sky);
-  border-top: 3px solid var(--ink);
-  border-bottom: 3px solid var(--ink);
+  background: var(--paper);
 }
 .events__yours {
   display: grid;
@@ -114,10 +92,10 @@
 
 @media (min-width: 760px) {
   .egrid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .ecard {
-    grid-template-columns: 120px 1fr;
+    grid-template-columns: 120px minmax(0, 1fr);
   }
   .ecard__art {
     width: 120px;
@@ -127,10 +105,10 @@
 }
 @media (min-width: 1100px) {
   .egrid:not(.egrid--oneoff) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .egrid:not(.egrid--oneoff) .ecard {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .egrid:not(.egrid--oneoff) .ecard__art {
     width: 100%;

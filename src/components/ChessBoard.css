@@ -1,0 +1,37 @@
+.board {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-top: 2px solid var(--ink);
+  border-bottom: 2px solid var(--ink);
+  /* 52px squares, centred so whole squares line up with the pieces */
+  background:
+    repeating-conic-gradient(#efe0c8 0 25%, var(--paper) 0 50%) 50% 0 / 104px 104px;
+}
+.board__piece {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+}
+.board__piece span {
+  display: grid;
+  place-items: center;
+}
+.board__piece svg {
+  display: block;
+  filter: drop-shadow(0 2px 0 rgba(43, 35, 26, 0.25));
+}
+
+/* a faint board texture for page backgrounds */
+.checker {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-conic-gradient(rgba(43, 35, 26, 0.035) 0 25%, transparent 0 50%) 50% 0 / 104px 104px;
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.6) 55%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.6) 55%, transparent 100%);
+}

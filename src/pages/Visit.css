@@ -4,31 +4,36 @@
   gap: 10px;
 }
 .nowcard {
-  padding: 16px;
-  border-radius: 20px;
-  background: #e9e1d6;
-  border: 2.5px solid var(--ink);
-  box-shadow: 0 5px 0 var(--ink);
+  position: relative;
+  padding: 16px 16px 16px 18px;
+  border-radius: var(--radius);
+  background: var(--card);
+  border: 2px solid var(--ink);
+  box-shadow: var(--shadow);
 }
-.nowcard.is-open {
-  background: var(--sky);
+.nowcard::before {
+  content: '';
+  position: absolute;
+  top: 18px;
+  right: 16px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #9a8b7d;
 }
-.nowcard:nth-child(2) {
-  rotate: 1.2deg;
-}
-.nowcard:nth-child(1) {
-  rotate: -1deg;
+.nowcard.is-open::before {
+  background: #2fbf71;
 }
 .nowcard__k {
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  opacity: 0.75;
+  color: var(--pink-deep);
 }
 .nowcard__v {
   font-family: var(--display);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 26px;
   margin: 2px 0;
 }
@@ -59,14 +64,14 @@
   padding-top: 0;
 }
 .hours-table tbody th {
-  font-weight: 700;
+  font-weight: 600;
 }
 .hours-table td {
   font-variant-numeric: tabular-nums;
 }
 .hours-table tr.is-today th,
 .hours-table tr.is-today td {
-  background: rgba(241, 140, 69, 0.14);
+  background: rgba(228, 35, 126, 0.07);
 }
 .hours-table tr.is-today th {
   padding-left: 8px;
@@ -75,7 +80,7 @@
 .today-tag {
   display: block;
   font-size: 12px;
-  color: var(--pip);
+  color: var(--pink-deep);
 }
 .hours-note {
   display: block;
@@ -99,8 +104,6 @@
 
 .visit__how {
   background: var(--paper);
-  border-top: 3px solid var(--ink);
-  border-bottom: 3px solid var(--ink);
 }
 .visit__addr {
   display: flex;
@@ -141,11 +144,10 @@
 .access li {
   padding: 10px 14px;
   border-radius: 14px;
-  background: #fffdf8;
-  border: 2px solid var(--ink);
-  box-shadow: 0 3px 0 var(--ink);
+  background: var(--card);
+  border: 1.5px solid var(--line);
   font-family: var(--display);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .contact-grid {
@@ -158,21 +160,14 @@
   align-items: center;
   gap: 14px;
   padding: 16px;
-  border-radius: 18px;
-  border: 2.5px solid var(--ink);
-  background: #fffdf8;
-  box-shadow: 0 4px 0 var(--ink);
+  border-radius: var(--radius);
+  border: 1.5px solid var(--line-strong);
+  background: var(--card);
   text-decoration: none;
+  transition: border-color 0.15s ease;
 }
-.contact:nth-child(1) {
-  background: var(--yellow);
-}
-.contact:nth-child(3) {
-  background: var(--pink);
-  color: #fff;
-}
-.contact:nth-child(4) {
-  background: var(--sky);
+.contact:hover {
+  border-color: var(--ink);
 }
 .contact span {
   display: grid;
@@ -184,9 +179,10 @@
 .contact__mark {
   width: 22px;
   font-family: var(--display);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 13px;
   text-align: center;
+  color: var(--pink-deep);
 }
 @media (min-width: 900px) {
   .visit__grid {

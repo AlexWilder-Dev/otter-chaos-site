@@ -185,7 +185,7 @@ export function Menu() {
     <div className="page menu">
       <div className="wrap">
         <header className="page-head menu__head">
-          <p className="kicker kicker--pink">Food &amp; drink · tap the tiles</p>
+          <p className="kicker">Food &amp; drink</p>
           <ScrabbleWord word="Menu" as="h1" size="lg" />
           <p className="menu__lead">Pizza in one hand, dice in the other.</p>
           <p>
@@ -210,7 +210,7 @@ export function Menu() {
         <div className="menu__main">
           <section id="pizza" className="msec">
             <div className="msec__head">
-              <ScrabbleWord word="Pizza" />
+              <h2 className="msec__title">Pizza</h2>
               <div className="mfilter" role="group" aria-label="Filter food">
                 {(
                   [
@@ -243,7 +243,7 @@ export function Menu() {
               if (!items.length) return null;
               return (
                 <div key={sec.title} className="msub">
-                  <ScrabbleWord word={sec.title} size="sm" />
+                  <h2 className="msec__title">{sec.title}</h2>
                   <Rows items={items} />
                 </div>
               );
@@ -260,7 +260,7 @@ export function Menu() {
           </figure>
 
           <section id="cocktails" className="msec">
-            <ScrabbleWord word="Cocktails" size="sm" />
+            <h2 className="msec__title">Cocktails</h2>
             <div className="deal-banner">
               <p>
                 One for <strong>{money(COCKTAIL_DEAL.one)}</strong>
@@ -280,13 +280,12 @@ export function Menu() {
           </section>
 
           <section id="mocktails" className="msec">
-            <ScrabbleWord word="Mocktails" size="sm" />
+            <h2 className="msec__title">Mocktails</h2>
             <Rows items={MOCKTAILS} />
           </section>
 
           <section id="beer" className="msec">
-            <ScrabbleWord word="Beer" size="sm" />
-            <p className="msec__name">Craft beer &amp; cider</p>
+            <h2 className="msec__title">Craft beer &amp; cider</h2>
             <h3 className="msec__sub">Draught</h3>
             <PourTable sizes={DRAUGHT.sizes} items={DRAUGHT.items} />
             <div className="cans">
@@ -298,7 +297,7 @@ export function Menu() {
           </section>
 
           <section id="wine" className="msec">
-            <ScrabbleWord word="Wine" size="sm" />
+            <h2 className="msec__title">Wine</h2>
             <p className="suits-key">
               <span>
                 <Suit kind="club" size={14} /> white
@@ -323,7 +322,7 @@ export function Menu() {
           </section>
 
           <section id="mead" className="msec">
-            <ScrabbleWord word="Mead" size="sm" />
+            <h2 className="msec__title">Mead</h2>
             <p className="msec__intro">{MEAD.intro}</p>
             <table className="pours">
               <thead>
@@ -358,7 +357,7 @@ export function Menu() {
               </tbody>
             </table>
             <div className="msub">
-              <ScrabbleWord word="Spirits" size="sm" />
+              <h2 className="msec__title">Spirits</h2>
               <p className="note">Single / Double</p>
               <Rows items={SPIRITS} />
             </div>
@@ -366,13 +365,11 @@ export function Menu() {
 
           <section id="hot" className="msec msec--two">
             <div>
-              <ScrabbleWord word="Hot" size="sm" />
-              <p className="msec__name">Hot drinks</p>
+              <h2 className="msec__title">Hot drinks</h2>
               <Rows items={HOT_DRINKS} />
             </div>
             <div>
-              <ScrabbleWord word="Soft" size="sm" />
-              <p className="msec__name">Soft drinks</p>
+              <h2 className="msec__title">Soft drinks</h2>
               <Rows items={SOFT_DRINKS} />
             </div>
           </section>

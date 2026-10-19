@@ -16,8 +16,19 @@
   position: sticky;
   top: 0;
   z-index: 40;
-  background: var(--cream);
-  border-bottom: 3px solid var(--ink);
+  background: rgba(255, 248, 239, 0.94);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border-bottom: 1.5px solid var(--line);
+}
+.hdr::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: 4px;
+  background: var(--stripe);
 }
 .hdr__in {
   height: var(--header-h);
@@ -38,7 +49,7 @@
   transition: transform 0.2s ease;
 }
 .hdr__brand:hover img {
-  animation: wiggle 0.5s ease-in-out;
+  transform: rotate(-6deg);
 }
 .hdr__name {
   font-family: var(--display);
@@ -59,15 +70,15 @@
   place-items: center;
   width: 46px;
   height: 46px;
-  border-radius: 14px;
-  border: 2.5px solid var(--ink);
-  background: var(--yellow);
-  box-shadow: 0 3px 0 var(--ink);
+  border-radius: 999px;
+  border: 1.5px solid var(--line-strong);
+  background: var(--card);
   flex: none;
 }
-.hdr__menu:active {
-  transform: translateY(3px);
-  box-shadow: none;
+.hdr__menu[aria-expanded='true'] {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--cream);
 }
 
 @media (max-width: 380px) {
@@ -90,19 +101,25 @@
     white-space: nowrap;
   }
   .hdr__nav a {
+    position: relative;
     text-decoration: none;
     padding: 6px 10px;
-    border-radius: 999px;
-    border: 2px solid transparent;
+    color: var(--muted);
+    transition: color 0.15s ease;
   }
-  .hdr__nav a:hover {
-    border-color: var(--ink);
-    background: #fffdf8;
-  }
+  .hdr__nav a:hover,
   .hdr__nav a.active {
+    color: var(--ink);
+  }
+  .hdr__nav a.active::after {
+    content: '';
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: -2px;
+    height: 3px;
+    border-radius: 3px;
     background: var(--pink);
-    color: #fff;
-    border-color: var(--ink);
   }
   .hdr__book {
     display: inline-flex;
@@ -117,8 +134,8 @@
   position: fixed;
   inset: 0;
   z-index: 35;
-  background: var(--pink);
-  color: #fff;
+  background: var(--cream);
+  color: var(--ink);
   padding: calc(var(--header-h) + 18px) var(--gutter) calc(var(--bottombar-h) + 24px);
   display: flex;
   flex-direction: column;
@@ -132,26 +149,31 @@
 .sheet__nav a {
   display: inline-block;
   font-family: var(--display);
-  font-weight: 700;
-  font-size: 38px;
-  line-height: 1.2;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 1.25;
   text-decoration: none;
-  padding: 2px 0;
-  text-shadow: 0 3px 0 var(--pink-deep);
+  padding: 4px 0;
 }
 .sheet__nav a.active {
-  color: var(--yellow);
+  color: var(--pink);
+}
+.sheet__nav a.active::after {
+  content: '';
+  display: inline-block;
+  width: 22px;
+  height: 10px;
+  margin-left: 12px;
+  vertical-align: 6px;
+  border-radius: 2px;
+  background: var(--stripe);
 }
 .sheet__foot {
   display: grid;
   gap: 14px;
-  padding: 18px;
+  padding-top: 20px;
   margin-top: 24px;
-  background: #fffdf8;
-  color: var(--ink);
-  border: 2.5px solid var(--ink);
-  border-radius: 20px;
-  box-shadow: 0 6px 0 var(--ink);
+  border-top: 1.5px solid var(--line);
 }
 .sheet__actions {
   display: flex;
@@ -171,8 +193,10 @@
   grid-template-columns: repeat(4, 1fr) 1.3fr;
   align-items: center;
   gap: 2px;
-  background: var(--cream);
-  border-top: 3px solid var(--ink);
+  background: rgba(255, 248, 239, 0.96);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border-top: 1.5px solid var(--line);
 }
 .bbar a {
   display: grid;
@@ -196,16 +220,19 @@
   height: 48px;
   align-content: center;
   border-radius: 999px;
-  background: var(--die);
-  color: var(--ink);
-  border: 2.5px solid var(--ink);
-  box-shadow: 0 4px 0 var(--ink);
-  font-size: 19px;
-  font-weight: 700;
-  margin: -4px 0 0 4px;
+  background: var(--pink);
+  color: #fff;
+  border: 2px solid var(--ink);
+  box-shadow: 0 3px 0 var(--ink);
+  font-size: 18px;
+  font-weight: 600;
+  margin: -2px 0 0 4px;
+}
+.bbar .bbar__book.active {
+  color: #fff;
 }
 .bbar .bbar__book:active {
-  transform: translateY(4px);
+  transform: translateY(3px);
   box-shadow: none;
 }
 @media (max-width: 999px) {

@@ -1,8 +1,17 @@
 .ftr {
+  position: relative;
   background: var(--otter);
   color: var(--chalk);
-  padding: 40px 0 24px;
-  border-top: 3px solid var(--ink);
+  padding: 46px 0 24px;
+}
+.ftr::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 6px;
+  background: var(--stripe);
 }
 .ftr a {
   text-underline-offset: 3px;
@@ -10,9 +19,10 @@
 .ftr__top {
   display: grid;
   gap: 20px;
+  justify-items: start;
   padding-bottom: 28px;
   margin-bottom: 28px;
-  border-bottom: 2px dashed rgba(246, 240, 228, 0.25);
+  border-bottom: 1px solid rgba(246, 240, 228, 0.18);
 }
 .ftr__brand {
   display: flex;
@@ -20,38 +30,18 @@
   gap: 14px;
 }
 .ftr__brand img {
-  width: 82px;
+  width: 72px;
   height: auto;
-  animation: bob 3.4s ease-in-out infinite;
 }
 .ftr__name {
   font-family: var(--display);
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 28px;
   line-height: 1;
 }
 .ftr__tag {
-  color: var(--yellow);
-  font-family: var(--display);
-  font-weight: 500;
+  color: rgba(246, 240, 228, 0.75);
   margin-top: 4px;
-}
-.ftr__toys {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px;
-}
-.ftr__toy {
-  border: 0;
-  background: none;
-  padding: 4px;
-}
-.ftr__toy svg {
-  display: block;
-}
-.ftr__chaos {
-  margin-left: 6px;
 }
 .ftr__grid {
   display: grid;
@@ -59,12 +49,12 @@
 }
 .ftr__h {
   font-family: var(--display);
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--yellow);
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 .ftr address {
   font-style: normal;
@@ -80,30 +70,62 @@
 }
 .ftr__hours div {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 12px;
+  gap: 0 12px;
+  max-width: 280px;
+}
+.ftr__hours dt,
+.ftr__hours dd {
+  white-space: nowrap;
 }
 .ftr__hours dd {
   margin: 0;
   font-variant-numeric: tabular-nums;
+  color: rgba(246, 240, 228, 0.8);
 }
 .ftr__press ul {
   margin: 0;
   padding: 0;
   list-style: none;
   display: grid;
-  gap: 6px;
+  gap: 10px;
   font-size: 15px;
+}
+.ftr__press li {
+  display: grid;
+}
+.ftr__press li a {
+  font-family: var(--display);
+  font-weight: 600;
+}
+.ftr__press li span {
+  color: rgba(246, 240, 228, 0.7);
+  font-size: 14px;
 }
 .ftr__base {
   margin-top: 32px;
   padding-top: 16px;
-  border-top: 2px dashed rgba(246, 240, 228, 0.25);
+  border-top: 1px solid rgba(246, 240, 228, 0.18);
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 8px 20px;
   font-size: 14px;
   color: rgba(246, 240, 228, 0.75);
+}
+.ftr__chaos {
+  margin-left: auto;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--yellow);
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 4px;
 }
 @media (min-width: 900px) {
   .ftr__top {

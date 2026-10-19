@@ -83,7 +83,7 @@ export function StickerHero() {
             <DieFace n={face} size={60} />
           </motion.span>
         </span>
-        {!roll && !rolling && !chaosMsg && <span className="sticker-otter__hint">tap me!</span>}
+        {!roll && !rolling && !chaosMsg && <span className="sticker-otter__hint">Tap me</span>}
       </motion.button>
 
       <AnimatePresence>
@@ -91,10 +91,10 @@ export function StickerHero() {
           <motion.div
             key={chaosMsg ? 'chaos' : roll}
             className="sticker-bubble"
-            initial={{ opacity: 0, scale: 0.6, y: 10, rotate: -6 }}
-            animate={{ opacity: 1, scale: 1, y: 0, rotate: -2 }}
+            initial={{ opacity: 0, scale: 0.9, y: 8 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.8 }}
-            transition={{ type: 'spring', stiffness: 420, damping: 18 }}
+            transition={{ type: 'spring', stiffness: 420, damping: 28 }}
             role="status"
           >
             {chaosMsg ? (
@@ -105,7 +105,7 @@ export function StickerHero() {
                 <p>
                   {roll === 1 ? 'Bring a friend: a table for two' : `A table for ${roll}`} is {money(fee.total)} for 3 hours.
                 </p>
-                <Link to={`/book?party=${party}`} className="btn btn--pink btn--small">
+                <Link to={`/book?party=${party}`} className="btn btn--primary btn--small">
                   Book it
                 </Link>
                 <button className="sticker-bubble__x" onClick={() => setRoll(null)} aria-label="Close">
